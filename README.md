@@ -1,10 +1,10 @@
-# Template Behavior Pack
+# PalaMod Behavior Pack
 
-This is an template behavior pack for [Endium](https://github.com/Paladium-Bedrock/Endium). This template is a starting point for creating a behavior pack for Endium.
+PalaMod Behavior Pack, which contains all behaviors for Paladium Bedrock server.
 
 ## Install
 
-1. Download the latest version of TemplateBehaviorPack from the [releases](https://github.com/Paladium-Bedrock/TemplateBehaviorPack/releases).
+1. Download the latest version of PalaBehaviorPack from the [releases](https://github.com/Paladium-Bedrock/PalaBehaviorPack/releases).
 2. Extract the downloaded file to the `behavior_packs` folder of your Endium server.
 3. Restart your server.
 
