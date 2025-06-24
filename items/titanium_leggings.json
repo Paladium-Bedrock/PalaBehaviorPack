@@ -2,34 +2,34 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:titanium_helmet",
+      "identifier": "paladium:titanium_leggings",
       "creative_category": "equipment"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "titanium_helmet"
+        "texture": "titanium_leggings"
       },
       "minecraft:display_name": {
-        "value": "item.titanium_helmet.name"
+        "value": "item.titanium_leggings.name"
       },
       "minecraft:max_stack_size": {
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 2860
+        "max_durability": 3900
       },
       "minecraft:armor": {
         "protection": 3,
         "toughness": 2
       },
       "minecraft:wearable": {
-        "slot": "slot.armor.head"
+        "slot": "slot.armor.legs"
       },
       "minecraft:repairable":{
         "repair_items": [
           {
             "items": [
-              "paladium:titanium_helmet"
+              "paladium:titanium_leggings"
             ],
             "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
           },
@@ -42,7 +42,7 @@
         ]
       },
       "minecraft:enchantable": {
-        "slot": "armor_head",
+        "slot": "armor_legs",
         "value": 10
       },
       "minecraft:tags": {
