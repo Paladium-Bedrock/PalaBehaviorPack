@@ -28,11 +28,11 @@
       "minecraft:repairable":{
         "repair_items": [
           {
-						"items": [
-							"paladium:paladium_chestplate"
-						],
-						"repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
-					},
+            "items": [
+              "paladium:paladium_chestplate"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+          },
           {
             "items": [
               "paladium:paladium_ingot"

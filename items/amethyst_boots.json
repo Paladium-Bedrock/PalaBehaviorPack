@@ -19,8 +19,7 @@
         "max_durability": 1300
       },
       "minecraft:armor": {
-        "protection": 3,
-        "toughness": 3
+        "protection": 6
       },
       "minecraft:wearable": {
         "slot": "slot.armor.feet"
@@ -28,11 +27,11 @@
       "minecraft:repairable":{
         "repair_items": [
           {
-						"items": [
-							"paladium:amethyst_boots"
-						],
-						"repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
-					},
+            "items": [
+              "paladium:amethyst_boots"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+          },
           {
             "items": [
               "minecraft:amethyst_shard"
@@ -43,11 +42,11 @@
       },
       "minecraft:enchantable": {
         "slot": "armor_feet",
-        "value": 15
+        "value": 9
       },
       "minecraft:tags": {
         "tags": [
-          "paladium:paladium_tier",
+          "paladium:amethyst_tier",
           "minecraft:is_armor",
           "minecraft:trimmable_armors"
         ]
