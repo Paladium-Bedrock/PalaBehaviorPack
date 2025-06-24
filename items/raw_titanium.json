@@ -8,9 +8,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "raw_titanium"
-      },
-      "minecraft:display_name": {
-        "value": "item.raw_titanium.name"
       }
     }
   }

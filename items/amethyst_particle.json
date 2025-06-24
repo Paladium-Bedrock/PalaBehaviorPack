@@ -8,9 +8,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "amethyst_particle"
-      },
-      "minecraft:display_name": {
-        "value": "item.amethyst_particle.name"
       }
     }
   }

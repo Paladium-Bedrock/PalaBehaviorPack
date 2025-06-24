@@ -8,9 +8,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "gold_particle"
-      },
-      "minecraft:display_name": {
-        "value": "item.gold_particle.name"
       }
     }
   }

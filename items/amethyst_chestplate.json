@@ -9,9 +9,6 @@
       "minecraft:icon": {
         "texture": "amethyst_chestplate"
       },
-      "minecraft:display_name": {
-        "value": "item.amethyst_chestplate.name"
-      },
       "minecraft:max_stack_size": {
         "value": 1
       },
@@ -41,7 +38,7 @@
         ]
       },
       "minecraft:enchantable": {
-        "slot": "armor_chest",
+        "slot": "armor_torso",
         "value": 9
       },
       "minecraft:tags": {

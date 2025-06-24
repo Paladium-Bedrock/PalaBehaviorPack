@@ -8,9 +8,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "findium"
-      },
-      "minecraft:display_name": {
-        "value": "item.findium.name"
       }
     }
   }

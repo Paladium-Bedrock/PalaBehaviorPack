@@ -9,9 +9,6 @@
       "minecraft:icon": {
         "texture": "titanium_leggings"
       },
-      "minecraft:display_name": {
-        "value": "item.titanium_leggings.name"
-      },
       "minecraft:max_stack_size": {
         "value": 1
       },

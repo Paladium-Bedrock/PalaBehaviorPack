@@ -8,9 +8,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "raw_paladium"
-      },
-      "minecraft:display_name": {
-        "value": "item.raw_paladium.name"
       }
     }
   }
