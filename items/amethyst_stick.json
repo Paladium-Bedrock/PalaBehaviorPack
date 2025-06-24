@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:amethyst_stick",
+      "creative_category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "amethyst_stick"
+      },
+      "minecraft:display_name": {
+        "value": "item.amethyst_stick.name"
+      }
+    }
+  }
+}
