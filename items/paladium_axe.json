@@ -22,6 +22,9 @@
       "minecraft:damage": {
         "damage": 9
       },
+      "minecraft:hand_equipped": {
+        "enabled": true
+      },
       "minecraft:repairable":{
         "repair_items": [
           {
