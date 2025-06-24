@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:paladium_particle",
+      "creative_category": "nature"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "paladium_particle"
+      },
+      "minecraft:display_name": {
+        "value": "item.paladium_particle.name"
+      }
+    }
+  }
+}
