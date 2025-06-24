@@ -1,0 +1,18 @@
+
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:gold_coal",
+      "creative_category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "gold_coal"
+      },
+      "minecraft:display_name": {
+        "value": "item.gold_coal.name"
+      }
+    }
+  }
+}
