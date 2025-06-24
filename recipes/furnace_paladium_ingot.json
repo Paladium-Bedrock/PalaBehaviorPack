@@ -4,7 +4,7 @@
     "description": {
       "identifier": "minecraft:furnace_paladium_ingot"
     },
-    "tags": [ "furnace", "blast_furnace", "paladium_furnace" ],
+    "tags": [ "furnace", "blast_furnace" ],
     "experience": 0.15,
     "input": {
       "item": "paladium:raw_paladium"
