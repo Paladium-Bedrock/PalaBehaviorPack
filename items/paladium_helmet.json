@@ -16,7 +16,7 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 407
+        "max_durability": 2860
       },
       "minecraft:armor": {
         "protection": 3,
@@ -29,7 +29,7 @@
         "repair_items": [
           {
             "items": [
-              "minecraft:paladium_ingot"
+              "paladium:paladium_ingot"
             ],
             "repair_amount": "math.min(q.remaining_durability + c.other->q.remaining_durability + math.floor(q.max_durability / 20), c.other->q.max_durability)"
           }
