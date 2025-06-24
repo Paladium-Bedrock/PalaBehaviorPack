@@ -2,28 +2,28 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:paladium_chestplate",
+      "identifier": "paladium:paladium_helmet",
       "creative_category": "equipment"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "paladium_chestplate"
+        "texture": "paladium_helmet"
       },
       "minecraft:display_name": {
-        "value": "item.paladium_chestplate.name"
+        "value": "item.paladium_helmet.name"
       },
       "minecraft:max_stack_size": {
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4160
+        "max_durability": 407
       },
       "minecraft:armor": {
-        "protection": 8,
+        "protection": 3,
         "toughness": 3
       },
       "minecraft:wearable": {
-        "slot": "slot.armor.chest"
+        "slot": "slot.armor.head"
       },
       "minecraft:repairable":{
         "repair_items": [
@@ -36,8 +36,8 @@
         ]
       },
       "minecraft:enchantable": {
-        "slot": "armor_chest",
-        "value": 10
+        "slot": "armor_head",
+        "value": 15
       },
       "minecraft:tags": {
         "tags": [
