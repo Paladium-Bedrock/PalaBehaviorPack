@@ -1,0 +1,55 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:paladium_shovel",
+      "creative_category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "paladium_shovel"
+      },
+      "minecraft:display_name": {
+        "value": "item.paladium_shovel.name"
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 4999
+      },
+      "minecraft:shovel": {
+        "tier": 6,
+        "multiplier": 9.0
+      },
+      "minecraft:repairable":{
+        "repair_items": [
+          {
+            "items": [
+              "paladium:paladium_shovel"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+          },
+          {
+            "items": [
+              "paladium:paladium_ingot"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "shovel",
+        "value": 15
+      },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:paladium_tier",
+          "minecraft:digger",
+          "minecraft:is_shovel",
+          "minecraft:is_tool"
+        ]
+      }
+    }
+  }
+}
