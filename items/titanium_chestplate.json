@@ -1,0 +1,57 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:titanium_chestplate",
+      "creative_category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "titanium_chestplate"
+      },
+      "minecraft:display_name": {
+        "value": "item.titanium_chestplate.name"
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 4160
+      },
+      "minecraft:armor": {
+        "protection": 8,
+        "toughness": 2
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest"
+      },
+      "minecraft:repairable":{
+        "repair_items": [
+          {
+            "items": [
+              "paladium:titanium_chestplate"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+          },
+          {
+            "items": [
+              "paladium:titanium_ingot"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_chest",
+        "value": 10
+      },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:titanium_tier",
+          "minecraft:is_armor",
+          "minecraft:trimmable_armors"
+        ]
+      }
+    }
+  }
+}

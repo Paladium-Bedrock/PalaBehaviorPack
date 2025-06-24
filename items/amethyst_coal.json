@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:amethyst_coal",
+      "creative_category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "amethyst_coal"
+      },
+      "minecraft:display_name": {
+        "value": "item.amethyst_coal.name"
+      }
+    }
+  }
+}

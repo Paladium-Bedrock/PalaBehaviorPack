@@ -1,0 +1,18 @@
+
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:titanium_coal",
+      "creative_category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "titanium_coal"
+      },
+      "minecraft:display_name": {
+        "value": "item.titanium_coal.name"
+      }
+    }
+  }
+}

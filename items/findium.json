@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:findium",
+      "creative_category": "nature"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "findium"
+      },
+      "minecraft:display_name": {
+        "value": "item.findium.name"
+      }
+    }
+  }
+}

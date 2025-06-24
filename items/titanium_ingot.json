@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:titanium_ingot",
+      "creative_category": "nature"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "titanium_ingot"
+      },
+      "minecraft:display_name": {
+        "value": "item.titanium_ingot.name"
+      }
+    }
+  }
+}

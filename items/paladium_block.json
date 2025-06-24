@@ -1,0 +1,14 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:paladium_block",
+      "creative_category": "construction"
+    },
+    "components": {
+      "minecraft:block": {
+        "block": "paladium:paladium_block"
+      }
+    }
+  }
+}
