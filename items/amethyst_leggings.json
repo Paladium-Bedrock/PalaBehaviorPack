@@ -2,33 +2,33 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:amethyst_helmet",
+      "identifier": "paladium:amethyst_leggings",
       "creative_category": "equipment"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "amethyst_helmet"
+        "texture": "amethyst_leggings"
       },
       "minecraft:display_name": {
-        "value": "item.amethyst_helmet.name"
+        "value": "item.amethyst_leggings.name"
       },
       "minecraft:max_stack_size": {
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 1100
+        "max_durability": 1500
       },
       "minecraft:armor": {
         "protection": 2
       },
       "minecraft:wearable": {
-        "slot": "slot.armor.head"
+        "slot": "slot.armor.legs"
       },
       "minecraft:repairable":{
         "repair_items": [
           {
             "items": [
-              "paladium:amethyst_helmet"
+              "paladium:amethyst_leggings"
             ],
             "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
           },
@@ -41,7 +41,7 @@
         ]
       },
       "minecraft:enchantable": {
-        "slot": "armor_head",
+        "slot": "armor_legs",
         "value": 9
       },
       "minecraft:tags": {
