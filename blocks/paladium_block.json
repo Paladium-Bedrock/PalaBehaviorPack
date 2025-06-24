@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:paladium_block"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "paladium_block"
+          }
+        }
+      }
+    }
+  }
+}
