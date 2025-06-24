@@ -8,9 +8,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "diamond_particle"
-      },
-      "minecraft:display_name": {
-        "value": "item.diamond_particle.name"
       }
     }
   }

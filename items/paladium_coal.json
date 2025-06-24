@@ -9,9 +9,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "paladium_coal"
-      },
-      "minecraft:display_name": {
-        "value": "item.paladium_coal.name"
       }
     }
   }

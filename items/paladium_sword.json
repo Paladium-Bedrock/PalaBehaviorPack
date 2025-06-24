@@ -9,9 +9,6 @@
       "minecraft:icon": {
         "texture": "paladium_sword"
       },
-      "minecraft:display_name": {
-        "value": "item.paladium_sword.name"
-      },
       "minecraft:max_stack_size": {
         "value": 1
       },

@@ -9,9 +9,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "gold_coal"
-      },
-      "minecraft:display_name": {
-        "value": "item.gold_coal.name"
       }
     }
   }

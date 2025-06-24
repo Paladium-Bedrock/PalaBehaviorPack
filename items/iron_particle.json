@@ -8,9 +8,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "iron_particle"
-      },
-      "minecraft:display_name": {
-        "value": "item.iron_particle.name"
       }
     }
   }

@@ -8,9 +8,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "titanium_ingot"
-      },
-      "minecraft:display_name": {
-        "value": "item.titanium_ingot.name"
       }
     }
   }

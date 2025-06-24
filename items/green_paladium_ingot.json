@@ -8,9 +8,6 @@
     "components": {
       "minecraft:icon": {
         "texture": "green_paladium_ingot"
-      },
-      "minecraft:display_name": {
-        "value": "item.green_paladium_ingot.name"
       }
     }
   }
