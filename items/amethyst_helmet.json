@@ -1,0 +1,56 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:amethyst_helmet",
+      "creative_category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "amethyst_helmet"
+      },
+      "minecraft:display_name": {
+        "value": "item.amethyst_helmet.name"
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 1100
+      },
+      "minecraft:armor": {
+        "protection": 2
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.head"
+      },
+      "minecraft:repairable":{
+        "repair_items": [
+          {
+            "items": [
+              "paladium:amethyst_helmet"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+          },
+          {
+            "items": [
+              "minecraft:amethyst_shard"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_head",
+        "value": 15
+      },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:amethyst_tier",
+          "minecraft:is_armor",
+          "minecraft:trimmable_armors"
+        ]
+      }
+    }
+  }
+}
