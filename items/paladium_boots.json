@@ -1,0 +1,51 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:paladium_boots",
+      "creative_category": "equipment"
+    },
+    "components": {
+        "minecraft:icon": {
+        "texture": "paladium_boots"
+      },
+      "minecraft:display_name": {
+        "value": "item.paladium_boots.name"
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 3380
+      },
+      "minecraft:armor": {
+        "protection": 5,
+        "toughness": 4
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.feet"
+      },
+      "minecraft:repairable":{
+        "repair_items": [
+          {
+            "items": [
+              "paladium:paladium_ingot"
+            ],
+            "repair_amount": "math.min(q.remaining_durability + c.other->q.remaining_durability + math.floor(q.max_durability / 20), c.other->q.max_durability)"
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_feet",
+        "value": 10
+      },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:paladium_tier",
+          "minecraft:is_armor",
+          "minecraft:trimmable_armors"
+        ]
+      }
+    }
+  }
+}
