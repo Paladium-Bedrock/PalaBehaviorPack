@@ -16,11 +16,26 @@
     "components": {
       "minecraft:geometry": {
         "identifier": "geometry.crusher"
+      },
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "paladium_crusher_off",
+            "render_method": "alpha_test"
+          }
+        }
+      },
+      "minecraft:transformation": {
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
       }
     },
     "permutations": [
       {
-        "condition": "q.block_state('paladium:furnace') == false",
+        "condition": "q.block_state('paladium:is_lit') == false",
         "components": {
           "minecraft:material_instances": {
             "materials": {
@@ -33,7 +48,7 @@
         }
       },
       {
-        "condition": "q.block_state('paladium:furnace') == true",
+        "condition": "q.block_state('paladium:is_lit') == true",
         "components": {
           "minecraft:material_instances": {
             "materials": {
@@ -51,40 +66,48 @@
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
         "components": {
-          "minecraft:rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
           }
         }
       },
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
         "components": {
-          "minecraft:rotation": {
-            "x": 0,
-            "y": 90,
-            "z": 0
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+            }
           }
         }
       },
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
         "components": {
-          "minecraft:rotation": {
-            "x": 0,
-            "y": 180,
-            "z": 0
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
           }
         }
       },
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
         "components": {
-          "minecraft:rotation": {
-            "x": 0,
-            "y": 270,
-            "z": 0
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 270,
+              "z": 0
+            }
           }
         }
       }
