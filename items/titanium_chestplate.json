@@ -20,7 +20,7 @@
         "protection": 8,
         "toughness": 2
       },
-      "minecraft:repairable":{
+      "minecraft:repairable": {
         "repair_items": [
           {
             "items": [

@@ -19,7 +19,7 @@
         "slot": "slot.armor.head",
         "protection": 2
       },
-      "minecraft:repairable":{
+      "minecraft:repairable": {
         "repair_items": [
           {
             "items": [
