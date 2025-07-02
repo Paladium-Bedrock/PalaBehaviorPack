@@ -15,14 +15,12 @@
       "minecraft:durability": {
         "max_durability": 2860
       },
-      "minecraft:armor": {
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
         "protection": 3,
         "toughness": 3
       },
-      "minecraft:wearable": {
-        "slot": "slot.armor.head"
-      },
-      "minecraft:repairable":{
+      "minecraft:repairable": {
         "repair_items": [
           {
             "items": [
