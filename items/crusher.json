@@ -6,7 +6,7 @@
       "creative_category": "construction"
     },
     "components": {
-      "minecraft:block": {
+      "minecraft:block_placer": {
         "block": "paladium:crusher"
       }
     }

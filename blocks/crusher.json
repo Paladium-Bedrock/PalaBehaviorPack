@@ -16,21 +16,6 @@
     "components": {
       "minecraft:geometry": {
         "identifier": "geometry.crusher"
-      },
-      "minecraft:material_instances": {
-        "materials": {
-          "*": {
-            "texture": "paladium_crusher_off",
-            "render_method": "alpha_test"
-          }
-        }
-      },
-      "minecraft:transformation": {
-        "rotation": {
-          "x": 0,
-          "y": 180,
-          "z": 0
-        }
       }
     },
     "permutations": [
