@@ -16,6 +16,10 @@
     "components": {
       "minecraft:geometry": {
         "identifier": "geometry.crusher"
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 3,
+        "tool_type": 3
       }
     },
     "permutations": [

@@ -1,0 +1,16 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "type": "break_block",
+      "condition": "q.is_pickaxe && q.tool_tier >= 4",
+      "entries": [
+        {
+          "item": "paladium:raw_paladium",
+          "count": "q.has_enchantment('minecraft:fortune') ? math.random(1, 4) : 1",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
