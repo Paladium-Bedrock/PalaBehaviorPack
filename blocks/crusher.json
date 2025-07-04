@@ -29,7 +29,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "paladium_crusher_off",
+                "texture": "crusher_off",
                 "render_method": "alpha_test"
               }
             }
@@ -42,7 +42,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "paladium_crusher_on",
+                "texture": "crusher_on",
                 "render_method": "alpha_test"
               }
             }
