@@ -1,0 +1,25 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:green_paladium_ore"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "green_paladium_ore"
+          }
+        }
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/loot_green_paladium_ore.molang"
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 5,
+        "tool_type": 3,
+        "tool_tier": 4
+      }
+    }
+  }
+}
