@@ -13,7 +13,7 @@
         }
       },
       "minecraft:loot": {
-        "table": "loot_tables/blocks/loot_paladium_ore.json"
+        "table": "loot_tables/blocks/loot_paladium_ore.molang"
       },
       "minecraft:destructible_by_mining": {
         "hardness": 5,
