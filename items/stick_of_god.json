@@ -1,0 +1,15 @@
+
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:stick_of_god",
+      "creative_category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "stick_of_god"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:medium_ring",
+      "creative_category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "medium_ring"
+      }
+    }
+  }
+}

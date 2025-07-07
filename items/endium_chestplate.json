@@ -1,0 +1,52 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:endium_chestplate",
+      "creative_category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "endium_chestplate"
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "minecraft:durability": {
+        "max_durability": 4160
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 8,
+        "toughness": 3
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "paladium:endium_chestplate"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+          },
+          {
+            "items": [
+              "paladium:endium_ingot"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_torso",
+        "value": 15
+      },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:endium_tier",
+          "minecraft:is_armor",
+          "minecraft:trimmable_armors"
+        ]
+      }
+    }
+  }
+}
