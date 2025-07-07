@@ -1,4 +1,4 @@
-if (!q.is_pickaxe || q.tool_tier <= 4) {
+if (!q.is_correct_tool(c.block)) {
     return [itemstack.empty];
 }
 
