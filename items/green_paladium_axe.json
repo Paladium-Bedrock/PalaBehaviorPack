@@ -2,12 +2,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:paladium_hammer",
+      "identifier": "paladium:green_paladium_axe",
       "creative_category": "equipment"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "paladium_hammer"
+        "texture": "green_paladium_axe"
       },
       "minecraft:max_stack_size": {
         "value": 1
@@ -15,13 +15,12 @@
       "minecraft:durability": {
         "max_durability": 4999
       },
-      "paladium:hammer": {
+      "minecraft:axe": {
         "tier": 6,
-        "multiplier": 9.0,
-        "radius": 1
+        "multiplier": 9.0
       },
       "minecraft:damage": {
-        "damage": 8
+        "damage": 9
       },
       "minecraft:hand_equipped": {
         "enabled": true
@@ -30,27 +29,27 @@
         "repair_items": [
           {
             "items": [
-              "paladium:paladium_hammer"
+              "paladium:green_paladium_axe"
             ],
             "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
           },
           {
             "items": [
-              "paladium:paladium_ingot"
+              "paladium:green_paladium_ingot"
             ],
             "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
           }
         ]
       },
       "minecraft:enchantable": {
-        "slot": "hammer",
+        "slot": "axe",
         "value": 15
       },
       "minecraft:tags": {
         "tags": [
-          "paladium:paladium_tier",
+          "paladium:green_paladium_tier",
           "minecraft:digger",
-          "paladium:is_hammer",
+          "minecraft:is_axe",
           "minecraft:is_tool"
         ]
       }

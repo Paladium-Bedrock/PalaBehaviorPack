@@ -2,12 +2,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:paladium_hammer",
+      "identifier": "paladium:endium_hoe",
       "creative_category": "equipment"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "paladium_hammer"
+        "texture": "endium_hoe"
       },
       "minecraft:max_stack_size": {
         "value": 1
@@ -15,13 +15,11 @@
       "minecraft:durability": {
         "max_durability": 4999
       },
-      "paladium:hammer": {
-        "tier": 6,
-        "multiplier": 9.0,
-        "radius": 1
+      "minecraft:hoe": {
+        "tier": 6
       },
       "minecraft:damage": {
-        "damage": 8
+        "damage": 5
       },
       "minecraft:hand_equipped": {
         "enabled": true
@@ -30,27 +28,27 @@
         "repair_items": [
           {
             "items": [
-              "paladium:paladium_hammer"
+              "paladium:endium_hoe"
             ],
             "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
           },
           {
             "items": [
-              "paladium:paladium_ingot"
+              "paladium:endium_ingot"
             ],
             "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
           }
         ]
       },
       "minecraft:enchantable": {
-        "slot": "hammer",
+        "slot": "hoe",
         "value": 15
       },
       "minecraft:tags": {
         "tags": [
-          "paladium:paladium_tier",
+          "paladium:endium_tier",
           "minecraft:digger",
-          "paladium:is_hammer",
+          "minecraft:is_hoe",
           "minecraft:is_tool"
         ]
       }

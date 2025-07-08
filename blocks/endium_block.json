@@ -2,13 +2,13 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:paladium_block"
+      "identifier": "paladium:endium_block"
     },
     "components": {
       "minecraft:material_instances": {
         "materials": {
           "*": {
-            "texture": "paladium_block"
+            "texture": "endium_block"
           }
         }
       },

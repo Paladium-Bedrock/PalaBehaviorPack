@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:green_slimepad"
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.slimepad"
+      },
+      "minecraft:collision_box": {
+        "enabled": false
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -6.5,
+          0,
+          -6.5
+        ],
+        "size": [
+          13,
+          9,
+          13
+        ]
+      },
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "green_slime",
+            "render_method": "alpha_test"
+          }
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 2,
+        "tool_type": 1,
+        "tool_tier": 1,
+        "can_break_with_hand": true
+      }
+    }
+  }
+}

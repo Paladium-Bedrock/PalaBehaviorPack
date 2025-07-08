@@ -16,6 +16,13 @@
     "components": {
       "minecraft:geometry": {
         "identifier": "geometry.crusher"
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 3,
+        "tool_type": 3
+      },
+      "minecraft:block_entity": {
+        "identifier": "paladium:crusher"
       }
     },
     "permutations": [
@@ -25,7 +32,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "paladium_crusher_off",
+                "texture": "crusher_off",
                 "render_method": "alpha_test"
               }
             }
@@ -38,7 +45,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "paladium_crusher_on",
+                "texture": "crusher_on",
                 "render_method": "alpha_test"
               }
             }
