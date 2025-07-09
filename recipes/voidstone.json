@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:voidstone"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      "X#X",
+      " X "
+    ],
+    "key": {
+      "#": [
+        {
+          "item": "minecraft:chest"
+        }
+      ],
+      "X": [
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:voidstone",
+      "count": 1
+    }
+  }
+}
