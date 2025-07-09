@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:crusher"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "ACA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_core"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:compressed_amethyst"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:paladium_stick"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:findium"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:crusher",
+      "count": 1
+    }
+  }
+}
