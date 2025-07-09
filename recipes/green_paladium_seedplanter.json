@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:green_paladium_seedplanter"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "DDD"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:green_paladium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:green_paladium_block"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:paladium_seedplanter"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:paladium_stick"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:green_paladium_seedplanter",
+      "count": 1
+    }
+  }
+}

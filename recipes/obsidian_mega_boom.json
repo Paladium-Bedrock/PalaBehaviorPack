@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:obsidian_mega_boom"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BCB",
+      " B "
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "B": [
+        {
+          "item": "minecraft:tnt"
+        }
+      ],
+      "C": [
+        {
+          "item": "minecraft:obsidian"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:obsidian_mega_boom",
+      "count": 1
+    }
+  }
+}

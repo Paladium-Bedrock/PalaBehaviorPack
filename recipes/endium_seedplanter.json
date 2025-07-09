@@ -1,0 +1,47 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:endium_seedplanter"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "CDC",
+      "EEE"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:compressed_paladium"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:green_paladium_block"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:endium_ingot"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:green_paladium_seedplanter"
+        }
+      ],
+      "E": [
+        {
+          "item": "paladium:paladium_stick"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:endium_seedplanter",
+      "count": 1
+    }
+  }
+}
