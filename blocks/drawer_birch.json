@@ -1,0 +1,84 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:drawer_birch",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [ "minecraft:cardinal_direction" ],
+          "y_rotation_offset": 180
+        }
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "drawer_birch",
+            "render_method": "alpha_test"
+          }
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.drawer"
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 3,
+        "tool_type": 3
+      },
+      "minecraft:block_entity": {
+        "identifier": "paladium:drawer"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 270,
+              "z": 0
+            }
+          }
+        }
+      }
+    ]
+  }
+}
