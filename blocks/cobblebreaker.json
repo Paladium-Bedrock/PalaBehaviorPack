@@ -22,7 +22,7 @@
         "tool_type": 3
       },
       "minecraft:block_entity": {
-        "identifier": "paladium:cobblebreaker_on"
+        "identifier": "paladium:cobblebreaker"
       }
     },
     "permutations": [

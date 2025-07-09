@@ -7,8 +7,14 @@
     "components": {
       "minecraft:material_instances": {
         "materials": {
+          "up": {
+            "texture": "obsidian_boom_top"
+          },
+          "down": {
+            "texture": "obsidian_boom_bottom"
+          },
           "*": {
-            "texture": "obsidian_boom"
+            "texture": "obsidian_boom_side"
           }
         }
       },

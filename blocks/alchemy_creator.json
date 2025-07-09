@@ -2,10 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:crusher",
-      "states": {
-        "paladium:is_lit": [ false, true ]
-      },
+      "identifier": "paladium:alchemy_creator",
       "traits": {
         "minecraft:placement_direction": {
           "enabled_states": [ "minecraft:cardinal_direction" ],
@@ -14,6 +11,14 @@
       }
     },
     "components": {
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "alchemy_creator",
+            "render_method": "alpha_test"
+          }
+        }
+      },
       "minecraft:geometry": {
         "identifier": "geometry.alchemy_creator"
       },
@@ -26,35 +31,6 @@
       }
     },
     "permutations": [
-      {
-        "condition": "q.block_state('paladium:is_lit') == false",
-        "components": {
-          "minecraft:material_instances": {
-            "materials": {
-              "*": {
-                "texture": "alchemy_creator",
-                "render_method": "alpha_test"
-              }
-            }
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('paladium:is_lit') == true",
-        "components": {
-          "minecraft:material_instances": {
-            "materials": {
-              "*": {
-                "texture": "alchemy_creator",
-                "render_method": "alpha_test"
-              }
-            }
-          },
-          "minecraft:light_emission": {
-            "emission": 15
-          }
-        }
-      },
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
         "components": {

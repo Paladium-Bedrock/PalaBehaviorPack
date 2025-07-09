@@ -2,10 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:totem",
-      "states": {
-        "paladium:is_lit": [ false, true ]
-      },
+      "identifier": "paladium:fertility_totem",
       "traits": {
         "minecraft:placement_direction": {
           "enabled_states": [ "minecraft:cardinal_direction" ],
@@ -14,47 +11,25 @@
       }
     },
     "components": {
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "fertility_totem"
+          }
+        }
+      },
       "minecraft:geometry": {
-        "identifier": "geometry.totem"
+        "identifier": "geometry.fertility_totem"
       },
       "minecraft:destructible_by_mining": {
         "hardness": 3,
         "tool_type": 3
       },
       "minecraft:block_entity": {
-        "identifier": "paladium:totem"
+        "identifier": "paladium:fertility_totem"
       }
     },
     "permutations": [
-      {
-        "condition": "q.block_state('paladium:is_lit') == false",
-        "components": {
-          "minecraft:material_instances": {
-            "materials": {
-              "*": {
-                "texture": "totem",
-                "render_method": "alpha_test"
-              }
-            }
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('paladium:is_lit') == true",
-        "components": {
-          "minecraft:material_instances": {
-            "materials": {
-              "*": {
-                "texture": "totem",
-                "render_method": "alpha_test"
-              }
-            }
-          },
-          "minecraft:light_emission": {
-            "emission": 15
-          }
-        }
-      },
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
         "components": {

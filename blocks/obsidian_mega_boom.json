@@ -6,15 +6,16 @@
     },
     "components": {
       "minecraft:material_instances": {
-        "north": "obsidian_mega_boom_side",
-        "south": "obsidian_mega_boom_side",
         "materials": {
+          "up": {
+            "texture": "obsidian_boom_top"
+          },
+          "down": {
+            "texture": "obsidian_boom_bottom"
+          },
           "*": {
-            "texture": "obsidian_mega_boom"
+            "texture": "obsidian_mega_boom_side"
           }
-        },
-        "obsidian_mega_boom_side": {
-          "texture": "obsidian_mega_boom_side"
         }
       },
       "minecraft:destructible_by_mining": {
