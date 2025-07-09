@@ -2,12 +2,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:obsidian_big",
+      "identifier": "paladium:green_paladium_chest",
       "creative_category": "construction"
     },
     "components": {
       "minecraft:block_placer": {
-        "block": "paladium:obsidian_big"
+        "block": "paladium:green_paladium_chest"
       }
     }
   }
