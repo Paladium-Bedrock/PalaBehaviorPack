@@ -1,0 +1,25 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:dynamite_big"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": [
+        {
+          "paladium": "paladium:dynamite"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:dynamite_big",
+      "count": 1
+    }
+  }
+}

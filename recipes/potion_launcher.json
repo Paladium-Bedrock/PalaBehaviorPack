@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:potion_launcher"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "BCC",
+      "AAA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:paladium_core"
+        }
+      ],
+      "C": [
+        {
+          "item": "minecraft:glass_bottle"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:potion_launcher",
+      "count": 1
+    }
+  }
+}
