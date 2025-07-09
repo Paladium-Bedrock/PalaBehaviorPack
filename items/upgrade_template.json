@@ -1,0 +1,14 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:upgrade_template",
+      "creative_category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "upgrade_template"
+      }
+    }
+  }
+}
