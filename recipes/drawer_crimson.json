@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:drawer_acacia"
+      "identifier": "paladium:drawer_crimson"
     },
     "tags": [
       "crafting_table"
@@ -15,7 +15,7 @@
     "key": {
       "#": [
         {
-          "item": "minecraft:acacia_planks"
+          "item": "minecraft:crimson_planks"
         }
       ],
       "X": [
@@ -25,7 +25,7 @@
       ]
     },
     "result": {
-      "item": "paladium:drawer_acacia",
+      "item": "paladium:drawer_crimson",
       "count": 1
     }
   }
