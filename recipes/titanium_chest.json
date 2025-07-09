@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:titanium_chest"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:compressed_titanium"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:amethyst_chest"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:titanium_chest",
+      "count": 1
+    }
+  }
+}
