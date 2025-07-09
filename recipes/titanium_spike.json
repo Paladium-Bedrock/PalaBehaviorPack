@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:titanium_spike"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      "X#X",
+      "###"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "paladium:amethyst_sword"
+        }
+      ],
+      "#": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:titanium_spike",
+      "count": 1
+    }
+  }
+}

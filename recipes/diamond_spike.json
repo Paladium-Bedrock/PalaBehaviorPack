@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:diamond_spike"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      "X#X",
+      "###"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "minecraft:gold_sword"
+        }
+      ],
+      "#": [
+        {
+          "item": "minecraft:diamond"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:diamond_spike",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "paladium:obsidian_spike_diamond"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "paladium:diamond_spike"
+      },
+      {
+        "item": "minecraft:obsidian"
+      }
+    ],
+    "result": {
+      "item": "paladium:obsidian_spike_diamond",
+      "count": 1
+    }
+  }
+}
