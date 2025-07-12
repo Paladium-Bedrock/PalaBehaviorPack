@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:green_paladium_chest"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:green_paladium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:compressed_paladium"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:titanium_chest"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:green_paladium_chest",
+      "count": 1
+    }
+  }
+}

@@ -2,12 +2,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:big_obsidian",
+      "identifier": "paladium:obsidian_spike_paladium",
       "creative_category": "construction"
     },
     "components": {
       "minecraft:block_placer": {
-        "block": "paladium:big_obsidian"
+        "block": "paladium:obsidian_spike_paladium"
       }
     }
   }

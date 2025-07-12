@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:drawer_dark_oak"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      " X ",
+      "###"
+    ],
+    "key": {
+      "#": [
+        {
+          "item": "minecraft:dark_oak_planks"
+        }
+      ],
+      "X": [
+        {
+          "item": "minecraft:chest"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:drawer_dark_oak",
+      "count": 1
+    }
+  }
+}

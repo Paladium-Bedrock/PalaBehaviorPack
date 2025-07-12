@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:compressed_endium"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X#X",
+      "###",
+      "X#X"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "paladium:endium_fragment"
+        }
+      ],
+      "#": [
+        {
+          "item": "paladium:paladium_block"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:compressed_endium",
+      "count": 1
+    }
+  }
+}

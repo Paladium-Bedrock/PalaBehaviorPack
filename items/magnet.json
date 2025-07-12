@@ -1,14 +1,13 @@
-
 {
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:titanium_seedplanter",
-      "creative_category": "items"
+      "identifier": "paladium:magnet",
+      "creative_category": "nature"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "titanium_seedplanter"
+        "texture": "magnet"
       }
     }
   }

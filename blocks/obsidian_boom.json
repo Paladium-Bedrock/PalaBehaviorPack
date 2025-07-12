@@ -1,0 +1,36 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:obsidian_boom"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "materials": {
+          "up": {
+            "texture": "obsidian_boom_top"
+          },
+          "down": {
+            "texture": "obsidian_boom_bottom"
+          },
+          "*": {
+            "texture": "obsidian_boom_side"
+          }
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 50,
+        "tool_type": 3,
+        "tool_tier": 5
+      },
+      "minecraft:destructible_by_explosion": {
+        "value": 60000
+      },
+      "paladium:replace_block": {
+        "replace_with": {
+          "block": "minecraft:obsidian"
+        }
+      }
+    }
+  }
+}

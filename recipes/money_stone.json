@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:money_stone"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      " C ",
+      "ADA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:voidstone"
+        }
+      ],
+      "D": [
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:money_stone",
+      "count": 1
+    }
+  }
+}

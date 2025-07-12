@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:drawer_birch"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      " X ",
+      "###"
+    ],
+    "key": {
+      "#": [
+        {
+          "item": "minecraft:birch_planks"
+        }
+      ],
+      "X": [
+        {
+          "item": "minecraft:chest"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:drawer_birch",
+      "count": 1
+    }
+  }
+}

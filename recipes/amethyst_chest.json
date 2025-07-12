@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:amethyst_chest"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:compressed_amethyst"
+        }
+      ],
+      "C": [
+        {
+          "item": "minecraft:chest"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:amethyst_chest",
+      "count": 1
+    }
+  }
+}

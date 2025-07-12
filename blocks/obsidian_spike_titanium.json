@@ -2,13 +2,13 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:big_obsidian"
+      "identifier": "paladium:obsidian_spike_titanium"
     },
     "components": {
       "minecraft:material_instances": {
         "materials": {
           "*": {
-            "texture": "big_obsidian"
+            "texture": "obsidian_spike_titanium"
           }
         }
       },

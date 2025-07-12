@@ -2,13 +2,13 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:lava_obsidian"
+      "identifier": "paladium:obsidian_spike_paladium"
     },
     "components": {
       "minecraft:material_instances": {
         "materials": {
           "*": {
-            "texture": "lava_obsidian"
+            "texture": "obsidian_spike_paladium"
           }
         }
       },
@@ -22,7 +22,7 @@
       },
       "paladium:replace_block": {
         "replace_with": {
-          "block": "minecraft:lava"
+          "block": "minecraft:obsidian"
         }
       }
     }

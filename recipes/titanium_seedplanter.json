@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:titanium_seedplanter"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "DDD"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:compressed_titanium"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:amethyst_seedplanter"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:titanium_stick"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:titanium_seedplanter",
+      "count": 1
+    }
+  }
+}

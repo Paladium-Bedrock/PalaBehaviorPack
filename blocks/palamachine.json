@@ -1,0 +1,27 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:palamachine"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "materials": {
+          "up": {
+            "texture": "palamachine_top"
+          },
+          "down": {
+            "texture": "palamachine_top"
+          },
+          "*": {
+            "texture": "palamachine_side"
+          }
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 3,
+        "tool_type": 3
+      }
+    }
+  }
+}

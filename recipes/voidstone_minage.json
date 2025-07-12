@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:voidstone_minage"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BCB",
+      " D "
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:voidstone"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:titanium_chest"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:voidstone_minage",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:compressed_paladium"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "#X#",
+      "###"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "#": [
+        {
+          "item": "paladium:paladium_block"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:compressed_paladium",
+      "count": 1
+    }
+  }
+}

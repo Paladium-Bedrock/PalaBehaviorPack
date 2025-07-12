@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:amethyst_axe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XX ",
+      "X# ",
+      " # "
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "#": [
+        {
+          "item": "minecraft:stick"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:amethyst_axe",
+      "count": 1
+    }
+  }
+}

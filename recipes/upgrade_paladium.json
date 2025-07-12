@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:upgrade_paladium"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "minecraft:stick"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:upgrade_template"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:upgrade_paladium",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:obsidian_slime"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "BBB",
+      "AAA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:obsidian"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:green_slimepad"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:obsidian_slime",
+      "count": 1
+    }
+  }
+}

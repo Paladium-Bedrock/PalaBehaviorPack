@@ -1,0 +1,26 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:titanium_stick"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:titanium_stick",
+      "count": 1
+    }
+  }
+}

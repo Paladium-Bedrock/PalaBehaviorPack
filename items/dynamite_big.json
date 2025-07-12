@@ -1,14 +1,16 @@
-
 {
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:titanium_seedplanter",
+      "identifier": "paladium:dynamite_big",
       "creative_category": "items"
     },
     "components": {
+      "minecraft:projectile": {
+        "projectile_entity": "minecraft:ender_pearl"
+      },
       "minecraft:icon": {
-        "texture": "titanium_seedplanter"
+        "texture": "dynamite_big"
       }
     }
   }

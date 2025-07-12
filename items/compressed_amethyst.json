@@ -3,12 +3,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:titanium_seedplanter",
+      "identifier": "paladium:compressed_amethyst",
       "creative_category": "items"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "titanium_seedplanter"
+        "texture": "compressed_amethyst"
       }
     }
   }

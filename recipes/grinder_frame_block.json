@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:grinder_frame_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "   ",
+      "ABA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:grinder_frame_block",
+      "count": 1
+    }
+  }
+}

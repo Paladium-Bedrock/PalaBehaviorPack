@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:god_pickaxe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABC",
+      " D ",
+      " D "
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:amethyst_pickaxe"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:paladium_pickaxe"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:titanium_pickaxe"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:paladium_stick"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:god_pickaxe",
+      "count": 1
+    }
+  }
+}

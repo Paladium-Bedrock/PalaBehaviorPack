@@ -2,12 +2,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:lava_obsidian",
+      "identifier": "paladium:obsidian_big",
       "creative_category": "construction"
     },
     "components": {
       "minecraft:block_placer": {
-        "block": "paladium:lava_obsidian"
+        "block": "paladium:obsidian_big"
       }
     }
   }

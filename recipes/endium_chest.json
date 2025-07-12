@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:endium_chest"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "BCB",
+      "BBB"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:endium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:compressed_paladium"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:paladium_chest"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:endium_chest",
+      "count": 1
+    }
+  }
+}

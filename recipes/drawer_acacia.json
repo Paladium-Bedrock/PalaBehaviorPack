@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:drawer_acacia"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      " X ",
+      "###"
+    ],
+    "key": {
+      "#": [
+        {
+          "item": "minecraft:acacia_planks"
+        }
+      ],
+      "X": [
+        {
+          "item": "minecraft:chest"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:drawer_acacia",
+      "count": 1
+    }
+  }
+}
