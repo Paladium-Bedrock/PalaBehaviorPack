@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:cobblebreaker_paladium_upgarde"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "A A",
+      "ABA",
+      "A A"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:cobblebreaker_titanium_upgarde"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:cobblebreaker_paladium_upgarde",
+      "count": 1
+    }
+  }
+}

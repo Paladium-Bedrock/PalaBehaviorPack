@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:cobblebreaker_amethyst_upgarde"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "A A",
+      "ACA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:cobblebreaker"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:orb_speed"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:cobblebreaker_amethyst_upgarde",
+      "count": 1
+    }
+  }
+}
