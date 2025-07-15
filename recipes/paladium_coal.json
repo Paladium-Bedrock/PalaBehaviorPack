@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:paladium_coal"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      " B "
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_stick"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:gold_coal"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:paladium_coal",
+      "count": 1
+    }
+  }
+}
