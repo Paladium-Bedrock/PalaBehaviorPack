@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:unclaim_finder_green"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BCB",
+      " A "
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:paladium_core"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:findium"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:unclaim_finder_green",
+      "count": 1
+    }
+  }
+}
