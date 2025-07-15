@@ -1,0 +1,27 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:titanium_ingot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:titanium_particle"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:titanium_ingot",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:titanium_block"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:titanium_block",
+      "count": 1
+    }
+  }
+}
