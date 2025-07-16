@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:cobblebreaker_titanium_upgarde"
+      "identifier": "paladium:cobblebreaker_titanium_upgrade"
     },
     "tags": [
       "crafting_table"
@@ -20,12 +20,12 @@
       ],
       "B": [
         {
-          "item": "paladium:cobblebreaker_amethyst_upgarde"
+          "item": "paladium:cobblebreaker_amethyst_upgrade"
         }
       ]
     },
     "result": {
-      "item": "paladium:cobblebreaker_titanium_upgarde",
+      "item": "paladium:cobblebreaker_titanium_upgrade",
       "count": 1
     }
   }
