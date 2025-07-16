@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:unclaim_finder_precise"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "pattern": [
+      " A ",
+      "B B",
+      "C C"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:big_ring"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:findium_block"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:unclaim_finder_orange"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:unclaim_finder_precise",
+      "count": 1
+    }
+  }
+}

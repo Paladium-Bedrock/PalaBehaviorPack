@@ -1,0 +1,37 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:medium_ring"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "pattern": [
+      " A ",
+      "B B",
+      "C C"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:small_ring"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:paladium_block"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:medium_ring",
+      "count": 1
+    }
+  }
+}
