@@ -1,0 +1,27 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:diamond"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:diamond_particle"
+        }
+      ]
+    },
+    "result": {
+      "item": "minecraft:diamond",
+      "count": 1
+    }
+  }
+}

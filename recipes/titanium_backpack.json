@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:titanium_backpack"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "ACA",
+      "DAD"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:titanium_chest"
+        }
+      ],
+      "C": [
+        {
+          "item": "minecraft:hopper"
+        }
+      ],
+      "D": [
+        {
+          "item": "minecraft:leather"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:titanium_backpack",
+      "count": 1
+    }
+  }
+}

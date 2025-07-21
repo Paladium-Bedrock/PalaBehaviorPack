@@ -1,0 +1,27 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraft:amethyst_shard"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:amethyst_particle"
+        }
+      ]
+    },
+    "result": {
+      "item": "minecraft:amethyst_shard",
+      "count": 1
+    }
+  }
+}

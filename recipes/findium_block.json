@@ -1,0 +1,25 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:findium_block"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "paladium:findium"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:findium_block",
+      "count": 1
+    }
+  }
+}
