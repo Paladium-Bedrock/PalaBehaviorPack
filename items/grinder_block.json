@@ -2,15 +2,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:grinder_casing_block",
+      "identifier": "paladium:grinder_block",
       "creative_category": "construction"
     },
     "components": {
-           "paladium:structure" : {
-        "structure_id": "paladium:grinder"
-      },
       "minecraft:block_placer": {
-        "block": "paladium:grinder_casing_block"
+        "block": "paladium:grinder_block"
       }
     }
   }

@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:grinder_casing_block"
+      "identifier": "paladium:grinder_block"
     },
     "components": {
       "paladium:structure" : {
@@ -11,9 +11,12 @@
       "minecraft:material_instances": {
         "materials": {
           "*": {
-            "texture": "grinder_casing_block"
+            "texture": "grinder_block"
           }
         }
+      },
+      "minecraft:block_entity": {
+        "identifier": "paladium:grinder"
       },
       "minecraft:destructible_by_mining": {
         "hardness": 5,

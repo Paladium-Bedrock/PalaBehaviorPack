@@ -18,6 +18,11 @@
       "minecraft:hoe": {
         "tier": 6
       },
+      "paladium:recyclable": {
+          "min": 1,
+          "max": 2,
+          "item": "paladium:amethyst_ingot"
+      },
       "minecraft:damage": {
         "damage": 5
       },

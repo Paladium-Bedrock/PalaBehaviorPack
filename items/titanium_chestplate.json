@@ -20,6 +20,11 @@
         "protection": 8,
         "toughness": 2
       },
+      "paladium:recyclable": {
+          "min": 1,
+          "max": 8,
+          "item": "paladium:titanium_ingot"
+      },
       "minecraft:repairable": {
         "repair_items": [
           {

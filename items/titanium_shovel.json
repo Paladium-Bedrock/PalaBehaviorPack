@@ -25,6 +25,11 @@
       "minecraft:hand_equipped": {
         "enabled": true
       },
+      "paladium:recyclable": {
+          "min": 0,
+          "max": 1,
+          "item": "paladium:titanium_ingot"
+      },
       "minecraft:repairable": {
         "repair_items": [
           {
