@@ -9,7 +9,17 @@
         "identifier": "geometry.slimepad"
       },
       "minecraft:collision_box": {
-        "enabled": false
+        "enabled": false,
+        "origin": [
+          -6.5,
+          0,
+          -6.5
+        ],
+        "size": [
+          13,
+          9,
+          13
+        ]
       },
       "minecraft:selection_box": {
         "origin": [
