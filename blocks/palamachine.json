@@ -18,6 +18,13 @@
           }
         }
       },
+      "minecraft:crafting_table": {
+        "crafting_tags": [
+          "palamachine"
+        ],
+        "table_name": "palamachine",
+        "grid_size": 3
+      },
       "minecraft:destructible_by_mining": {
         "hardness": 3,
         "tool_type": 3

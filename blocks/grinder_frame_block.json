@@ -5,6 +5,9 @@
       "identifier": "paladium:grinder_frame_block"
     },
     "components": {
+           "paladium:structure" : {
+        "structure_id": "paladium:grinder"
+      },
       "minecraft:material_instances": {
         "materials": {
           "*": {

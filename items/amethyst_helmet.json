@@ -19,6 +19,11 @@
         "slot": "slot.armor.head",
         "protection": 2
       },
+      "paladium:recyclable": {
+        "min": 1,
+        "max": 5,
+        "item": "minecraft:amethyst_shard"
+      },
       "minecraft:repairable": {
         "repair_items": [
           {

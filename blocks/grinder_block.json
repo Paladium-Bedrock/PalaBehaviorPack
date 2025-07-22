@@ -1,0 +1,28 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:grinder_block"
+    },
+    "components": {
+      "paladium:structure" : {
+        "structure_id": "paladium:grinder"
+      },
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "grinder_block"
+          }
+        }
+      },
+      "minecraft:block_entity": {
+        "identifier": "paladium:grinder"
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 5,
+        "tool_type": 3,
+        "tool_tier": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:endium_ingot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:endium_nugget"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:endium_ingot",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:cobblebreaker_amethyst_upgrade",
+      "creative_category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "cobblebreaker_amethyst_upgrade"
+      }
+    }
+  }
+}

@@ -15,6 +15,11 @@
       "minecraft:durability": {
         "max_durability": 4999
       },
+      "paladium:recyclable": {
+        "min": 1,
+        "max": 2,
+        "item": "paladium:paladium_ingot"
+      },
       "minecraft:hoe": {
         "tier": 6
       },

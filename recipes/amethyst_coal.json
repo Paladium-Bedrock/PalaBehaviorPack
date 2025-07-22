@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:amethyst_coal"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:gold_coal"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:amethyst_coal",
+      "count": 1
+    }
+  }
+}
