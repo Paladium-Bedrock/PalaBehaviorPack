@@ -13,9 +13,9 @@
         "value": 1
       },
       "paladium:recyclable": {
-          "min": 1,
-          "max": 7,
-          "item": "paladium:endium_ingot"
+        "min": 1,
+        "max": 7,
+        "item": "paladium:endium_ingot"
       },
       "minecraft:durability": {
         "max_durability": 4160
