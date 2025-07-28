@@ -21,9 +21,9 @@
         "toughness": 2
       },
       "paladium:recyclable": {
-          "min": 1,
-          "max": 5,
-          "item": "paladium:titanium_ingot"
+        "min": 1,
+        "max": 5,
+        "item": "paladium:titanium_ingot"
       },
       "minecraft:repairable": {
         "repair_items": [

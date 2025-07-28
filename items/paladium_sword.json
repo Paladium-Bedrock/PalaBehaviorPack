@@ -16,9 +16,9 @@
         "max_durability": 4999
       },
       "paladium:recyclable": {
-          "min": 1,
-          "max": 2,
-          "item": "paladium:paladium_ingot"
+        "min": 1,
+        "max": 2,
+        "item": "paladium:paladium_ingot"
       },
       "minecraft:damage": {
         "damage": 10

@@ -20,9 +20,9 @@
         "multiplier": 9.0
       },
       "paladium:recyclable": {
-          "min": 1,
-          "max": 2,
-          "item": "paladium:endium_ingot"
+        "min": 1,
+        "max": 2,
+        "item": "paladium:endium_ingot"
       },
       "minecraft:damage": {
         "damage": 5

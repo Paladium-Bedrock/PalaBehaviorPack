@@ -20,9 +20,9 @@
         "multiplier": 9.0
       },
       "paladium:recyclable": {
-          "min": 0,
-          "max": 1,
-          "item": "paladium:amethyst_ingot"
+        "min": 0,
+        "max": 1,
+        "item": "minecraft:amethyst_shard"
       },
       "minecraft:damage": {
         "damage": 4
@@ -40,7 +40,7 @@
           },
           {
             "items": [
-              "paladium:amethyst_ingot"
+              "minecraft:amethyst_shard"
             ],
             "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
           }

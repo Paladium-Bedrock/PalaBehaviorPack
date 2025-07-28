@@ -16,9 +16,9 @@
         "max_durability": 3900
       },
       "paladium:recyclable": {
-          "min": 1,
-          "max": 7,
-          "item": "paladium:titanium_ingot"
+        "min": 1,
+        "max": 7,
+        "item": "paladium:titanium_ingot"
       },
       "minecraft:wearable": {
         "slot": "slot.armor.legs",

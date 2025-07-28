@@ -22,9 +22,9 @@
         "enabled": true
       },
       "paladium:recyclable": {
-          "min": 1,
-          "max": 2,
-          "item": "paladium:titanium_ingot"
+        "min": 1,
+        "max": 2,
+        "item": "paladium:titanium_ingot"
       },
       "minecraft:repairable": {
         "repair_items": [

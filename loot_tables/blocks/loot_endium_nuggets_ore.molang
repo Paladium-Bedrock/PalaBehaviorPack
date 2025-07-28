@@ -4,7 +4,7 @@ if (!q.is_correct_tool(c.block)) {
 
 v.count = 1;
 if (q.has_enchantment('minecraft:fortune')) {
-    v.count = math.random(0, q.get_enchantment('minecraft:fortune').level + 1);
+    v.count += math.random(0, q.get_enchantment('minecraft:fortune').level + 1);
 }
 
 return [itemstack.create('paladium:endium_fragment', v.count)];

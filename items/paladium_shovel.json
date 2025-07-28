@@ -16,9 +16,9 @@
         "max_durability": 4999
       },
       "paladium:recyclable": {
-          "min": 0,
-          "max": 1,
-          "item": "paladium:paladium_ingot"
+        "min": 0,
+        "max": 1,
+        "item": "paladium:paladium_ingot"
       },
       "minecraft:shovel": {
         "tier": 6,

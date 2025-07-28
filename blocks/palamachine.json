@@ -18,8 +18,12 @@
           }
         }
       },
-      "minecraft:block_entity": {
-        "identifier": "paladium:palamachine"
+      "minecraft:crafting_table": {
+        "crafting_tags": [
+          "palamachine"
+        ],
+        "table_name": "palamachine",
+        "grid_size": 3
       },
       "minecraft:destructible_by_mining": {
         "hardness": 3,

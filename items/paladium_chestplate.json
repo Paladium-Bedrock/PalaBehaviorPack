@@ -10,9 +10,9 @@
         "texture": "paladium_chestplate"
       },
       "paladium:recyclable": {
-          "min": 1,
-          "max": 7,
-          "item": "paladium:paladium_ingot"
+        "min": 1,
+        "max": 7,
+        "item": "paladium:paladium_ingot"
       },
       "minecraft:max_stack_size": {
         "value": 1
