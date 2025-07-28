@@ -9,6 +9,14 @@
     "components": {
       "minecraft:icon": {
         "texture": "kiwano_seed"
+      },
+      "minecraft:block_placer": {
+        "block": "paladium:kiwano_crops"
+      },
+       "minecraft:tags": {
+        "tags": [
+          "paladium:seeds"
+        ]
       }
     }
   }

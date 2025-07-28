@@ -2,12 +2,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:fertility_totem",
+      "identifier": "paladium:fertilized_dirt",
       "creative_category": "construction"
     },
     "components": {
       "minecraft:block_placer": {
-        "block": "paladium:fertility_totem_down"
+        "block": "paladium:fertilized_dirt"
       }
     }
   }
