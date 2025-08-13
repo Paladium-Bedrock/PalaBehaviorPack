@@ -1,0 +1,73 @@
+{
+    "format_version": "1.0.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "paladium:grinder_table",
+            "states": {
+                "paladium:grinder_module": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "paladium:pattern": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            }
+        },
+        "components": {
+            "paladium:grinder_module": {
+                "id": "paladium:table"
+            },
+            "minecraft:destructible_by_mining": {
+                "hardness": 3,
+                "tool_type": 3
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('paladium:pattern') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    },
+                         "minecraft:geometry": {
+                    "identifier": "geometry.grinder_table"
+                }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 1",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_hoe",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
