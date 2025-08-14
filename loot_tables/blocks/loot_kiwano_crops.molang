@@ -1,0 +1,5 @@
+if (context.block_state('paladium:growth') < 8) {
+    return [itemstack.create('paladium:kiwano_seed', 1)];
+}
+
+return [itemstack.create('paladium:kiwano', 1)];

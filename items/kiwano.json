@@ -3,15 +3,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:amethyst_seedplanter",
+      "identifier": "paladium:kiwano",
       "creative_category": "items"
     },
     "components": {
-      "paladium:seedplanter": {
-
-      },
       "minecraft:icon": {
-        "texture": "amethyst_seedplanter"
+        "texture": "kiwano"
       }
     }
   }

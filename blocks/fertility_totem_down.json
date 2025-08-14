@@ -1,0 +1,87 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:fertility_totem_down",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [ "minecraft:cardinal_direction" ],
+          "y_rotation_offset": 180
+        }
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "fertility_totem"
+          }
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.fertility_totem_down"
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 3,
+        "tool_type": 3
+      },
+      "minecraft:block_entity": {
+        "identifier": "paladium:fertility_totem"
+      },
+      "paladium:double_block": {
+        "up_block": "paladium:fertility_totem_up",
+        "down_block": "paladium:fertility_totem_down"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 90,
+              "z": 0
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 180,
+              "z": 0
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 270,
+              "z": 0
+            }
+          }
+        }
+      }
+    ]
+  }
+}

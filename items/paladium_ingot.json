@@ -8,6 +8,13 @@
     "components": {
       "minecraft:icon": {
         "texture": "paladium_ingot"
+      },
+      "paladium:machine_fuel": {
+        "machines": [
+          {
+            "machine": "paladium:fertility_totem"
+          }
+        ]
       }
     }
   }

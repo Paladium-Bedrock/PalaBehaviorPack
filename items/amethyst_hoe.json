@@ -6,6 +6,9 @@
       "creative_category": "equipment"
     },
     "components": {
+      "paladium:big_hoe": {
+        "radius": 3
+      },
       "minecraft:icon": {
         "texture": "amethyst_hoe"
       },
@@ -15,9 +18,7 @@
       "minecraft:durability": {
         "max_durability": 4999
       },
-      "minecraft:hoe": {
-        "tier": 6
-      },
+
       "paladium:recyclable": {
         "min": 1,
         "max": 2,
@@ -53,7 +54,6 @@
         "tags": [
           "paladium:amethyst_tier",
           "minecraft:digger",
-          "minecraft:is_hoe",
           "minecraft:is_tool"
         ]
       }

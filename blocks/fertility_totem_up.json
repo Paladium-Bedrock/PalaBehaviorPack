@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:fertility_totem",
+      "identifier": "paladium:fertility_totem_up",
       "traits": {
         "minecraft:placement_direction": {
           "enabled_states": [ "minecraft:cardinal_direction" ],
@@ -19,14 +19,15 @@
         }
       },
       "minecraft:geometry": {
-        "identifier": "geometry.fertility_totem"
+        "identifier": "geometry.fertility_totem_up"
       },
       "minecraft:destructible_by_mining": {
         "hardness": 3,
         "tool_type": 3
       },
-      "minecraft:block_entity": {
-        "identifier": "paladium:fertility_totem"
+      "paladium:double_block": {
+        "up_block": "paladium:fertility_totem_up",
+        "down_block": "paladium:fertility_totem_down"
       }
     },
     "permutations": [
