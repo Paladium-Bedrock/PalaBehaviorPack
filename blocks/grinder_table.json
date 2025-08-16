@@ -47,12 +47,12 @@
                             }
                         }
                     },
-                         "minecraft:geometry": {
-                    "identifier": "geometry.grinder_table"
-                }
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table"
+                    }
                 }
             },
-            {
+               {
                 "condition": "q.block_state('paladium:pattern') == 1",
                 "components": {
                     "minecraft:geometry": {
@@ -62,6 +62,331 @@
                         "materials": {
                             "*": {
                                 "texture": "grinder_table_hoe",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 2",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_sword",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 3",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_pickaxe",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 4",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_hammer",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 5",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_shovel",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 6",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_ingot",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 7",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_axe",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+
+
+                   {
+                "condition": "q.block_state('paladium:pattern') == 1 && q.block_state('paladium:grinder_module') == 2",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_hoe_forged_liquid",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 2 && q.block_state('paladium:grinder_module') == 2",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_sword_forged_liquid",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 3 && q.block_state('paladium:grinder_module') == 2",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_pickaxe_forged_liquid",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 4 && q.block_state('paladium:grinder_module') == 2",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_hammer_forged_liquid",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 5 && q.block_state('paladium:grinder_module') == 2",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_shovel_forged_liquid",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 6 && q.block_state('paladium:grinder_module') == 2",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_ingot_forged_liquid",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 7 && q.block_state('paladium:grinder_module') == 2",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern_forged_liquid"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_axe_forged_liquid",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+
+            
+
+                   {
+                "condition": "q.block_state('paladium:pattern') == 1 && q.block_state('paladium:grinder_module') == 3",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_hoe_forged",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 2 && q.block_state('paladium:grinder_module') == 3",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_sword_forged",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 3 && q.block_state('paladium:grinder_module') == 3",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_pickaxe_forged",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 4 && q.block_state('paladium:grinder_module') == 3",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_hammer_forged",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 5 && q.block_state('paladium:grinder_module') == 3",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_shovel_forged",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 6 && q.block_state('paladium:grinder_module') == 3",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_ingot_forged",
+                                "render_method": "alpha_test"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('paladium:pattern') == 7 && q.block_state('paladium:grinder_module') == 3",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.grinder_table_pattern_forged"
+                    },
+                    "minecraft:material_instances": {
+                        "materials": {
+                            "*": {
+                                "texture": "grinder_table_axe_forged",
                                 "render_method": "alpha_test"
                             }
                         }

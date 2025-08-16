@@ -25,6 +25,30 @@
       }
     },
     "components": {
+      "minecraft:collision_box": {
+        "origin": [
+          -3,
+          5,
+          -2
+        ],
+        "size": [
+          6,
+          10,
+          10
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -5,
+          5,
+          -2
+        ],
+        "size": [
+          9,
+          10,
+          10
+        ]
+      },
       "paladium:grinder_module": {
         "id": "paladium:faucet"
       },
@@ -61,9 +85,25 @@
               }
             }
           },
-           "minecraft:geometry": {
-              "identifier": "geometry.grinder_faucet_animation"
+          "minecraft:geometry": {
+            "identifier": "geometry.grinder_faucet_animation"
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('paladium:grinder_module') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "grinder_faucet",
+                "render_method": "alpha_test"
+              }
             }
+          },
+          "minecraft:geometry": {
+            "identifier": "geometry.grinder_faucet"
+          }
         }
       },
       {
