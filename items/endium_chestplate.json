@@ -17,6 +17,14 @@
         "max": 7,
         "item": "paladium:endium_ingot"
       },
+       "paladium:armor_effect": {
+        "effects": [
+          {
+            "id": "strength",
+            "power": 1
+          }
+        ]
+      },
       "minecraft:durability": {
         "max_durability": 4160
       },

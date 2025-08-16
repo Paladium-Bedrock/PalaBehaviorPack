@@ -15,6 +15,14 @@
       "minecraft:durability": {
         "max_durability": 3380
       },
+      "paladium:armor_effect": {
+        "effects": [
+          {
+            "id": "speed",
+            "power": 1
+          }
+        ]
+      },
       "minecraft:wearable": {
         "slot": "slot.armor.feet",
         "protection": 3,

@@ -2,55 +2,56 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:green_paladium_boots",
+      "identifier": "paladium:jump_chestplate",
       "creative_category": "equipment"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "green_paladium_boots"
+        "texture": "jump_chestplate"
       },
       "minecraft:max_stack_size": {
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 3380
+        "max_durability": 240
       },
-      "minecraft:wearable": {
-        "slot": "slot.armor.feet",
-        "protection": 3,
-        "toughness": 2
-      },
-       "paladium:armor_effect": {
+      "paladium:armor_effect": {
         "effects": [
           {
-            "id": "speed",
-            "power": 2
+            "id": "jump_boost",
+            "power": 3
           }
         ]
       },
-      "minecraft:repairable":{
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 1,
+        "toughness": 1
+      },
+
+      "minecraft:repairable": {
         "repair_items": [
           {
             "items": [
-              "paladium:green_paladium_boots"
+              "paladium:jump_chestplate"
             ],
             "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
           },
           {
             "items": [
-              "paladium:green_paladium_ingot"
+              "minecraft:iron_ingot"
             ],
             "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
           }
         ]
       },
       "minecraft:enchantable": {
-        "slot": "armor_feet",
-        "value": 10
+        "slot": "armor_chest",
+        "value": 15
       },
       "minecraft:tags": {
         "tags": [
-          "paladium:green_paladium_tier",
+          "paladium:paladium_tier",
           "minecraft:is_armor",
           "minecraft:trimmable_armors"
         ]

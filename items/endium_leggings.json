@@ -20,6 +20,14 @@
         "max": 6,
         "item": "paladium:endium_ingot"
       },
+      "paladium:armor_effect": {
+        "effects": [
+          {
+            "id": "speed",
+            "power": 2
+          }
+        ]
+      },
       "minecraft:wearable": {
         "slot": "slot.armor.legs",
         "protection": 6,
