@@ -2,56 +2,107 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:grinder_block",
+      "identifier": "paladium:grinder_faucet",
       "states": {
-        "paladium:is_lit": [ false, true ]
+        "paladium:grinder_module": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
       },
       "traits": {
         "minecraft:placement_direction": {
-          "enabled_states": [ "minecraft:cardinal_direction" ],
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
           "y_rotation_offset": 180
         }
       }
     },
     "components": {
-      "minecraft:geometry": {
-        "identifier": "geometry.block"
+      "minecraft:collision_box": {
+        "origin": [
+          -3,
+          5,
+          -2
+        ],
+        "size": [
+          6,
+          10,
+          10
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -5,
+          5,
+          -2
+        ],
+        "size": [
+          9,
+          10,
+          10
+        ]
+      },
+      "paladium:grinder_module": {
+        "id": "paladium:faucet"
       },
       "minecraft:destructible_by_mining": {
         "hardness": 3,
         "tool_type": 3
-      },
-      "minecraft:block_entity": {
-        "identifier": "paladium:grinder"
       }
     },
     "permutations": [
       {
-        "condition": "q.block_state('paladium:is_lit') == false",
+        "condition": "q.block_state('paladium:grinder_module') == 0",
         "components": {
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "grinder_block_off",
-                "render_method": "alpha_test"
-              }
-            }
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('paladium:is_lit') == true",
-        "components": {
-          "minecraft:material_instances": {
-            "materials": {
-              "*": {
-                "texture": "grinder_block_on",
+                "texture": "grinder_faucet",
                 "render_method": "alpha_test"
               }
             }
           },
-          "minecraft:light_emission": {
-            "emission": 15
+          "minecraft:geometry": {
+            "identifier": "geometry.grinder_faucet"
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('paladium:grinder_module') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "grinder_faucet",
+                "render_method": "alpha_test"
+              }
+            }
+          },
+          "minecraft:geometry": {
+            "identifier": "geometry.grinder_faucet_animation"
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('paladium:grinder_module') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "grinder_faucet",
+                "render_method": "alpha_test"
+              }
+            }
+          },
+          "minecraft:geometry": {
+            "identifier": "geometry.grinder_faucet"
           }
         }
       },

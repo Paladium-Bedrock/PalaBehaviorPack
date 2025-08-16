@@ -15,6 +15,9 @@
             "machine": "paladium:fertility_totem"
           }
         ]
+      },
+      "paladium:grinder_fuel": {
+        "id": "paladium:paladium_fuel"
       }
     }
   }
