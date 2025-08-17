@@ -3,7 +3,6 @@
   "minecraft:entity": {
     "description": {
       "identifier": "paladium:faucet_flowing_liquid_in_table_animation",
-      "custom": false,
       "is_spawnable": true,
       "is_summonable": true
     },
