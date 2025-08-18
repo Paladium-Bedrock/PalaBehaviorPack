@@ -1,10 +1,10 @@
 # PalaMod Behavior Pack
 
-PalaMod Behavior Pack, which contains all behaviors for Paladium Bedrock server.
-
 <div align="center">
     <img src="images/banner.png" title="Paladium Art. Copyright Paladium" alt="Image" width="500"/>
 </div>
+
+PalaMod Behavior Pack, which contains all behaviors for Paladium Bedrock server.
 
 ## Install
 
