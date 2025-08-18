@@ -2,11 +2,19 @@
 
 PalaMod Behavior Pack, which contains all behaviors for Paladium Bedrock server.
 
+<div align="center">
+    <img src="images/banner.png" title="Paladium Art. Copyright Paladium" alt="Image" width="500"/>
+</div>
+
 ## Install
 
 1. Download the latest version of PalaBehaviorPack from the [releases](https://github.com/Paladium-Bedrock/PalaBehaviorPack/releases).
 2. Extract the downloaded file to the `behavior_packs` folder of your Endium server.
 3. Restart your server.
+
+## Contributing
+
+If you want to contribute to this project, please create a pull request with your changes to the `develop` branch.
 
 ### Contributors
 
