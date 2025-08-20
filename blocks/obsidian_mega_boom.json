@@ -27,9 +27,7 @@
         "value": 60000
       },
       "paladium:replace_block": {
-        "replace_with": {
-          "block": "minecraft:obsidian"
-        }
+        "replace_with": "minecraft:obsidian"
       }
     }
   }
