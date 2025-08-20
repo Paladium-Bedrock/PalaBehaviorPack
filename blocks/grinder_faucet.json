@@ -49,12 +49,12 @@
           10
         ]
       },
-      "paladium:grinder_module": {
-        "id": "paladium:faucet"
-      },
       "minecraft:destructible_by_mining": {
         "hardness": 3,
         "tool_type": 3
+      },
+      "paladium:grinder_module": {
+        "identifier": "paladium:faucet"
       }
     },
     "permutations": [

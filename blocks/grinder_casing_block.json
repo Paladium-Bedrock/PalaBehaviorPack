@@ -5,9 +5,6 @@
       "identifier": "paladium:grinder_casing_block"
     },
     "components": {
-      "paladium:structure" : {
-        "structure_id": "paladium:grinder"
-      },
       "minecraft:material_instances": {
         "materials": {
           "*": {
@@ -19,6 +16,9 @@
         "hardness": 5,
         "tool_type": 3,
         "tool_tier": 4
+      },
+      "paladium:structure": {
+        "identifier": "paladium:grinder"
       }
     }
   }
