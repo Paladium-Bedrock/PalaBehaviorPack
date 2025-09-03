@@ -6,9 +6,6 @@
       "creative_category": "construction"
     },
     "components": {
-           "paladium:structure" : {
-        "structure_id": "paladium:grinder"
-      },
       "minecraft:block_placer": {
         "block": "paladium:grinder_frame_block"
       }
