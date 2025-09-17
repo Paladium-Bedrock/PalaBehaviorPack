@@ -23,6 +23,21 @@
       },
       "minecraft:block_entity": {
         "identifier": "paladium:crusher"
+      },
+      "paladium:crusher": {
+        "recipes": [
+          {
+          "id": "paladium:amethyst",
+          "input_id": "paladium:eggplant",
+          "output_id": "paladium:amethyst_ingot",
+          "fuel_id": "paladium:gold_coal",
+          "max_transformed_fuel": 100,
+          "input_particle_id": "paladium:eggplant"
+          }
+        ],
+        "fuel_transformation_duration": 40,
+        "work_duration": 40,
+        "update_ui_duration": 40
       }
     },
     "permutations": [

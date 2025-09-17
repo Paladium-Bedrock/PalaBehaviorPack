@@ -4,13 +4,7 @@
     "description": {
       "identifier": "paladium:cobblebreaker",
       "states": {
-        "paladium:is_lit": [ false, true ]
-      },
-      "traits": {
-        "minecraft:placement_direction": {
-          "enabled_states": [ "minecraft:cardinal_direction" ],
-          "y_rotation_offset": 180
-        }
+        "paladium:cobblebreaker_upgrade": [ 0, 1, 2, 3 ]
       }
     },
     "components": {
@@ -23,16 +17,53 @@
       },
       "minecraft:block_entity": {
         "identifier": "paladium:cobblebreaker"
+      },
+      "paladium:cobblebreaker": {
+        "work_duration": 200,
+        "work_pause_duration": 80,
+        "update_arrow_duration": 40,
+        "outputs": [
+          {
+            "id": "paladium:iron_particle",
+            "weight": 500,
+            "particle_id": "paladium:add_particle_iron"
+          },
+          {
+            "id": "paladium:gold_particle",
+            "weight": 400,
+            "particle_id": "paladium:add_particle_gold"
+          },
+          {
+            "id": "paladium:diamond_particle",
+            "weight": 300,
+            "particle_id": "paladium:add_particle_diamond"
+          },
+          {
+            "id": "paladium:amethyst_particle",
+            "weight": 200,
+            "particle_id": "paladium:add_particle_amethyst"
+          },
+          {
+            "id": "paladium:titanium_particle",
+            "weight": 100,
+            "particle_id": "paladium:add_particle_titanium"
+          },
+          {
+            "id": "paladium:paladium_particle",
+            "weight": 50,
+            "particle_id": "paladium:add_particle_paladium"
+          }
+        ]
       }
     },
     "permutations": [
       {
-        "condition": "q.block_state('paladium:is_lit') == false",
+        "condition": "q.block_state('paladium:cobblebreaker_upgrade') == 0",
         "components": {
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "cobblebreaker_off",
+                "texture": "cobblebreaker",
                 "render_method": "alpha_test"
               }
             }
@@ -40,65 +71,40 @@
         }
       },
       {
-        "condition": "q.block_state('paladium:is_lit') == true",
+        "condition": "q.block_state('paladium:cobblebreaker_upgrade') == 1",
         "components": {
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "cobblebreaker_on",
+                "texture": "cobblebreaker_amethyst",
                 "render_method": "alpha_test"
               }
             }
-          },
-          "minecraft:light_emission": {
-            "emission": 15
           }
         }
       },
       {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "condition": "q.block_state('paladium:cobblebreaker_upgrade') == 2",
         "components": {
-          "minecraft:transformation": {
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "cobblebreaker_titanium",
+                "render_method": "alpha_test"
+              }
             }
           }
         }
       },
       {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "condition": "q.block_state('paladium:cobblebreaker_upgrade') == 3",
         "components": {
-          "minecraft:transformation": {
-            "rotation": {
-              "x": 0,
-              "y": 90,
-              "z": 0
-            }
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": {
-              "x": 0,
-              "y": 180,
-              "z": 0
-            }
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
-        "components": {
-          "minecraft:transformation": {
-            "rotation": {
-              "x": 0,
-              "y": 270,
-              "z": 0
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "cobblebreaker_paladium",
+                "render_method": "alpha_test"
+              }
             }
           }
         }

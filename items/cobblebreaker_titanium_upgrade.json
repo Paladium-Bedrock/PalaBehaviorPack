@@ -9,6 +9,13 @@
     "components": {
       "minecraft:icon": {
         "texture": "cobblebreaker_titanium_upgrade"
+      },
+      "paladium:upgrade_cobblebreaker": {
+        "block_state": 2,
+        "upgrade_modulo": 35
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
       }
     }
   }
