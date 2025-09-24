@@ -34,15 +34,47 @@
           {
           "id": "paladium:amethyst",
           "input_id": "paladium:eggplant",
-          "output_id": "paladium:amethyst_ingot",
+          "output_id": "minecraft:amethyst_shard",
           "fuel_id": "paladium:gold_coal",
           "max_transformed_fuel": 100,
-          "input_particle_id": "paladium:eggplant"
+          "output_icon_path": "textures/items/amethyst_ingot",
+          "fuel_icon_path": "textures/items/gold_coal",
+          "max_progress_output": 2
+          },
+          {
+          "id": "paladium:titanium",
+          "input_id": "paladium:chervil",
+          "output_id": "paladium:titanium_ingot",
+          "fuel_id": "paladium:amethyst_coal",
+          "max_transformed_fuel": 100,
+          "output_icon_path": "textures/items/titanium_ingot",
+          "fuel_icon_path": "textures/items/amethyst_coal",
+          "max_progress_output": 2
+          },
+          {
+          "id": "paladium:paladium",
+          "input_id": "paladium:kiwano",
+          "output_id": "paladium:paladium_ingot",
+          "fuel_id": "paladium:titanium_coal",
+          "max_transformed_fuel": 100,
+          "output_icon_path": "textures/items/paladium_ingot",
+          "fuel_icon_path": "textures/items/titanium_coal",
+          "max_progress_output": 2
+          },
+          {
+          "id": "paladium:endium",
+          "input_id": "paladium:orangeblue",
+          "output_id": "paladium:endium_fragment",
+          "fuel_id": "paladium:paladium_coal",
+          "max_transformed_fuel": 100,
+          "output_icon_path": "textures/items/endium_fragment",
+          "fuel_icon_path": "textures/items/paladium_coal",
+          "max_progress_output": 2
           }
         ],
-        "fuel_transformation_duration": 40,
-        "work_duration": 40,
-        "update_ui_duration": 40
+        "fuel_transformation_duration": 200,
+        "work_duration": 200,
+        "update_ui_duration": 1
       }
     },
     "permutations": [
