@@ -30,7 +30,7 @@
           },
           {
             "items": [
-              "paladium:titanium_ingot",
+              "paladium:titanium_ingot"
             ],
             "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
           }

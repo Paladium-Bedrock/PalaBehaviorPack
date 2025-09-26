@@ -20,6 +20,14 @@
         "protection": 3,
         "toughness": 2
       },
+       "paladium:armor_effect": {
+        "effects": [
+          {
+            "id": "speed",
+            "power": 2
+          }
+        ]
+      },
       "minecraft:repairable":{
         "repair_items": [
           {

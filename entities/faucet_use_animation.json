@@ -1,0 +1,21 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "paladium:faucet_use_animation",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "components": {
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": 1,
+        "time_down_event": "events/despawn_event.molang"
+      }
+    }
+  }
+}
