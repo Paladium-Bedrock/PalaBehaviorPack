@@ -27,11 +27,11 @@
       "minecraft:repairable": {
         "repair_items": [
           {
-						"items": [
-							"paladium:amethyst_boots"
-						],
-						"repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
-					},
+            "items": [
+              "paladium:amethyst_boots"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+          },
           {
             "items": [
               "minecraft:amethyst_shard"

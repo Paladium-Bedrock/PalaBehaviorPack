@@ -28,6 +28,9 @@
       },
       "minecraft:block_entity": {
         "identifier": "paladium:grinder"
+      },
+      "paladium:grinder": {
+        "max_fuel": 100
       }
     },
     "permutations": [

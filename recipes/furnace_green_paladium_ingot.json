@@ -4,7 +4,10 @@
     "description": {
       "identifier": "minecraft:furnace_green_paladium_ingot"
     },
-    "tags": [ "furnace", "blast_furnace" ],
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
     "experience": 0.15,
     "input": {
       "item": "paladium:raw_green_paladium"

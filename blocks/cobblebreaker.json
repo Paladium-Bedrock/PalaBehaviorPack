@@ -4,7 +4,12 @@
     "description": {
       "identifier": "paladium:cobblebreaker",
       "states": {
-        "paladium:cobblebreaker_upgrade": [ 0, 1, 2, 3 ]
+        "paladium:cobblebreaker_upgrade": [
+          0,
+          1,
+          2,
+          3
+        ]
       }
     },
     "components": {

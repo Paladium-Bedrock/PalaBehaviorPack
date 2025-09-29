@@ -25,7 +25,7 @@
         "max": 4,
         "item": "paladium:titanium_ingot"
       },
-      "minecraft:repairable":{
+      "minecraft:repairable": {
         "repair_items": [
           {
             "items": [
