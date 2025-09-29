@@ -17,7 +17,7 @@
         ]
       },
       "paladium:grinder_fuel": {
-        "id": "paladium:paladium_fuel"
+        "identifier": "paladium:paladium_fuel"
       }
     }
   }
