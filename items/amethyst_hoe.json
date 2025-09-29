@@ -18,7 +18,6 @@
       "minecraft:durability": {
         "max_durability": 4999
       },
-
       "paladium:recyclable": {
         "min": 1,
         "max": 2,

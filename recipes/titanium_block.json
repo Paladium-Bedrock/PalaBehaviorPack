@@ -4,7 +4,9 @@
     "description": {
       "identifier": "paladium:titanium_block"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [
+      "crafting_table"
+    ],
     "pattern": [
       "XXX",
       "XXX",
@@ -18,8 +20,7 @@
       ]
     },
     "result": {
-      "item": "paladium:titanium_block",
-      "count": 1
+      "item": "paladium:titanium_block"
     }
   }
 }

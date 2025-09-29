@@ -4,7 +4,9 @@
     "description": {
       "identifier": "paladium:findium_block"
     },
-    "tags": [ "crafting_table" ],
+    "tags": [
+      "crafting_table"
+    ],
     "pattern": [
       "XXX",
       "XXX",
@@ -18,8 +20,7 @@
       ]
     },
     "result": {
-      "item": "paladium:findium_block",
-      "count": 1
+      "item": "paladium:findium_block"
     }
   }
 }
