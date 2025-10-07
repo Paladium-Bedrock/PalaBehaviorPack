@@ -21,7 +21,7 @@
         "value": 60000
       },
       "paladium:replace_block": {
-        "replace_with": "minecraft:obsidian"
+        "replace_with": "paladium:iron_spike"
       }
     }
   }
