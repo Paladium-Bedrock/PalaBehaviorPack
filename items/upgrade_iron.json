@@ -8,6 +8,14 @@
     "components": {
       "minecraft:icon": {
         "texture": "upgrade_iron"
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "paladium:drawer_upgrade": {
+        "additional_count": 500,
+        "upgrade_unicode": "\ue108",
+        "upgrade_id": 1
       }
     }
   }
