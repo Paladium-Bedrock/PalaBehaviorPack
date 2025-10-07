@@ -24,6 +24,13 @@
       "minecraft:geometry": {
         "identifier": "geometry.flower_totem_down"
       },
+      "paladium:flower_totem": {
+        "input_flower": [
+          "minecraft:bone_meal"
+        ],
+        "ui_update_cooldoown": 20,
+        "flower_generation_cooldown": 200
+      },
       "minecraft:destructible_by_mining": {
         "hardness": 3,
         "tool_type": 3
