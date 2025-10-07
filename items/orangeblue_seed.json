@@ -2,12 +2,20 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:kiwano_seed",
+      "identifier": "paladium:orangeblue_seed",
       "creative_category": "items"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "kiwano_seed"
+        "texture": "orangeblue_seed"
+      },
+      "minecraft:block_placer": {
+        "block": "paladium:orangeblue_crops"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:seeds"
+        ]
       }
     }
   }

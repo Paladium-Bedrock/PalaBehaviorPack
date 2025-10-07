@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:kiwano_crops",
+      "identifier": "paladium:chervil_crops",
       "states": {
         "paladium:growth": [
           0,
@@ -12,9 +12,7 @@
           4,
           5,
           6,
-          7,
-          8,
-          9
+          7
         ]
       }
     },
@@ -24,7 +22,7 @@
       },
       "paladium:crops": {},
       "minecraft:loot": {
-        "table": "loot_tables/blocks/loot_kiwano_crops.molang"
+        "table": "loot_tables/blocks/loot_chervil_crops.molang"
       }
     },
     "permutations": [
@@ -34,7 +32,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "kiwano_crops_0",
+                "texture": "chervil_crops_0",
                 "render_method": "alpha_test",
                 "ambient_occlusion": false,
                 "face_dimming": false
@@ -61,7 +59,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "kiwano_crops_1",
+                "texture": "chervil_crops_1",
                 "render_method": "alpha_test",
                 "ambient_occlusion": false,
                 "face_dimming": false
@@ -88,7 +86,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "kiwano_crops_2",
+                "texture": "chervil_crops_2",
                 "render_method": "alpha_test",
                 "ambient_occlusion": false,
                 "face_dimming": false
@@ -115,34 +113,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "kiwano_crops_3",
-                "render_method": "alpha_test",
-                "ambient_occlusion": false,
-                "face_dimming": false
-              }
-            }
-          },
-          "minecraft:selection_box": {
-            "origin": [
-              -8,
-              0,
-              -8
-            ],
-            "size": [
-              16,
-              15,
-              16
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('paladium:growth') == 8 || q.block_state('paladium:growth') == 9",
-        "components": {
-          "minecraft:material_instances": {
-            "materials": {
-              "*": {
-                "texture": "kiwano_crops_4",
+                "texture": "chervil_crops_3",
                 "render_method": "alpha_test",
                 "ambient_occlusion": false,
                 "face_dimming": false

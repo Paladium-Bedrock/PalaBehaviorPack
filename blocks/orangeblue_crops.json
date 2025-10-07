@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:kiwano_crops",
+      "identifier": "paladium:orangeblue_crops",
       "states": {
         "paladium:growth": [
           0,
@@ -24,7 +24,7 @@
       },
       "paladium:crops": {},
       "minecraft:loot": {
-        "table": "loot_tables/blocks/loot_kiwano_crops.molang"
+        "table": "loot_tables/blocks/loot_orangeblue_crops.molang"
       }
     },
     "permutations": [
@@ -34,7 +34,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "kiwano_crops_0",
+                "texture": "orangeblue_crops_0",
                 "render_method": "alpha_test",
                 "ambient_occlusion": false,
                 "face_dimming": false
@@ -61,7 +61,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "kiwano_crops_1",
+                "texture": "orangeblue_crops_1",
                 "render_method": "alpha_test",
                 "ambient_occlusion": false,
                 "face_dimming": false
@@ -88,7 +88,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "kiwano_crops_2",
+                "texture": "orangeblue_crops_2",
                 "render_method": "alpha_test",
                 "ambient_occlusion": false,
                 "face_dimming": false
@@ -115,7 +115,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "kiwano_crops_3",
+                "texture": "orangeblue_crops_3",
                 "render_method": "alpha_test",
                 "ambient_occlusion": false,
                 "face_dimming": false
@@ -142,7 +142,7 @@
           "minecraft:material_instances": {
             "materials": {
               "*": {
-                "texture": "kiwano_crops_4",
+                "texture": "orangeblue_crops_4",
                 "render_method": "alpha_test",
                 "ambient_occlusion": false,
                 "face_dimming": false
