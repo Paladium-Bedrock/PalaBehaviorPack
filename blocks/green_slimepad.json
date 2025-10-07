@@ -2,7 +2,15 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:green_slimepad"
+      "identifier": "paladium:green_slimepad",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180
+        }
+      }
     },
     "components": {
       "minecraft:geometry": {
@@ -32,6 +40,9 @@
           9,
           13
         ]
+      },
+      "paladium:slimepad": {
+        "power": 2
       },
       "minecraft:material_instances": {
         "materials": {
