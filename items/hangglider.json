@@ -6,6 +6,10 @@
       "creative_category": "items"
     },
     "components": {
+      "paladium:hanglider": {},
+      "minecraft:allow_off_hand": {
+        "enabled": true
+      },
       "minecraft:icon": {
         "texture": "hangglider"
       }
