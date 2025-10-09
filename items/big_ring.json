@@ -8,6 +8,14 @@
     "components": {
       "minecraft:icon": {
         "texture": "big_ring"
+      },
+      "minecraft:durability": {
+        "max_durability": 4999
+      },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:repair_ring"
+        ]
       }
     }
   }

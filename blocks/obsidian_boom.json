@@ -26,8 +26,15 @@
       "minecraft:destructible_by_explosion": {
         "value": 60000
       },
-      "paladium:replace_block": {
-        "replace_with": "minecraft:obsidian"
+      "paladium:explosive_block": {
+        "on_break": true,
+        "on_use": false,
+        "power": 4
+      },
+    "minecraft:tags": {
+        "tags": [
+          "paladium:obsidian"
+        ]
       }
     }
   }

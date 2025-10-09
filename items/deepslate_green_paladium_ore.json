@@ -1,0 +1,14 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:deepslate_green_paladium_ore",
+      "creative_category": "nature"
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "paladium:deepslate_green_paladium_ore"
+      }
+    }
+  }
+}

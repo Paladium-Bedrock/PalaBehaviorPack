@@ -12,16 +12,13 @@
           }
         }
       },
-      "minecraft:destructible_by_mining": {
-        "hardness": 50,
-        "tool_type": 3,
-        "tool_tier": 5
-      },
-      "minecraft:destructible_by_explosion": {
-        "value": 60000
-      },
       "paladium:replace_block": {
-        "replace_with": "minecraft:obsidian"
+        "replace_with": "paladium:paladium_spike"
+      }, 
+      "minecraft:tags": {
+        "tags": [
+          "paladium:obsidian"
+        ]
       }
     }
   }

@@ -1,0 +1,5 @@
+if (c.block.get_property('paladium:growth') < 6) {
+    return [itemstack.create('paladium:eggplant_seed', 1)];
+}
+
+return [itemstack.create('paladium:eggplant', 1)];

@@ -8,6 +8,14 @@
     "components": {
       "minecraft:icon": {
         "texture": "chervil_seed"
+      },
+      "minecraft:block_placer": {
+        "block": "paladium:chervil_crops"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:seeds"
+        ]
       }
     }
   }

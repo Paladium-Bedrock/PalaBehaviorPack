@@ -29,7 +29,14 @@
         "tool_type": 3
       },
       "minecraft:block_entity": {
-        "identifier": "paladium:titanium_chest"
+        "identifier": "paladium:custom_chest"
+      },
+      "paladium:custom_chest": {
+        "ring_slot_amount": 2,
+        "station_slot_amount": 18,
+        "total_slot_amount": 67,
+        "update_cooldown": 40,
+        "ui_id": "paladium:titanium_chest"
       }
     },
     "permutations": [

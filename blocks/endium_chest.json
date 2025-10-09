@@ -29,7 +29,14 @@
         "tool_type": 3
       },
       "minecraft:block_entity": {
-        "identifier": "paladium:endium_chest"
+        "identifier": "paladium:custom_chest"
+      },
+      "paladium:custom_chest": {
+        "ring_slot_amount": 4,
+        "station_slot_amount": 44,
+        "total_slot_amount": 88,
+        "update_cooldown": 40,
+        "ui_id": "paladium:endium_chest"
       }
     },
     "permutations": [

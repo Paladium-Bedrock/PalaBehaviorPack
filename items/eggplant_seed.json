@@ -8,6 +8,14 @@
     "components": {
       "minecraft:icon": {
         "texture": "eggplant_seed"
+      },
+      "minecraft:block_placer": {
+        "block": "paladium:eggplant_crops"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:seeds"
+        ]
       }
     }
   }

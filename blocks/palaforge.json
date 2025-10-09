@@ -28,6 +28,12 @@
       },
       "minecraft:block_entity": {
         "identifier": "paladium:palaforge"
+      },
+      "paladium:palaforge": {
+        "burning_time": 30,
+        "crackled_time": 160,
+        "work_time": 200,
+        "update_ui": 20
       }
     },
     "permutations": [

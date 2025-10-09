@@ -1,0 +1,139 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:eggplant_crops",
+      "states": {
+        "paladium:growth": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.crop.2"
+      },
+      "paladium:crops": {},
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/loot_eggplant_crops.molang"
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('paladium:growth') == 0 || q.block_state('paladium:growth') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "eggplant_crops_0",
+                "render_method": "alpha_test",
+                "ambient_occlusion": false,
+                "face_dimming": false
+              }
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              6,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('paladium:growth') == 2 || q.block_state('paladium:growth') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "eggplant_crops_1",
+                "render_method": "alpha_test",
+                "ambient_occlusion": false,
+                "face_dimming": false
+              }
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              10,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('paladium:growth') == 4 || q.block_state('paladium:growth') == 5",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "eggplant_crops_2",
+                "render_method": "alpha_test",
+                "ambient_occlusion": false,
+                "face_dimming": false
+              }
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              15,
+              16
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('paladium:growth') == 6 || q.block_state('paladium:growth') == 7",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "eggplant_crops_3",
+                "render_method": "alpha_test",
+                "ambient_occlusion": false,
+                "face_dimming": false
+              }
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              15,
+              16
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

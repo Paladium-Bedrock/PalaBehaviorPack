@@ -1,0 +1,15 @@
+
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:drawer_package",
+      "creative_category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "drawer_package"
+      }
+    }
+  }
+}

@@ -20,8 +20,22 @@
       "minecraft:destructible_by_explosion": {
         "value": 60000
       },
-      "paladium:replace_block": {
-        "replace_with": "minecraft:obsidian"
+      "minecraft:tags": {
+        "tags": [
+          "paladium:obsidian"
+        ]
+      },
+      "paladium:effect_block": {
+        "target_only": false,
+        "rayon_propagation": 7,
+        "add_effect_on_break": true,
+        "effects": [
+          {
+            "id": "poison",
+            "power": 1,
+            "duration": 160
+          }
+        ]
       }
     }
   }

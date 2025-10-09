@@ -1,0 +1,55 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:generation_rule": {
+    "description": {
+      "identifier": "paladium:deepslate_underground_ores_generation"
+    },
+    "condition": "q.has_tag('overworld')",
+    "populators": [
+      {
+        "identifier": "minecraft:ore",
+        "options": {
+          "block": "paladium:deepslate_titanium_ore",
+          "replaceable_block": "minecraft:deepslate",
+          "cluster_count": 1,
+          "cluster_size": 7,
+          "min_height": -64,
+          "max_height": 8
+        }
+      },
+      {
+        "identifier": "minecraft:ore",
+        "options": {
+          "block": "paladium:deepslate_findium_ore",
+          "replaceable_block": "minecraft:deepslate",
+          "cluster_count": 1,
+          "cluster_size": 2,
+          "min_height": -64,
+          "max_height": 8
+        }
+      },
+      {
+        "identifier": "minecraft:ore",
+        "options": {
+          "block": "paladium:deepslate_paladium_ore",
+          "replaceable_block": "minecraft:deepslate",
+          "cluster_count": 1,
+          "cluster_size": 6,
+          "min_height": -64,
+          "max_height": 8
+        }
+      },
+      {
+        "identifier": "minecraft:ore",
+        "options": {
+          "block": "paladium:deepslate_green_paladium_ore",
+          "replaceable_block": "minecraft:deepslate",
+          "cluster_count": 1,
+          "cluster_size": 1,
+          "min_height": -64,
+          "max_height": 8
+        }
+      }
+    ]
+  }
+}

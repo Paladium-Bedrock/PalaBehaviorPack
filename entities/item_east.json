@@ -1,0 +1,20 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "paladium:item_east",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "components": {
+      "minecraft:physics": {
+       "has_collision": true,
+        "has_gravity": false
+      },
+      "minecraft:collision_box": {
+        "width": 0.25,
+        "height": 0.25
+      }
+    }
+  }
+}

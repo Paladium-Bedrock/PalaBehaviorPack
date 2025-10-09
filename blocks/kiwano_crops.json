@@ -24,7 +24,7 @@
       },
       "paladium:crops": {},
       "minecraft:loot": {
-        "table": "loot_tables/blocks/loot_findium_ore.molang"
+        "table": "loot_tables/blocks/loot_kiwano_crops.molang"
       }
     },
     "permutations": [

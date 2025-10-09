@@ -1,4 +1,4 @@
-if (context.block_state('paladium:growth') < 8) {
+if (c.block.get_property('paladium:growth') < 8) {
     return [itemstack.create('paladium:kiwano_seed', 1)];
 }
 

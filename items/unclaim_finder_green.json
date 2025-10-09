@@ -8,6 +8,22 @@
     "components": {
       "minecraft:icon": {
         "texture": "unclaim_finder_green"
+      },
+      "minecraft:durability": {
+        "max_durability": 500
+      },
+      "paladium:unclaim_finder": {
+        "block_entity": [
+          "minecraft:chest",
+          "minecraft:furnace",
+          "minecraft:barrel",
+          "paladium:grinder_block",
+          "paladium:crusher",
+          "paladium:palaforge",
+          "paladium:cobblebreaker",
+          "paladium:drawer"
+        ],
+        "rayon": 1
       }
     }
   }
