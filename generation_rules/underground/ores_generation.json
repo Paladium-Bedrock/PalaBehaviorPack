@@ -1,0 +1,51 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:generation_rule": {
+    "description": {
+      "identifier": "paladium:underground_ores_generation"
+    },
+    "condition": "q.has_tag('overworld')",
+    "populators": [
+      {
+        "identifier": "minecraft:ore",
+        "options": {
+          "block": "paladium:titanium_ore",
+          "cluster_count": 1,
+          "cluster_size": 7,
+          "min_height": 0,
+          "max_height": 30
+        }
+      },
+      {
+        "identifier": "minecraft:ore",
+        "options": {
+          "block": "paladium:findium_ore",
+          "cluster_count": 1,
+          "cluster_size": 2,
+          "min_height": 0,
+          "max_height": 16
+        }
+      },
+      {
+        "identifier": "minecraft:ore",
+        "options": {
+          "block": "paladium:paladium_ore",
+          "cluster_count": 1,
+          "cluster_size": 6,
+          "min_height": 0,
+          "max_height": 16
+        }
+      },
+      {
+        "identifier": "minecraft:ore",
+        "options": {
+          "block": "paladium:green_paladium_ore",
+          "cluster_count": 1,
+          "cluster_size": 1,
+          "min_height": 0,
+          "max_height": 16
+        }
+      }
+    ]
+  }
+}
