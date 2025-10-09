@@ -30,6 +30,11 @@
         "on_break": true,
         "on_use": false,
         "power": 4
+      },
+    "minecraft:tags": {
+        "tags": [
+          "paladium:obsidian"
+        ]
       }
     }
   }

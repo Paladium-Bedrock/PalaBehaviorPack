@@ -6,6 +6,9 @@
       "creative_category": "construction"
     },
     "components": {
+      "minecraft:icon": {
+        "texture": "fertility_totem"
+      },
       "minecraft:block_placer": {
         "block": "paladium:fertility_totem_down"
       }

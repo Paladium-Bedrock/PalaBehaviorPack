@@ -1,4 +1,4 @@
-if (context.block_state('paladium:growth') < 6) {
+if (c.block.get_property('paladium:growth') < 6) {
     return [itemstack.create('paladium:chervil', 1)];
 }
 

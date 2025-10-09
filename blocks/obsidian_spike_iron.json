@@ -22,6 +22,11 @@
       },
       "paladium:replace_block": {
         "replace_with": "paladium:iron_spike"
+      }, 
+      "minecraft:tags": {
+        "tags": [
+          "paladium:obsidian"
+        ]
       }
     }
   }

@@ -20,10 +20,7 @@
       "minecraft:geometry": {
         "identifier": "geometry.crop.2"
       },
-      "paladium:crops": {},
-      "minecraft:loot": {
-        "table": "loot_tables/blocks/loot_chervil_crops.molang"
-      }
+  "minecraft:collision_box": false
     },
     "permutations": [
       {

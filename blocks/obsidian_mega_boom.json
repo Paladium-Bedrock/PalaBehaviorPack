@@ -18,6 +18,11 @@
           }
         }
       },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:obsidian"
+        ]
+      },
       "minecraft:destructible_by_mining": {
         "hardness": 50,
         "tool_type": 3,

@@ -2,12 +2,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:speed_stick",
+      "identifier": "paladium:magical_tool",
       "creative_category": "items"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "speed_stick"
+        "texture": "magical_tool"
       },
       "minecraft:durability": {
         "max_durability": 4999
@@ -21,14 +21,9 @@
       "minecraft:max_stack_size": {
         "value": 1
       },
-      "paladium:stick_effect": {
-        "cooldown": 170,
-        "effects": [
-          {
-            "id": "speed",
-            "power": 3,
-            "duration": 60
-          }
+      "paladium:block_remover": {
+        "block_tag_can_remove": [
+            "paladium:obsidian"
         ]
       }
     }

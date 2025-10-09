@@ -20,6 +20,11 @@
       "minecraft:destructible_by_explosion": {
         "value": 60000
       },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:obsidian"
+        ]
+      },
       "paladium:effect_block": {
         "target_only": false,
         "rayon_propagation": 7,

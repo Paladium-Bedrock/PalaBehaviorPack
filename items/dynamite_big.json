@@ -6,9 +6,6 @@
       "creative_category": "items"
     },
     "components": {
-      "minecraft:projectile": {
-        "projectile_entity": "minecraft:ender_pearl"
-      },
       "minecraft:icon": {
         "texture": "dynamite_big"
       }
