@@ -14,7 +14,7 @@
       "minecraft:physics": {
         "has_collision": true,
         "has_gravity": true
-      }, 
+      },
       "minecraft:timer": {
         "looping": false,
         "time": 5,
