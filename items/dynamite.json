@@ -6,11 +6,13 @@
       "creative_category": "items"
     },
     "components": {
-      "paladium:dynamite": {
-        "power": 1,
-        "power_launch": 1,
-        "entity_id": "paladium:dynamite"
-      }
+       "minecraft:icon": {
+        "texture": "dynamite"
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "paladium:dynamite",
+        "throw_force": 0.4
+      } 
     }
   }
 }

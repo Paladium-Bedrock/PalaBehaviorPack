@@ -1,0 +1,20 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "paladium:endium_box",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 1
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      }
+    }
+  }
+}

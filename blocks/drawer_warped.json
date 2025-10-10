@@ -25,8 +25,8 @@
         "identifier": "geometry.drawer"
       },
       "minecraft:destructible_by_mining": {
-        "hardness": 3,
-        "tool_type": 3
+        "hardness": 2,
+        "tool_type": 4
       },
       "minecraft:block_entity": {
         "identifier": "paladium:drawer"

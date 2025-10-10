@@ -22,7 +22,8 @@
       },
       "paladium:replace_block": {
         "replace_with": "minecraft:lava"
-      }, "minecraft:tags": {
+      }, 
+      "minecraft:tags": {
         "tags": [
           "paladium:obsidian"
         ]

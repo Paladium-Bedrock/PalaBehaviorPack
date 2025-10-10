@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:drawer_oak",
+      "identifier": "paladium:drawer_mangrove",
       "states": {
         "paladium:drawer_upgrade": [
           0,
@@ -28,14 +28,14 @@
       "minecraft:material_instances": {
         "materials": {
           "*": {
-            "texture": "drawer_oak",
+            "texture": "drawer_mangrove",
             "render_method": "alpha_test"
           }
         }
       },
       "minecraft:destructible_by_mining": {
-        "hardness": 3,
-        "tool_type": 3
+        "hardness": 2,
+        "tool_type": 4
       },
       "minecraft:block_entity": {
         "identifier": "paladium:drawer"

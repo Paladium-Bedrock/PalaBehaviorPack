@@ -6,6 +6,9 @@
       "creative_category": "construction"
     },
     "components": {
+      "minecraft:icon": {
+        "texture": "amethyst_spike"
+      },
       "minecraft:block_placer": {
         "block": "paladium:amethyst_spike"
       }

@@ -10,7 +10,11 @@
         "texture": "speed_stick"
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 15
+      },
+      "minecraft:enchantable": {
+        "slot": "stick_effect",
+        "value": 15
       },
       "minecraft:damage": {
         "damage": 1
@@ -22,7 +26,7 @@
         "value": 1
       },
       "paladium:stick_effect": {
-        "cooldown": 170,
+        "cooldown": 600,
         "effects": [
           {
             "id": "speed",

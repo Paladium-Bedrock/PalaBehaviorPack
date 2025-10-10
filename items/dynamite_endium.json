@@ -8,6 +8,10 @@
     "components": {
       "minecraft:icon": {
         "texture": "dynamite_endium"
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "paladium:endium_dynamite",
+        "throw_force": 0.4
       }
     }
   }
