@@ -11,7 +11,7 @@
       },
       "minecraft:projectile": {
         "projectile_entity": "paladium:dynamite",
-        "throw_force": 0.4
+        "throw_force": 1.5
       } 
     }
   }

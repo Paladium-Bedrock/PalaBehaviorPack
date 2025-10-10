@@ -8,7 +8,11 @@
     "components": {
       "minecraft:icon": {
         "texture": "dynamite_big"
-      }
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "paladium:big_dynamite",
+        "throw_force": 1.5
+      } 
     }
   }
 }
