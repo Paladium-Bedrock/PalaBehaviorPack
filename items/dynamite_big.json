@@ -9,10 +9,13 @@
       "minecraft:icon": {
         "texture": "dynamite_big"
       },
+      "minecraft:max_stack_size": {
+        "value": 16
+      },
       "minecraft:projectile": {
-        "projectile_entity": "paladium:big_dynamite",
-        "throw_force": 1.5
-      } 
+        "projectile_entity": "paladium:dynamite_big",
+        "throw_force": 0.4
+      }
     }
   }
 }

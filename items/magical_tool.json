@@ -23,7 +23,7 @@
       },
       "paladium:block_remover": {
         "block_tag_can_remove": [
-            "paladium:obsidian"
+          "paladium:obsidian"
         ]
       }
     }
