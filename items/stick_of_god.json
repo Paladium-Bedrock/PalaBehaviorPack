@@ -8,6 +8,47 @@
     "components": {
       "minecraft:icon": {
         "texture": "stick_of_god"
+      },
+      "minecraft:durability": {
+        "max_durability": 8
+      },
+      "minecraft:enchantable": {
+        "slot": "stick_effect",
+        "value": 15
+      },
+      "minecraft:damage": {
+        "damage": 1
+      },
+      "minecraft:hand_equipped": {
+        "enabled": true
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "paladium:stick_effect": {
+        "cooldown": 600,
+        "effects": [
+          {
+            "id": "speed",
+            "power": 5,
+            "duration": 60
+          },
+          {
+            "id": "strenght",
+            "power": 3,
+            "duration": 80
+          },
+          {
+            "id": "saturation",
+            "power": 2,
+            "duration": 240
+          },
+          {
+            "id": "regeneration",
+            "power": 1,
+            "duration": 60
+          }
+        ]
       }
     }
   }

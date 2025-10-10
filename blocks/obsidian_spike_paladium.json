@@ -14,7 +14,7 @@
       },
       "paladium:replace_block": {
         "replace_with": "paladium:paladium_spike"
-      }, 
+      },
       "minecraft:tags": {
         "tags": [
           "paladium:obsidian"

@@ -1,0 +1,2 @@
+c.entity.create_explosion(4);
+c.entity.despawn();

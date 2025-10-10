@@ -17,8 +17,16 @@
       },
       "minecraft:timer": {
         "looping": false,
-        "time": 10,
-        "time_down_event": "events/despawn_event.molang"
+        "time": 5,
+        "time_down_event": "events/entities/dynamite/endium_dynamite_explode_event.molang"
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 1,
+            "destroy_on_hit": false
+          }
+        }
       }
     }
   }

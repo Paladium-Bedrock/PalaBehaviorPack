@@ -25,6 +25,9 @@
       "paladium:crops": {},
       "minecraft:loot": {
         "table": "loot_tables/blocks/loot_kiwano_crops.molang"
+      },
+      "minecraft:collision_box": {
+        "enable": false
       }
     },
     "permutations": [

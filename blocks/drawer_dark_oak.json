@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:drawer_acacia",
+      "identifier": "paladium:drawer_dark_oak",
       "states": {
         "paladium:drawer_upgrade": [
           0,
@@ -28,7 +28,7 @@
       "minecraft:material_instances": {
         "materials": {
           "*": {
-            "texture": "drawer_acacia",
+            "texture": "drawer_dark_oak",
             "render_method": "alpha_test"
           }
         }

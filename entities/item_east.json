@@ -8,7 +8,7 @@
     },
     "components": {
       "minecraft:physics": {
-       "has_collision": true,
+        "has_collision": true,
         "has_gravity": false
       },
       "minecraft:collision_box": {

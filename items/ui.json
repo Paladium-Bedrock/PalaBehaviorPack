@@ -3,7 +3,7 @@
   "minecraft:item": {
     "description": {
       "identifier": "paladium:ui",
-      "creative_category": "items"
+      "register_creative": false
     },
     "components": {
       "minecraft:icon": {

@@ -12,9 +12,9 @@
       "minecraft:max_stack_size": {
         "value": 1
       },
-            "minecraft:durability": {
+      "minecraft:durability": {
         "max_durability": 1,
-         "damage_change": {
+        "damage_change": {
           "min": 0,
           "max": 0
         }
@@ -31,28 +31,28 @@
       },
       "paladium:pickaxe_of_god": {
         "block_tags": [
-            "minecraft:stone"
+          "minecraft:stone"
         ],
         "evolutions": {
-            "paladium:god_pickaxe_0": 100,
-            "paladium:god_pickaxe_1": 200,
-            "paladium:god_pickaxe_2": 300,
-            "paladium:god_pickaxe_3": 400,
-            "paladium:god_pickaxe_4": 500,
-            "paladium:god_pickaxe_5": 600,
-            "paladium:god_pickaxe_6": 700,
-            "paladium:god_pickaxe_7": 800,
-            "paladium:god_pickaxe_8": 900,
-            "paladium:god_pickaxe_9": 1000,
-            "paladium:god_pickaxe_10": 1100,
-            "paladium:god_pickaxe_11": 1200,
-            "paladium:god_pickaxe_12": 1300,
-            "paladium:god_pickaxe_14": 1400,
-            "paladium:god_pickaxe_15": 1500,
-            "paladium:god_pickaxe_16": 1600,
-            "paladium:god_pickaxe_17": 1700,
-            "paladium:god_pickaxe_18": 1800,
-            "paladium:god_pickaxe_19": 1900
+          "paladium:god_pickaxe_0": 100,
+          "paladium:god_pickaxe_1": 200,
+          "paladium:god_pickaxe_2": 300,
+          "paladium:god_pickaxe_3": 400,
+          "paladium:god_pickaxe_4": 500,
+          "paladium:god_pickaxe_5": 600,
+          "paladium:god_pickaxe_6": 700,
+          "paladium:god_pickaxe_7": 800,
+          "paladium:god_pickaxe_8": 900,
+          "paladium:god_pickaxe_9": 1000,
+          "paladium:god_pickaxe_10": 1100,
+          "paladium:god_pickaxe_11": 1200,
+          "paladium:god_pickaxe_12": 1300,
+          "paladium:god_pickaxe_14": 1400,
+          "paladium:god_pickaxe_15": 1500,
+          "paladium:god_pickaxe_16": 1600,
+          "paladium:god_pickaxe_17": 1700,
+          "paladium:god_pickaxe_18": 1800,
+          "paladium:god_pickaxe_19": 1900
         }
       },
       "minecraft:tags": {

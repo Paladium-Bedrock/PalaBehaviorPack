@@ -23,7 +23,7 @@
           "paladium:cobblebreaker",
           "paladium:drawer"
         ],
-        "rayon": 1
+        "radius": 1
       }
     }
   }

@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:drawer_oak",
+      "identifier": "paladium:drawer_mangrove",
       "states": {
         "paladium:drawer_upgrade": [
           0,
@@ -28,14 +28,14 @@
       "minecraft:material_instances": {
         "materials": {
           "*": {
-            "texture": "drawer_oak",
+            "texture": "drawer_mangrove",
             "render_method": "alpha_test"
           }
         }
       },
       "minecraft:destructible_by_mining": {
-        "hardness": 3,
-        "tool_type": 3
+        "hardness": 2,
+        "tool_type": 4
       },
       "minecraft:block_entity": {
         "identifier": "paladium:drawer"
@@ -93,68 +93,68 @@
           }
         }
       },
-       {
+      {
         "condition": "q.block_state('paladium:drawer_upgrade') == 0",
         "components": {
-              "minecraft:geometry": {
-                "identifier": "geometry.drawer"
-            }
+          "minecraft:geometry": {
+            "identifier": "geometry.drawer"
+          }
         }
       },
-       {
+      {
         "condition": "q.block_state('paladium:drawer_upgrade') == 1",
         "components": {
-              "minecraft:geometry": {
-                "identifier": "geometry.drawer_iron"
-            }
+          "minecraft:geometry": {
+            "identifier": "geometry.drawer_iron"
+          }
         }
       },
-       {
+      {
         "condition": "q.block_state('paladium:drawer_upgrade') == 2",
         "components": {
-              "minecraft:geometry": {
-                "identifier": "geometry.drawer_gold"
-            }
+          "minecraft:geometry": {
+            "identifier": "geometry.drawer_gold"
+          }
         }
       },
-       {
+      {
         "condition": "q.block_state('paladium:drawer_upgrade') == 3",
         "components": {
-              "minecraft:geometry": {
-                "identifier": "geometry.drawer_diamond"
-            }
+          "minecraft:geometry": {
+            "identifier": "geometry.drawer_diamond"
+          }
         }
       },
-       {
+      {
         "condition": "q.block_state('paladium:drawer_upgrade') == 4",
         "components": {
-              "minecraft:geometry": {
-                "identifier": "geometry.drawer_amethyst"
-            }
+          "minecraft:geometry": {
+            "identifier": "geometry.drawer_amethyst"
+          }
         }
       },
-       {
+      {
         "condition": "q.block_state('paladium:drawer_upgrade') == 5",
         "components": {
-              "minecraft:geometry": {
-                "identifier": "geometry.drawer_titanium"
-            }
+          "minecraft:geometry": {
+            "identifier": "geometry.drawer_titanium"
+          }
         }
       },
-        {
+      {
         "condition": "q.block_state('paladium:drawer_upgrade') == 6",
         "components": {
-              "minecraft:geometry": {
-                "identifier": "geometry.drawer_paladium"
-            }
+          "minecraft:geometry": {
+            "identifier": "geometry.drawer_paladium"
+          }
         }
       },
-       {
+      {
         "condition": "q.block_state('paladium:drawer_upgrade') == 7",
         "components": {
-              "minecraft:geometry": {
-                "identifier": "geometry.drawer_green_paladium"
-            }
+          "minecraft:geometry": {
+            "identifier": "geometry.drawer_green_paladium"
+          }
         }
       }
     ]

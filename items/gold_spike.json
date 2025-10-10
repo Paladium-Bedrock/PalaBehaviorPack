@@ -6,6 +6,9 @@
       "creative_category": "construction"
     },
     "components": {
+      "minecraft:icon": {
+        "texture": "gold_spike"
+      },
       "minecraft:block_placer": {
         "block": "paladium:gold_spike"
       }

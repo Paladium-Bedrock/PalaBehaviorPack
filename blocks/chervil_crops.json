@@ -20,7 +20,9 @@
       "minecraft:geometry": {
         "identifier": "geometry.crop.2"
       },
-  "minecraft:collision_box": false
+      "minecraft:collision_box": {
+        "enable": false
+      }
     },
     "permutations": [
       {
