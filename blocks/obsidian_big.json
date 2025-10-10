@@ -23,7 +23,7 @@
       "paladium:replace_block": {
         "replace_with": "minecraft:obsidian"
       },
-    "minecraft:tags": {
+      "minecraft:tags": {
         "tags": [
           "paladium:obsidian"
         ]
