@@ -12,7 +12,9 @@
           4,
           5,
           6,
-          7
+          7,
+          8,
+          9
         ]
       }
     },
@@ -20,12 +22,14 @@
       "minecraft:geometry": {
         "identifier": "geometry.crop.2"
       },
-      "paladium:crops": {},
+      "paladium:crops": {
+        "max_growth": 7
+      },
       "minecraft:loot": {
         "table": "loot_tables/blocks/loot_eggplant_crops.molang"
       },
       "minecraft:collision_box": {
-        "enable": false
+        "enabled": false
       }
     },
     "permutations": [
