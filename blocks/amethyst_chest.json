@@ -21,7 +21,6 @@
           }
         }
       },
-
       "minecraft:geometry": {
         "identifier": "geometry.chest"
       },
