@@ -10,7 +10,10 @@
         "texture": "unclaim_finder_orange"
       },
       "minecraft:durability": {
-        "max_durability": 2000
+        "max_durability": 1500
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
       },
       "paladium:unclaim_finder": {
         "block_entity": [
@@ -23,7 +26,8 @@
           "paladium:cobblebreaker",
           "paladium:drawer"
         ],
-        "radius": 12
+        "radius": 12,
+        "cooldown_can_use": 60
       }
     }
   }

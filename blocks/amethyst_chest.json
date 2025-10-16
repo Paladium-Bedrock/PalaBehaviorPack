@@ -33,9 +33,8 @@
       },
       "paladium:custom_chest": {
         "ring_slot_amount": 1,
-        "station_slot_amount": 12,
-        "total_slot_amount": 88,
-        "update_cooldown": 40,
+        "station_slot_amount": 11,
+        "total_slot_amount": 61,
         "ui_id": "paladium:amethyst_chest"
       }
     },

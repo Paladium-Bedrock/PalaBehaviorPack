@@ -1,5 +1,5 @@
 if (c.block.get_property('paladium:growth') < 8) {
-    return [itemstack.create('paladium:orangeblue', 1)];
+    return [itemstack.create('paladium:orangeblue_seed', 1)];
 }
 
 return [itemstack.create('paladium:orangeblue', 1)];

@@ -22,12 +22,14 @@
       "minecraft:geometry": {
         "identifier": "geometry.crop.2"
       },
-      "paladium:crops": {},
+      "paladium:crops": {
+        "max_growth": 9
+      },
       "minecraft:loot": {
         "table": "loot_tables/blocks/loot_kiwano_crops.molang"
       },
       "minecraft:collision_box": {
-        "enable": false
+        "enabled": false
       }
     },
     "permutations": [
