@@ -13,12 +13,12 @@
     "key": {
       "A": [
         {
-          "item": "paladium:titanium_ingot"
+          "item": "paladium:titanium_block"
         }
       ]
     },
     "result": {
-      "item": "paladium:titanium_block",
+      "item": "paladium:titanium_ingot",
       "count": 9
     }
   }
