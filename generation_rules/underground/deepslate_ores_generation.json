@@ -22,8 +22,8 @@
         "options": {
           "block": "paladium:deepslate_findium_ore",
           "replaceable_block": "minecraft:deepslate",
-          "cluster_count": 1,
-          "cluster_size": 2,
+          "cluster_count": 2,
+          "cluster_size": 5,
           "min_height": -64,
           "max_height": 8
         }
