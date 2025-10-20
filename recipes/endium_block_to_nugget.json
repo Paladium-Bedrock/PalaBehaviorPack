@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:endium_block_to_ingot"
+      "identifier": "paladium:endium_block_to_nugget"
     },
     "tags": [
       "crafting_table"
@@ -13,12 +13,12 @@
     "key": {
       "A": [
         {
-          "item": "paladium:endium_nugget"
+          "item": "paladium:endium_block"
         }
       ]
     },
     "result": {
-      "item": "paladium:endium_block",
+      "item": "paladium:endium_nugget",
       "count": 9
     }
   }
