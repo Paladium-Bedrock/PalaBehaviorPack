@@ -18,11 +18,11 @@
         "item": "paladium:paladium_ingot"
       },
       "minecraft:durability": {
-        "max_durability": 3900
+        "max_durability": 660
       },
       "minecraft:wearable": {
         "slot": "slot.armor.legs",
-        "protection": 6,
+        "protection": 8,
         "toughness": 3
       },
       "minecraft:repairable": {
@@ -43,7 +43,7 @@
       },
       "minecraft:enchantable": {
         "slot": "armor_legs",
-        "value": 15
+        "value": 18
       },
       "minecraft:tags": {
         "tags": [

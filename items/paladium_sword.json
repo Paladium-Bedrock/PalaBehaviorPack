@@ -13,7 +13,7 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 2400
       },
       "paladium:recyclable": {
         "min": 1,
@@ -21,7 +21,7 @@
         "item": "paladium:paladium_ingot"
       },
       "minecraft:damage": {
-        "damage": 10
+        "damage": 9
       },
       "minecraft:hand_equipped": {
         "enabled": true
@@ -44,7 +44,7 @@
       },
       "minecraft:enchantable": {
         "slot": "sword",
-        "value": 15
+        "value": 18
       },
       "minecraft:tags": {
         "tags": [

@@ -13,7 +13,7 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 2400
       },
       "paladium:recyclable": {
         "min": 0,
@@ -25,7 +25,7 @@
         "multiplier": 9.0
       },
       "minecraft:damage": {
-        "damage": 4
+        "damage": 6
       },
       "minecraft:hand_equipped": {
         "enabled": true
@@ -48,7 +48,7 @@
       },
       "minecraft:enchantable": {
         "slot": "shovel",
-        "value": 15
+        "value": 18
       },
       "minecraft:tags": {
         "tags": [

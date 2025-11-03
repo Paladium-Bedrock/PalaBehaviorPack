@@ -5,22 +5,27 @@
       "identifier": "paladium:paladium_sword"
     },
     "tags": [
-      "crafting_table"
+      "assembly_table"
     ],
     "pattern": [
-      "X",
-      "X",
-      "#"
+      "ABC",
+      "   ",
+      "   "
     ],
     "key": {
-      "X": [
+      "A": [
         {
-          "item": "paladium:paladium_ingot"
+          "item": "paladium:head_sword"
         }
       ],
-      "#": [
+      "B": [
         {
-          "item": "minecraft:stick"
+          "item": "paladium:titanium_stick"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:paladium_ingot"
         }
       ]
     },

@@ -16,7 +16,7 @@
         "radius": 3
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 2400
       },
       "paladium:recyclable": {
         "min": 1,
@@ -27,7 +27,7 @@
         "tier": 6
       },
       "minecraft:damage": {
-        "damage": 5
+        "damage": 3
       },
       "minecraft:hand_equipped": {
         "enabled": true
@@ -50,7 +50,7 @@
       },
       "minecraft:enchantable": {
         "slot": "hoe",
-        "value": 15
+        "value": 18
       },
       "minecraft:tags": {
         "tags": [
