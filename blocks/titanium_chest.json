@@ -32,7 +32,7 @@
         "identifier": "paladium:custom_chest"
       },
       "paladium:custom_chest": {
-         "ring_slot_amount": 2,
+        "ring_slot_amount": 2,
         "station_slot_amount": 21,
         "total_slot_amount": 71,
         "update_cooldown": 60,
