@@ -13,11 +13,11 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 2860
+        "max_durability": 560
       },
       "minecraft:wearable": {
         "slot": "slot.armor.head",
-        "protection": 3,
+        "protection": 5,
         "toughness": 2
       },
       "paladium:armor_effect": {
@@ -46,7 +46,7 @@
       },
       "minecraft:enchantable": {
         "slot": "armor_head",
-        "value": 10
+        "value": 22
       },
       "minecraft:tags": {
         "tags": [

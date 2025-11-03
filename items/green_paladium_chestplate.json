@@ -13,12 +13,11 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4160
+        "max_durability": 770
       },
       "minecraft:wearable": {
         "slot": "slot.armor.chest",
-        "protection": 8,
-        "toughness": 2
+        "protection": 9
       },
       "minecraft:repairable": {
         "repair_items": [
@@ -38,7 +37,7 @@
       },
       "minecraft:enchantable": {
         "slot": "armor_torso",
-        "value": 10
+        "value": 22
       },
       "minecraft:tags": {
         "tags": [

@@ -13,12 +13,11 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 3380
+        "max_durability": 630
       },
       "minecraft:wearable": {
         "slot": "slot.armor.feet",
-        "protection": 3,
-        "toughness": 2
+        "protection": 4
       },
       "paladium:armor_effect": {
         "effects": [
@@ -46,7 +45,7 @@
       },
       "minecraft:enchantable": {
         "slot": "armor_feet",
-        "value": 10
+        "value": 22
       },
       "minecraft:tags": {
         "tags": [

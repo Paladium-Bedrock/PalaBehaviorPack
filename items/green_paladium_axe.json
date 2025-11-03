@@ -13,7 +13,7 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 2700
       },
       "minecraft:axe": {
         "tier": 6,
@@ -43,7 +43,7 @@
       },
       "minecraft:enchantable": {
         "slot": "axe",
-        "value": 15
+        "value": 22
       },
       "minecraft:tags": {
         "tags": [
