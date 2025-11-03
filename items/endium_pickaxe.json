@@ -16,8 +16,8 @@
         "max_durability": 3200
       },
       "minecraft:pickaxe": {
-        "tier": 6,
-        "multiplier": 9.0
+        "tier": 9,
+        "multiplier": 13.0
       },
       "paladium:recyclable": {
         "min": 1,

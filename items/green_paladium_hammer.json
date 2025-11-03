@@ -13,15 +13,15 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 8100
       },
       "paladium:hammer": {
-        "tier": 6,
+        "tier": 8,
         "multiplier": 9.0,
         "radius": 1
       },
       "minecraft:damage": {
-        "damage": 8
+        "damage": 9
       },
       "minecraft:hand_equipped": {
         "enabled": true
@@ -44,7 +44,7 @@
       },
       "minecraft:enchantable": {
         "slot": "hammer",
-        "value": 15
+        "value": 22
       },
       "minecraft:tags": {
         "tags": [

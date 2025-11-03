@@ -16,8 +16,8 @@
         "max_durability": 2700
       },
       "minecraft:pickaxe": {
-        "tier": 6,
-        "multiplier": 9.0
+        "tier": 8,
+        "multiplier": 12.0
       },
       "minecraft:damage": {
         "damage": 8

@@ -55,6 +55,9 @@
           "minecraft:digger",
           "minecraft:is_tool"
         ]
+      },
+      "minecraft:hoe": {
+        "tier": 5
       }
     }
   }

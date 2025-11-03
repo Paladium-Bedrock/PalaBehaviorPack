@@ -21,8 +21,8 @@
         "item": "paladium:paladium_ingot"
       },
       "minecraft:shovel": {
-        "tier": 6,
-        "multiplier": 9.0
+        "tier": 7,
+        "multiplier": 11.0
       },
       "minecraft:damage": {
         "damage": 6
