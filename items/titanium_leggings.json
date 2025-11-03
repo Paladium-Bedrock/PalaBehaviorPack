@@ -13,7 +13,7 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 3900
+        "max_durability": 600
       },
       "paladium:recyclable": {
         "min": 1,
@@ -22,8 +22,7 @@
       },
       "minecraft:wearable": {
         "slot": "slot.armor.legs",
-        "protection": 3,
-        "toughness": 2
+        "protection": 7
       },
       "minecraft:repairable": {
         "repair_items": [
@@ -43,7 +42,7 @@
       },
       "minecraft:enchantable": {
         "slot": "armor_legs",
-        "value": 10
+        "value": 12
       },
       "minecraft:tags": {
         "tags": [
