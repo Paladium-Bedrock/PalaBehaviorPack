@@ -13,10 +13,13 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 1750
       },
       "minecraft:icon": {
         "texture": "amethyst_seedplanter"
+      },
+      "minecraft:enchantable": {
+        "value": 15
       }
     }
   }

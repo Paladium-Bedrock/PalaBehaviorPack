@@ -13,11 +13,11 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 1600
+        "max_durability": 580
       },
       "minecraft:wearable": {
         "slot": "slot.armor.chest",
-        "protection": 6
+        "protection": 7
       },
       "paladium:recyclable": {
         "min": 1,
@@ -42,7 +42,7 @@
       },
       "minecraft:enchantable": {
         "slot": "armor_torso",
-        "value": 9
+        "value": 15
       },
       "minecraft:tags": {
         "tags": [

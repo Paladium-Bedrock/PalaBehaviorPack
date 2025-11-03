@@ -18,10 +18,10 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 1750
       },
       "minecraft:damage": {
-        "damage": 10
+        "damage": 8
       },
       "minecraft:hand_equipped": {
         "enabled": true

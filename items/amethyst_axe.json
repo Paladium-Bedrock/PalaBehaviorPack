@@ -13,14 +13,14 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 1750
       },
       "minecraft:axe": {
         "tier": 6,
         "multiplier": 9.0
       },
       "minecraft:damage": {
-        "damage": 9
+        "damage": 7
       },
       "minecraft:hand_equipped": {
         "enabled": true
