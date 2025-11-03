@@ -2,28 +2,28 @@
 	"format_version": "1.0.8",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "paladium:unclaim_finder_precise"
+			"identifier": "paladium:jump_stick"
 		},
 		"tags": [
 			"palamachine"
 		],
 		"key": {
 			"A": [{
-				"item": "paladium:big_ring"
+				"item": "paladium:titanium_stick"
 			}],
 			"B": [{
-				"item": "paladium:findium_block"
+				"item": "paladium:orb_jump"
 			}],
 			"C": [{
-				"item": "paladium:unclaim_finder_red"
+				"item": "paladium:green_slimepad"
 			}]
 		},
 		"pattern": [
-			"BAB",
+			"ABA",
 			"C C"
 		],
 		"result": {
-			"item": "paladium:unclaim_finder_precise"
+			"item": "paladium:jump_stick"
 		}
 	}
 }

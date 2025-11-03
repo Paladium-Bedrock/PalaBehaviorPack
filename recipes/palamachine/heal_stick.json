@@ -2,28 +2,28 @@
 	"format_version": "1.0.8",
 	"minecraft:recipe_shaped": {
 		"description": {
-			"identifier": "paladium:unclaim_finder_precise"
+			"identifier": "paladium:heal_stick"
 		},
 		"tags": [
 			"palamachine"
 		],
 		"key": {
 			"A": [{
-				"item": "paladium:big_ring"
+				"item": "paladium:paladium_stick"
 			}],
 			"B": [{
-				"item": "paladium:findium_block"
+				"item": "paladium:orb_heal"
 			}],
 			"C": [{
-				"item": "paladium:unclaim_finder_red"
+				"item": "paladium:paladium_block"
 			}]
 		},
 		"pattern": [
-			"BAB",
+			"ABA",
 			"C C"
 		],
 		"result": {
-			"item": "paladium:unclaim_finder_precise"
+			"item": "paladium:heal_stick"
 		}
 	}
 }

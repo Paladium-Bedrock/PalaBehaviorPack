@@ -1,0 +1,32 @@
+{
+	"format_version": "1.0.8",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "paladium:strength_stick"
+		},
+		"tags": [
+			"palamachine"
+		],
+		"key": {
+			"A": [{
+				"item": "paladium:paladium_stick"
+			}],
+			"B": [{
+				"item": "paladium:orb_strength"
+			}],
+			"C": [{
+				"item": "paladium:paladium_block"
+			}],
+			"D": [{
+				"item": "paladium:titanium_stick"
+			}]
+		},
+		"pattern": [
+			"ABD",
+			"C C"
+		],
+		"result": {
+			"item": "paladium:strength_stick"
+		}
+	}
+}

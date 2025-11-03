@@ -1,31 +1,26 @@
 {
-  "format_version": "1.0.0",
-  "minecraft:recipe_shaped": {
-    "description": {
-      "identifier": "paladium:unclaim_finder_orange"
-    },
-    "tags": [
-      "palamachine"
-    ],
-    "pattern": [
-      " A ",
-      "B B",
-      "B B"
-    ],
-    "key": {
-      "A": [
-        {
-          "item": "paladium:unclaim_finder_green"
-        }
-      ],
-      "B": [
-        {
-          "item": "paladium:findium"
-        }
-      ]
-    },
-    "result": {
-      "item": "paladium:unclaim_finder_orange"
-    }
-  }
+	"format_version": "1.0.8",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "paladium:unclaim_finder_orange"
+		},
+		"tags": [
+			"palamachine"
+		],
+		"key": {
+			"A": [{
+				"item": "paladium:unclaim_finder_green"
+			}],
+			"B": [{
+				"item": "paladium:findium"
+			}]
+		},
+		"pattern": [
+			"BAB",
+			"B B"
+		],
+		"result": {
+			"item": "paladium:unclaim_finder_orange"
+		}
+	}
 }
