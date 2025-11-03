@@ -18,7 +18,7 @@
         "item": "paladium:endium_ingot"
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 3200
       },
       "minecraft:damage": {
         "damage": 10
@@ -44,7 +44,7 @@
       },
       "minecraft:enchantable": {
         "slot": "sword",
-        "value": 15
+        "value": 25
       },
       "minecraft:tags": {
         "tags": [
