@@ -10,7 +10,7 @@
         "texture": "green_paladium_hoe"
       },
        "paladium:big_hoe": {
-        "radius": 3
+        "radius": 4
       },
       "minecraft:max_stack_size": {
         "value": 1

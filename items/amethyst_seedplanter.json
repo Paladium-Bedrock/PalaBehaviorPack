@@ -7,7 +7,7 @@
     },
     "components": {
       "paladium:seedplanter": {
-        "radius": 3
+        "radius": 1
       },
       "minecraft:max_stack_size": {
         "value": 1

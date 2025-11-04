@@ -7,7 +7,7 @@
     },
     "components": {
       "paladium:big_hoe": {
-        "radius": 3
+        "radius": 1
       },
       "minecraft:icon": {
         "texture": "amethyst_hoe"
