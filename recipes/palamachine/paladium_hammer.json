@@ -1,5 +1,5 @@
 {
-  "format_version": "1.0.8",
+  "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
       "identifier": "paladium:paladium_core"
@@ -8,15 +8,21 @@
       "palamachine"
     ],
     "key": {
-      "B": [{
-        "item": "paladium:paladium_stick"
-      }],
-      "D": [{
-        "item": "paladium:paladium_ingot"
-      }],
-      "C": [{
-        "item": "paladium:titanium_stick"
-        }]
+      "B": [
+        {
+          "item": "paladium:paladium_stick"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:titanium_stick"
+        }
+      ]
     },
     "pattern": [
       "CDB",

@@ -1,29 +1,35 @@
 {
-	"format_version": "1.0.8",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "paladium:unclaim_finder_precise"
-		},
-		"tags": [
-			"palamachine"
-		],
-		"key": {
-			"A": [{
-				"item": "paladium:big_ring"
-			}],
-			"B": [{
-				"item": "paladium:findium_block"
-			}],
-			"C": [{
-				"item": "paladium:unclaim_finder_red"
-			}]
-		},
-		"pattern": [
-			"BAB",
-			"C C"
-		],
-		"result": {
-			"item": "paladium:unclaim_finder_precise"
-		}
-	}
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:unclaim_finder_precise"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:big_ring"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:findium_block"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:unclaim_finder_red"
+        }
+      ]
+    },
+    "pattern": [
+      "BAB",
+      "C C"
+    ],
+    "result": {
+      "item": "paladium:unclaim_finder_precise"
+    }
+  }
 }

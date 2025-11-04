@@ -1,29 +1,35 @@
 {
-	"format_version": "1.0.8",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "paladium:medium_ring"
-		},
-		"tags": [
-			"palamachine"
-		],
-		"key": {
-			"A": [{
-				"item": "paladium:paladium_block"
-			}],
-			"B": [{
-				"item": "paladium:paladium_ingot"
-			}],
-			"C": [{
-				"item": "paladium:small_ring"
-			}]
-		},
-		"pattern": [
-			"ACA",
-			"B B"
-		],
-		"result": {
-			"item": "paladium:medium_ring"
-		}
-	}
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:medium_ring"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_block"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:small_ring"
+        }
+      ]
+    },
+    "pattern": [
+      "ACA",
+      "B B"
+    ],
+    "result": {
+      "item": "paladium:medium_ring"
+    }
+  }
 }

@@ -1,29 +1,35 @@
 {
-	"format_version": "1.0.8",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "paladium:heal_stick"
-		},
-		"tags": [
-			"palamachine"
-		],
-		"key": {
-			"A": [{
-				"item": "paladium:paladium_stick"
-			}],
-			"B": [{
-				"item": "paladium:orb_heal"
-			}],
-			"C": [{
-				"item": "paladium:paladium_block"
-			}]
-		},
-		"pattern": [
-			"ABA",
-			"C C"
-		],
-		"result": {
-			"item": "paladium:heal_stick"
-		}
-	}
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:heal_stick"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_stick"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:orb_heal"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:paladium_block"
+        }
+      ]
+    },
+    "pattern": [
+      "ABA",
+      "C C"
+    ],
+    "result": {
+      "item": "paladium:heal_stick"
+    }
+  }
 }

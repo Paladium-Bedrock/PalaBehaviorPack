@@ -1,5 +1,5 @@
 {
-  "format_version": "1.0.8",
+  "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
       "identifier": "paladium:paladium_seedplanter"
@@ -8,15 +8,21 @@
       "palamachine"
     ],
     "key": {
-      "A": [{
-        "item": "paladium:head_hoe"
-      }],
-      "B": [{
-        "item": "paladium:titanium_stick"
-      }],
-      "D": [{
-        "item": "paladium:compressed_paladium"
-      }]
+      "A": [
+        {
+          "item": "paladium:head_hoe"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:titanium_stick"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:compressed_paladium"
+        }
+      ]
     },
     "pattern": [
       "DAD",
