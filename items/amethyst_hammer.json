@@ -17,11 +17,11 @@
       },
       "paladium:hammer": {
         "tier": 5,
-        "multiplier": 6.0,
+        "multiplier": 1.0,
         "radius": 1
       },
       "minecraft:damage": {
-        "damage": 7
+        "damage": 3
       },
       "minecraft:hand_equipped": {
         "enabled": true

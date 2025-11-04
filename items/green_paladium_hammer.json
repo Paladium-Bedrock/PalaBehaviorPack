@@ -17,7 +17,7 @@
       },
       "paladium:hammer": {
         "tier": 8,
-        "multiplier": 9.0,
+        "multiplier": 3.5,
         "radius": 1
       },
       "minecraft:damage": {
@@ -30,15 +30,21 @@
         "repair_items": [
           {
             "items": [
+              "paladium:paladium_ingot"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.05)"
+          },
+          {
+            "items": [
               "paladium:green_paladium_hammer"
             ],
-            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+            "repair_amount": "q.max_durability"
           },
           {
             "items": [
               "paladium:green_paladium_ingot"
             ],
-            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
+            "repair_amount": "q.max_durability"
           }
         ]
       },
