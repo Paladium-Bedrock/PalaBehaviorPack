@@ -46,8 +46,7 @@
             "repair_amount": "q.max_durability"
           }
         ]
-      }
-    },
+      },
       "minecraft:enchantable": {
         "slot": "axe",
         "value": 22
