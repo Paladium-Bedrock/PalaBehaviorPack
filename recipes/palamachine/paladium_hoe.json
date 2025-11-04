@@ -1,0 +1,29 @@
+{
+  "format_version": "1.0.8",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:paladium_hoe"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "key": {
+      "A": [{
+        "item": "paladium:head_hoe"
+      }],
+      "B": [{
+        "item": "paladium:titanium_stick"
+      }],
+      "D": [{
+        "item": "minecraft:gold_ingot"
+      }]
+    },
+    "pattern": [
+      "DAD",
+      "B B"
+    ],
+    "result": {
+      "item": "paladium:paladium_hoe"
+    }
+  }
+}
