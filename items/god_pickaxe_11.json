@@ -22,7 +22,7 @@
       "minecraft:hand_equipped": {
         "enabled": true
       },
-      "paladium:pickaxe_of_god": { },
+      "paladium:pickaxe_of_god": {},
       "minecraft:tags": {
         "tags": [
           "paladium:god_tier",

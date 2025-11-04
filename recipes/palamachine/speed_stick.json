@@ -1,35 +1,45 @@
 {
-	"format_version": "1.0.8",
-	"minecraft:recipe_shaped": {
-		"description": {
-			"identifier": "paladium:speed_stick"
-		},
-		"tags": [
-			"palamachine"
-		],
-		"key": {
-			"A": [{
-				"item": "paladium:amethyst_stick"
-			}],
-			"B": [{
-				"item": "paladium:orb_speed"
-			}],
-			"C": [{
-				"item": "paladium:titanium_stick"
-			}],
-			"D": [{
-				"item": "paladium:compressed_amethyst"
-			}],
-			"E": [{
-				"item": "paladium:compressed_titanium"
-			}]
-		},
-		"pattern": [
-			"ABC",
-			"D E"
-		],
-		"result": {
-			"item": "paladium:speed_stick"
-		}
-	}
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:speed_stick"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:amethyst_stick"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:orb_speed"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:titanium_stick"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:compressed_amethyst"
+        }
+      ],
+      "E": [
+        {
+          "item": "paladium:compressed_titanium"
+        }
+      ]
+    },
+    "pattern": [
+      "ABC",
+      "D E"
+    ],
+    "result": {
+      "item": "paladium:speed_stick"
+    }
+  }
 }
