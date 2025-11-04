@@ -26,31 +26,31 @@
       "paladium:cobblebreaker": {
         "work_duration": 200,
         "work_pause_duration": 80,
-        "update_arrow_duration": 40,
+        "update_arrow_duration": 2,
         "outputs": [
           {
             "id": "paladium:iron_particle",
-            "weight": 500,
+            "weight": 350,
             "particle_id": "paladium:add_particle_iron"
           },
           {
             "id": "paladium:gold_particle",
-            "weight": 400,
+            "weight": 250,
             "particle_id": "paladium:add_particle_gold"
           },
           {
             "id": "paladium:diamond_particle",
-            "weight": 300,
+            "weight": 150,
             "particle_id": "paladium:add_particle_diamond"
           },
           {
             "id": "paladium:amethyst_particle",
-            "weight": 200,
+            "weight": 120,
             "particle_id": "paladium:add_particle_amethyst"
           },
           {
             "id": "paladium:titanium_particle",
-            "weight": 100,
+            "weight": 80,
             "particle_id": "paladium:add_particle_titanium"
           },
           {
