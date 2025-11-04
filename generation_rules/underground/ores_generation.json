@@ -35,16 +35,6 @@
           "min_height": 0,
           "max_height": 16
         }
-      },
-      {
-        "identifier": "minecraft:ore",
-        "options": {
-          "block": "paladium:green_paladium_ore",
-          "cluster_count": 1,
-          "cluster_size": 1,
-          "min_height": 0,
-          "max_height": 16
-        }
       }
     ]
   }
