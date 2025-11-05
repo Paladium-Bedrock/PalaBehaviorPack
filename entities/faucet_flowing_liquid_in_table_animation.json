@@ -15,6 +15,11 @@
         "looping": false,
         "time": 4,
         "time_down_event": "events/despawn_event.molang"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "nolagg"
+        ]
       }
     }
   }
