@@ -9,9 +9,21 @@
       {
         "identifier": "minecraft:ore",
         "options": {
-          "block": "paladium:titanium_ore",
+          "block": "minecraft:amethyst_block",
+          "replaceable_block": "minecraft:stone",
           "cluster_count": 1,
-          "cluster_size": 7,
+          "cluster_size": 3,
+          "min_height": 32,
+          "max_height": 64
+        }
+      },
+      {
+        "identifier": "minecraft:ore",
+        "options": {
+          "block": "paladium:titanium_ore",
+          "replaceable_block": "minecraft:stone",
+          "cluster_count": 2,
+          "cluster_size": 6,
           "min_height": 0,
           "max_height": 30
         }
@@ -19,9 +31,10 @@
       {
         "identifier": "minecraft:ore",
         "options": {
-          "block": "paladium:findium_ore",
-          "cluster_count": 2,
-          "cluster_size": 2,
+          "block": "paladium:paladium_ore",
+          "replaceable_block": "minecraft:stone",
+          "cluster_count": 3,
+          "cluster_size": 7,
           "min_height": 0,
           "max_height": 16
         }
@@ -29,9 +42,10 @@
       {
         "identifier": "minecraft:ore",
         "options": {
-          "block": "paladium:paladium_ore",
+          "block": "paladium:findium_ore",
+          "replaceable_block": "minecraft:stone",
           "cluster_count": 1,
-          "cluster_size": 6,
+          "cluster_size": 3,
           "min_height": 0,
           "max_height": 16
         }

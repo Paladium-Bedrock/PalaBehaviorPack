@@ -2,24 +2,25 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_boots"
+      "identifier": "paladium:endium_leggings"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
+      "XXX",
       "X X",
       "X X"
     ],
     "key": {
       "X": [
         {
-          "item": "paladium:paladium_ingot"
+          "item": "paladium:endium_ingot"
         }
       ]
     },
     "result": {
-      "item": "paladium:paladium_boots"
+      "item": "paladium:endium_leggings"
     }
   }
 }

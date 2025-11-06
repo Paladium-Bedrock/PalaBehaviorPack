@@ -2,24 +2,24 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:endium_block_to_nugget"
+      "identifier": "paladium:endium_helmet"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "A"
+      "XXX",
+      "X X"
     ],
     "key": {
-      "A": [
+      "X": [
         {
-          "item": "paladium:endium_block"
+          "item": "paladium:endium_ingot"
         }
       ]
     },
     "result": {
-      "item": "paladium:endium_nugget",
-      "count": 9
+      "item": "paladium:endium_helmet"
     }
   }
 }

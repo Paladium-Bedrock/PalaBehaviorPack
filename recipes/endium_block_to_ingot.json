@@ -2,24 +2,24 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_boots"
+      "identifier": "paladium:endium_block_to_ingot"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "X X",
-      "X X"
+      "A"
     ],
     "key": {
-      "X": [
+      "A": [
         {
-          "item": "paladium:paladium_ingot"
+          "item": "paladium:endium_block"
         }
       ]
     },
     "result": {
-      "item": "paladium:paladium_boots"
+      "item": "paladium:endium_ingot",
+      "count": 9
     }
   }
 }

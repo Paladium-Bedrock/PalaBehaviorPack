@@ -2,24 +2,25 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_boots"
+      "identifier": "paladium:amethyst_chestplate"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
       "X X",
-      "X X"
+      "XXX",
+      "XXX"
     ],
     "key": {
       "X": [
         {
-          "item": "paladium:paladium_ingot"
+          "item": "minecraft:amethyst_shard"
         }
       ]
     },
     "result": {
-      "item": "paladium:paladium_boots"
+      "item": "paladium:amethyst_chestplate"
     }
   }
 }

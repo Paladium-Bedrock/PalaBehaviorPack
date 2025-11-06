@@ -2,24 +2,24 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_boots"
+      "identifier": "paladium:amethyst_block_to_shard"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "X X",
-      "X X"
+      "A"
     ],
     "key": {
-      "X": [
+      "A": [
         {
-          "item": "paladium:paladium_ingot"
+          "item": "minecraft:amethyst_block"
         }
       ]
     },
     "result": {
-      "item": "paladium:paladium_boots"
+      "item": "minecraft:amethyst_shard",
+      "count": 4
     }
   }
 }
