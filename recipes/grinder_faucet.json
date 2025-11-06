@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:grinder_faucet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " B ",
+      "AAA",
+      "B  "
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:gold_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:grinder_faucet"
+    }
+  }
+}

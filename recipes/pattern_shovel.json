@@ -1,0 +1,36 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:pattern_shovel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BAB",
+      "ACA",
+      "BAB"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:amethyst_shovel"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:pattern_shovel"
+    }
+  }
+}
