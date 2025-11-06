@@ -1,0 +1,26 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:paladium_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XXX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:paladium_leggings"
+    }
+  }
+}
