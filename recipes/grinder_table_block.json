@@ -1,0 +1,36 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:grinder_table"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DBD ",
+      "A A",
+      "A A"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "minecraft:deepslate"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:grinder_table"
+    }
+  }
+}

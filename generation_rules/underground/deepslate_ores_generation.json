@@ -11,8 +11,8 @@
         "options": {
           "block": "minecraft:amethyst_block",
           "replaceable_block": "minecraft:deepslate",
-          "cluster_count": 7,
-          "cluster_size": 2,
+          "cluster_count": 15,
+          "cluster_size": 3,
           "min_height": -48,
           "max_height": 0
         }
@@ -22,7 +22,7 @@
         "options": {
           "block": "paladium:deepslate_titanium_ore",
           "replaceable_block": "minecraft:deepslate",
-          "cluster_count": 7,
+          "cluster_count": 15,
           "cluster_size": 4,
           "min_height": -48,
           "max_height": 0
@@ -34,7 +34,7 @@
           "block": "paladium:deepslate_paladium_ore",
           "replaceable_block": "minecraft:deepslate",
           "cluster_count": 4,
-          "cluster_size": 8,
+          "cluster_size": 9,
           "min_height": -48,
           "max_height": -8
         }
