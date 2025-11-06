@@ -13,12 +13,12 @@
     "key": {
       "A": [
         {
-          "item": "paladium:findium"
+          "item": "paladium:findium_block"
         }
       ]
     },
     "result": {
-      "item": "paladium:findium_block",
+      "item": "paladium:findium",
       "count": 9
     }
   }
