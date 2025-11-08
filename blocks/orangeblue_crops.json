@@ -25,6 +25,9 @@
       "paladium:crops": {
         "max_growth": 9
       },
+      "minecraft:destructible_by_mining": {
+        "hardness": 0
+      },
       "minecraft:loot": {
         "table": "loot_tables/blocks/loot_orangeblue_crops.molang"
       },

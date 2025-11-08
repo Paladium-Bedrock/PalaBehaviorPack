@@ -22,6 +22,9 @@
       "minecraft:geometry": {
         "identifier": "geometry.crop.2"
       },
+      "minecraft:destructible_by_mining": {
+        "hardness": 0
+      },
       "paladium:crops": {
         "max_growth": 7
       },
