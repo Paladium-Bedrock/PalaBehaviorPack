@@ -2,34 +2,34 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_core"
+      "identifier": "paladium:paladium_hammer"
     },
     "tags": [
       "palamachine"
     ],
     "key": {
+      "A": [
+        {
+          "item": "paladium:head_hammer"
+        }
+      ],
       "B": [
         {
-          "item": "paladium:paladium_stick"
+          "item": "paladium:titanium_stick"
         }
       ],
       "D": [
         {
-          "item": "paladium:paladium_ingot"
-        }
-      ],
-      "C": [
-        {
-          "item": "paladium:titanium_stick"
+          "item": "minecraft:gold_ingot"
         }
       ]
     },
     "pattern": [
-      "CDB",
-      "B C"
+      "DAD",
+      "B B"
     ],
     "result": {
-      "item": "paladium:paladium_core"
+      "item": "paladium:paladium_hammer"
     }
   }
 }

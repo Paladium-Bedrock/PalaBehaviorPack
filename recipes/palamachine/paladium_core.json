@@ -2,34 +2,34 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_axe"
+      "identifier": "paladium:paladium_core"
     },
     "tags": [
       "palamachine"
     ],
     "key": {
-      "A": [
-        {
-          "item": "paladium:head_axe"
-        }
-      ],
       "B": [
         {
-          "item": "paladium:titanium_stick"
+          "item": "paladium:paladium_stick"
         }
       ],
       "D": [
         {
-          "item": "minecraft:gold_ingot"
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:titanium_stick"
         }
       ]
     },
     "pattern": [
-      "DAD",
-      "B B"
+      "CDB",
+      "B C"
     ],
     "result": {
-      "item": "paladium:paladium_axe"
+      "item": "paladium:paladium_core"
     }
   }
 }
