@@ -1,0 +1,22 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:fertilized_dirt"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "fertilized_dirt"
+          }
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 0.5,
+        "tool_type": 2,
+        "tool_tier": 1
+      }
+    }
+  }
+}
