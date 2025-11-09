@@ -25,8 +25,11 @@
       "minecraft:destructible_by_mining": {
         "hardness": 0
       },
+      "minecraft:random_ticks": {},
       "paladium:crops": {
-        "max_growth": 7
+        "max_growth": 7,
+        "seed_identifier": "paladium:eggplant_seed",
+        "seed_drop_chance": 5
       },
       "minecraft:loot": {
         "table": "loot_tables/blocks/loot_eggplant_crops.molang"

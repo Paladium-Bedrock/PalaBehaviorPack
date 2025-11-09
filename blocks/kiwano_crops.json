@@ -23,7 +23,9 @@
         "identifier": "geometry.crop.2"
       },
       "paladium:crops": {
-        "max_growth": 9
+        "max_growth": 9,
+        "seed_identifier": "paladium:kiwano_seed",
+        "seed_drop_chance": 8
       },
       "minecraft:destructible_by_mining": {
         "hardness": 0
@@ -33,7 +35,8 @@
       },
       "minecraft:collision_box": {
         "enabled": false
-      }
+      },
+      "minecraft:random_ticks": {}
     },
     "permutations": [
       {
