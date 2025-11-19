@@ -13,11 +13,11 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 2700
       },
       "minecraft:axe": {
-        "tier": 6,
-        "multiplier": 9.0
+        "tier": 8,
+        "multiplier": 12.0
       },
       "minecraft:damage": {
         "damage": 9
@@ -29,21 +29,27 @@
         "repair_items": [
           {
             "items": [
+              "paladium:paladium_ingot"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.05)"
+          },
+          {
+            "items": [
               "paladium:green_paladium_axe"
             ],
-            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+            "repair_amount": "q.max_durability"
           },
           {
             "items": [
               "paladium:green_paladium_ingot"
             ],
-            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
+            "repair_amount": "q.max_durability"
           }
         ]
       },
       "minecraft:enchantable": {
         "slot": "axe",
-        "value": 15
+        "value": 22
       },
       "minecraft:tags": {
         "tags": [

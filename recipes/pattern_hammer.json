@@ -1,0 +1,36 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:pattern_hammer"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BAB",
+      "ACA",
+      "BAB"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:amethyst_hammer"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:pattern_hammer"
+    }
+  }
+}

@@ -29,7 +29,7 @@
         "cooldown": 600,
         "effects": [
           {
-            "id": "jump",
+            "id": "jump_boost",
             "power": 4,
             "duration": 20
           }

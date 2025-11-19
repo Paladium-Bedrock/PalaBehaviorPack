@@ -13,7 +13,7 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 2700
       },
       "minecraft:damage": {
         "damage": 10
@@ -25,21 +25,27 @@
         "repair_items": [
           {
             "items": [
+              "paladium:paladium_ingot"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.05)"
+          },
+          {
+            "items": [
               "paladium:green_paladium_sword"
             ],
-            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+            "repair_amount": "q.max_durability"
           },
           {
             "items": [
               "paladium:green_paladium_ingot"
             ],
-            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
+            "repair_amount": "q.max_durability"
           }
         ]
       },
       "minecraft:enchantable": {
         "slot": "sword",
-        "value": 15
+        "value": 22
       },
       "minecraft:tags": {
         "tags": [

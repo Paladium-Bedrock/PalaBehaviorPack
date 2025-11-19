@@ -2,30 +2,30 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_shovel"
+      "identifier": "paladium:grinder_block"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "X",
-      "#",
-      "#"
+      "AAA",
+      "ABA",
+      "AAA"
     ],
     "key": {
-      "X": [
+      "A": [
         {
           "item": "paladium:paladium_ingot"
         }
       ],
-      "#": [
+      "B": [
         {
-          "item": "minecraft:stick"
+          "item": "minecraft:blast_furnace"
         }
       ]
     },
     "result": {
-      "item": "paladium:paladium_shovel"
+      "item": "paladium:grinder_block"
     }
   }
 }

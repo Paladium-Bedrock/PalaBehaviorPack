@@ -7,11 +7,6 @@
     "tags": [
       "palamachine"
     ],
-    "pattern": [
-      " A ",
-      "B B",
-      "B B"
-    ],
     "key": {
       "A": [
         {
@@ -24,6 +19,10 @@
         }
       ]
     },
+    "pattern": [
+      "BAB",
+      "B B"
+    ],
     "result": {
       "item": "paladium:small_ring"
     }

@@ -13,10 +13,10 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 1750
       },
       "minecraft:shovel": {
-        "tier": 6,
+        "tier": 5,
         "multiplier": 9.0
       },
       "paladium:recyclable": {
@@ -25,7 +25,7 @@
         "item": "minecraft:amethyst_shard"
       },
       "minecraft:damage": {
-        "damage": 4
+        "damage": 5
       },
       "minecraft:hand_equipped": {
         "enabled": true

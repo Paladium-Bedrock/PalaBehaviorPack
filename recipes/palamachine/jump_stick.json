@@ -1,0 +1,35 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:jump_stick"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:titanium_stick"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:orb_jump"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:green_slimepad"
+        }
+      ]
+    },
+    "pattern": [
+      "ABA",
+      "C C"
+    ],
+    "result": {
+      "item": "paladium:jump_stick"
+    }
+  }
+}

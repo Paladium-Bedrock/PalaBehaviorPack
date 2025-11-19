@@ -1,0 +1,25 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:amethyst_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XXX",
+      "X X"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:amethyst_helmet"
+    }
+  }
+}

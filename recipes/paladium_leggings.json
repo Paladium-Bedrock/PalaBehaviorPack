@@ -2,30 +2,25 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_core"
+      "identifier": "paladium:paladium_leggings"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "ABA",
-      "BBB",
-      "ABA"
+      "XXX",
+      "X X",
+      "X X"
     ],
     "key": {
-      "A": [
-        {
-          "item": "paladium:titanium_ingot"
-        }
-      ],
-      "B": [
+      "X": [
         {
           "item": "paladium:paladium_ingot"
         }
       ]
     },
     "result": {
-      "item": "paladium:paladium_core"
+      "item": "paladium:paladium_leggings"
     }
   }
 }

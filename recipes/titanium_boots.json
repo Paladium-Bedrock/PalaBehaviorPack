@@ -1,0 +1,25 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:titanium_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:titanium_boots"
+    }
+  }
+}

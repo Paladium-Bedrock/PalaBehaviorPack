@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:fertilized_dirt",
+      "creative_category": "construction"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "fertilized_dirt"
+      },
+      "minecraft:block_placer": {
+        "block": "paladium:fertilized_dirt"
+      }
+    }
+  }
+}

@@ -7,7 +7,7 @@
     },
     "components": {
       "paladium:big_hoe": {
-        "radius": 3
+        "radius": 1
       },
       "minecraft:icon": {
         "texture": "amethyst_hoe"
@@ -16,7 +16,7 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 1750
       },
       "paladium:recyclable": {
         "min": 1,
@@ -24,7 +24,7 @@
         "item": "minecraft:amethyst_shard"
       },
       "minecraft:damage": {
-        "damage": 5
+        "damage": 2
       },
       "minecraft:hand_equipped": {
         "enabled": true
@@ -55,6 +55,9 @@
           "minecraft:digger",
           "minecraft:is_tool"
         ]
+      },
+      "minecraft:hoe": {
+        "tier": 5
       }
     }
   }

@@ -2,30 +2,24 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:green_paladium_hammer"
+      "identifier": "paladium:titanium_helmet"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
       "XXX",
-      "XXX",
-      " # "
+      "X X"
     ],
     "key": {
       "X": [
         {
-          "item": "paladium:green_paladium_ingot"
-        }
-      ],
-      "#": [
-        {
-          "item": "minecraft:stick"
+          "item": "paladium:titanium_ingot"
         }
       ]
     },
     "result": {
-      "item": "paladium:green_paladium_hammer"
+      "item": "paladium:titanium_helmet"
     }
   }
 }

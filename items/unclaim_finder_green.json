@@ -17,14 +17,19 @@
       },
       "paladium:unclaim_finder": {
         "block_entity": [
-          "minecraft:chest",
-          "minecraft:furnace",
+          "Chest",
+          "Smoker",
+          "minecraft:ender_chest",
+          "Furnace",
           "minecraft:barrel",
           "paladium:grinder_block",
           "paladium:crusher",
           "paladium:palaforge",
           "paladium:cobblebreaker",
-          "paladium:drawer"
+          "paladium:drawer",
+          "paladium:grinder",
+          "paladium:paladium_furnace",
+          "paladium:custom_chest"
         ],
         "radius": 1,
         "cooldown_can_use": 60

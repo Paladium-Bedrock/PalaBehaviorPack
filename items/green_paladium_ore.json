@@ -8,6 +8,11 @@
     "components": {
       "minecraft:block_placer": {
         "block": "paladium:green_paladium_ore"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:ores"
+        ]
       }
     }
   }

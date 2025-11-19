@@ -2,30 +2,25 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_hoe"
+      "identifier": "paladium:titanium_chestplate"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "XX",
-      " #",
-      " #"
+      "X X",
+      "XXX",
+      "XXX"
     ],
     "key": {
       "X": [
         {
-          "item": "paladium:paladium_ingot"
-        }
-      ],
-      "#": [
-        {
-          "item": "minecraft:stick"
+          "item": "paladium:titanium_ingot"
         }
       ]
     },
     "result": {
-      "item": "paladium:paladium_hoe"
+      "item": "paladium:titanium_chestplate"
     }
   }
 }

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.8",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:green_paladium_boots"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "key": {
+      "A": [{
+        "item": "paladium:paladium_boots"
+      }],
+      "B": [{
+        "item": "paladium:compressed_paladium"
+      }],
+      "C": [{
+        "item": "paladium:compressed_amethyst"
+      }],
+      "D": [{
+        "item": "paladium:green_paladium_ingot"
+      }]
+    },
+    "pattern": [
+      "BAC",
+      "D D"
+    ],
+    "result": {
+      "item": "paladium:green_paladium_boots"
+    }
+  }
+}

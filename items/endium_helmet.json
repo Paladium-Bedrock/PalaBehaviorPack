@@ -21,7 +21,7 @@
         ]
       },
       "minecraft:durability": {
-        "max_durability": 2860
+        "max_durability": 620
       },
       "paladium:recyclable": {
         "min": 1,
@@ -30,8 +30,7 @@
       },
       "minecraft:wearable": {
         "slot": "slot.armor.head",
-        "protection": 3,
-        "toughness": 3
+        "protection": 6
       },
       "minecraft:repairable": {
         "repair_items": [
@@ -51,7 +50,7 @@
       },
       "minecraft:enchantable": {
         "slot": "armor_head",
-        "value": 15
+        "value": 25
       },
       "minecraft:tags": {
         "tags": [

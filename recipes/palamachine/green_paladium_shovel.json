@@ -2,20 +2,15 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_seedplanter"
+      "identifier": "paladium:green_paladium_shovel"
     },
     "tags": [
-      "crafting_table"
-    ],
-    "pattern": [
-      "ABA",
-      "ACA",
-      "DDD"
+      "palamachine"
     ],
     "key": {
       "A": [
         {
-          "item": "paladium:paladium_ingot"
+          "item": "paladium:paladium_shovel"
         }
       ],
       "B": [
@@ -25,17 +20,21 @@
       ],
       "C": [
         {
-          "item": "paladium:titanium_seedplanter"
+          "item": "paladium:compressed_amethyst"
         }
       ],
       "D": [
         {
-          "item": "paladium:paladium_stick"
+          "item": "paladium:green_paladium_ingot"
         }
       ]
     },
+    "pattern": [
+      "BAC",
+      "D D"
+    ],
     "result": {
-      "item": "paladium:paladium_seedplanter"
+      "item": "paladium:green_paladium_shovel"
     }
   }
 }

@@ -1,0 +1,41 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:feritility_totem"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ACA",
+      "BAB",
+      "ADA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:oak_log"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:compressed_paladium"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:green_paladium_ingot"
+        }
+      ],
+      "D": [
+        {
+          "item": "minecraft:bone_meal"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:fertility_totem"
+    }
+  }
+}

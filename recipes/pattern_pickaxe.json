@@ -2,30 +2,35 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_sword"
+      "identifier": "paladium:pattern_pickaxe"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "X",
-      "X",
-      "#"
+      "BAB",
+      "ACA",
+      "BAB"
     ],
     "key": {
-      "X": [
+      "A": [
         {
           "item": "paladium:paladium_ingot"
         }
       ],
-      "#": [
+      "B": [
         {
-          "item": "minecraft:stick"
+          "item": "paladium:titanium_ingot"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:amethyst_pickaxe"
         }
       ]
     },
     "result": {
-      "item": "paladium:paladium_sword"
+      "item": "paladium:pattern_pickaxe"
     }
   }
 }

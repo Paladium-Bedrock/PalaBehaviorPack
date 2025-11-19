@@ -18,11 +18,11 @@
         "item": "paladium:endium_ingot"
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 3200
       },
       "minecraft:axe": {
-        "tier": 6,
-        "multiplier": 9.0
+        "tier": 9,
+        "multiplier": 13.0
       },
       "minecraft:damage": {
         "damage": 9
@@ -48,7 +48,7 @@
       },
       "minecraft:enchantable": {
         "slot": "axe",
-        "value": 15
+        "value": 25
       },
       "minecraft:tags": {
         "tags": [

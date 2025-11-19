@@ -13,11 +13,11 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 1750
       },
       "minecraft:pickaxe": {
-        "tier": 6,
-        "multiplier": 9.0
+        "tier": 5,
+        "multiplier": 8.0
       },
       "paladium:recyclable": {
         "min": 1,
@@ -25,7 +25,7 @@
         "item": "minecraft:amethyst_shard"
       },
       "minecraft:damage": {
-        "damage": 5
+        "damage": 6
       },
       "minecraft:hand_equipped": {
         "enabled": true

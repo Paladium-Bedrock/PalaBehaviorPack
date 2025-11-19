@@ -10,19 +10,19 @@
         "texture": "titanium_hoe"
       },
        "paladium:big_hoe": {
-        "radius": 3
+        "radius": 2
       },
       "minecraft:max_stack_size": {
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 2100
       },
       "minecraft:hoe": {
         "tier": 6
       },
       "minecraft:damage": {
-        "damage": 5
+        "damage": 3
       },
       "paladium:recyclable": {
         "min": 1,
@@ -50,7 +50,7 @@
       },
       "minecraft:enchantable": {
         "slot": "hoe",
-        "value": 15
+        "value": 12
       },
       "minecraft:tags": {
         "tags": [

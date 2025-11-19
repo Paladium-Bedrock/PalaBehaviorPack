@@ -7,11 +7,6 @@
     "tags": [
       "palamachine"
     ],
-    "pattern": [
-      " A ",
-      "B B",
-      "C C"
-    ],
     "key": {
       "A": [
         {
@@ -29,6 +24,10 @@
         }
       ]
     },
+    "pattern": [
+      "BAB",
+      "C C"
+    ],
     "result": {
       "item": "paladium:unclaim_finder_red"
     }

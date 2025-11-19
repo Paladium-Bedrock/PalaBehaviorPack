@@ -11,21 +11,10 @@
         "options": {
           "block": "paladium:deepslate_titanium_ore",
           "replaceable_block": "minecraft:deepslate",
-          "cluster_count": 1,
-          "cluster_size": 7,
-          "min_height": -64,
-          "max_height": 8
-        }
-      },
-      {
-        "identifier": "minecraft:ore",
-        "options": {
-          "block": "paladium:deepslate_findium_ore",
-          "replaceable_block": "minecraft:deepslate",
-          "cluster_count": 1,
-          "cluster_size": 2,
-          "min_height": -64,
-          "max_height": 8
+          "cluster_count": 15,
+          "cluster_size": 5,
+          "min_height": -48,
+          "max_height": 0
         }
       },
       {
@@ -33,21 +22,21 @@
         "options": {
           "block": "paladium:deepslate_paladium_ore",
           "replaceable_block": "minecraft:deepslate",
-          "cluster_count": 1,
-          "cluster_size": 6,
-          "min_height": -64,
-          "max_height": 8
+          "cluster_count": 4,
+          "cluster_size": 7,
+          "min_height": -48,
+          "max_height": -8
         }
       },
       {
         "identifier": "minecraft:ore",
         "options": {
-          "block": "paladium:deepslate_green_paladium_ore",
+          "block": "paladium:deepslate_findium_ore",
           "replaceable_block": "minecraft:deepslate",
-          "cluster_count": 1,
-          "cluster_size": 1,
+          "cluster_count": 2,
+          "cluster_size": 4,
           "min_height": -64,
-          "max_height": 8
+          "max_height": -16
         }
       }
     ]

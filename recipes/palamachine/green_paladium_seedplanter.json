@@ -5,35 +5,34 @@
       "identifier": "paladium:green_paladium_seedplanter"
     },
     "tags": [
-      "crafting_table"
-    ],
-    "pattern": [
-      "ABA",
-      "ACA",
-      "DDD"
+      "palamachine"
     ],
     "key": {
       "A": [
         {
-          "item": "paladium:green_paladium_ingot"
+          "item": "paladium:paladium_seedplanter"
         }
       ],
       "B": [
         {
-          "item": "paladium:green_paladium_block"
+          "item": "paladium:compressed_paladium"
         }
       ],
       "C": [
         {
-          "item": "paladium:paladium_seedplanter"
+          "item": "paladium:compressed_amethyst"
         }
       ],
       "D": [
         {
-          "item": "paladium:paladium_stick"
+          "item": "paladium:green_paladium_ingot"
         }
       ]
     },
+    "pattern": [
+      "BAC",
+      "D D"
+    ],
     "result": {
       "item": "paladium:green_paladium_seedplanter"
     }

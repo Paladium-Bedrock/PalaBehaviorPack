@@ -7,28 +7,27 @@
     "tags": [
       "palamachine"
     ],
-    "pattern": [
-      " A ",
-      "B B",
-      "C C"
-    ],
     "key": {
       "A": [
-        {
-          "item": "paladium:small_ring"
-        }
-      ],
-      "B": [
         {
           "item": "paladium:paladium_block"
         }
       ],
-      "C": [
+      "B": [
         {
           "item": "paladium:paladium_ingot"
         }
+      ],
+      "C": [
+        {
+          "item": "paladium:small_ring"
+        }
       ]
     },
+    "pattern": [
+      "ACA",
+      "B B"
+    ],
     "result": {
       "item": "paladium:medium_ring"
     }

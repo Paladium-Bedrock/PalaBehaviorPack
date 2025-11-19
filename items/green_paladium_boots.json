@@ -13,12 +13,11 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 3380
+        "max_durability": 630
       },
       "minecraft:wearable": {
         "slot": "slot.armor.feet",
-        "protection": 3,
-        "toughness": 2
+        "protection": 4
       },
       "paladium:armor_effect": {
         "effects": [
@@ -32,21 +31,27 @@
         "repair_items": [
           {
             "items": [
+              "paladium:paladium_ingot"
+            ],
+            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.05)"
+          },
+          {
+            "items": [
               "paladium:green_paladium_boots"
             ],
-            "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+            "repair_amount": "q.max_durability"
           },
           {
             "items": [
               "paladium:green_paladium_ingot"
             ],
-            "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
+            "repair_amount": "q.max_durability"
           }
         ]
       },
       "minecraft:enchantable": {
         "slot": "armor_feet",
-        "value": 10
+        "value": 22
       },
       "minecraft:tags": {
         "tags": [

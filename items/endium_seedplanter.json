@@ -16,7 +16,10 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 3200
+      },
+      "minecraft:enchantable": {
+        "value": 25
       }
     }
   }

@@ -13,10 +13,10 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 4999
+        "max_durability": 2100
       },
       "minecraft:damage": {
-        "damage": 10
+        "damage": 9
       },
       "minecraft:hand_equipped": {
         "enabled": true
@@ -44,7 +44,7 @@
       },
       "minecraft:enchantable": {
         "slot": "sword",
-        "value": 15
+        "value": 12
       },
       "minecraft:tags": {
         "tags": [

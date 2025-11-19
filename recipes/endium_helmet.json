@@ -2,30 +2,24 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_pickaxe"
+      "identifier": "paladium:endium_helmet"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
       "XXX",
-      " # ",
-      " # "
+      "X X"
     ],
     "key": {
       "X": [
         {
-          "item": "paladium:paladium_ingot"
-        }
-      ],
-      "#": [
-        {
-          "item": "minecraft:stick"
+          "item": "paladium:endium_ingot"
         }
       ]
     },
     "result": {
-      "item": "paladium:paladium_pickaxe"
+      "item": "paladium:endium_helmet"
     }
   }
 }

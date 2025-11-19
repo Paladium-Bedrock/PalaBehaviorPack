@@ -8,6 +8,11 @@
     "components": {
       "minecraft:block_placer": {
         "block": "paladium:deepslate_titanium_ore"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:ores"
+        ]
       }
     }
   }

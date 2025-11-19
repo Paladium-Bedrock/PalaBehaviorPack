@@ -1,0 +1,26 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:endium_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "X X",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "paladium:endium_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:endium_chestplate"
+    }
+  }
+}

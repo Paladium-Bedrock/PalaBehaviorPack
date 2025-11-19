@@ -1,0 +1,45 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:stick_of_god"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:heal_stick"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:strength_stick"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:speed_stick"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:paladium_block"
+        }
+      ],
+      "E": [
+        {
+          "item": "paladium:findium"
+        }
+      ]
+    },
+    "pattern": [
+      "ABC",
+      "D E"
+    ],
+    "result": {
+      "item": "paladium:stick_of_god"
+    }
+  }
+}

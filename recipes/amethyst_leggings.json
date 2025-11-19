@@ -1,0 +1,26 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:amethyst_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XXX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "minecraft:amethyst_shard"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:amethyst_leggings"
+    }
+  }
+}

@@ -27,6 +27,11 @@
             "destroy_on_hit": false
           }
         }
+      },
+      "minecraft:tags": {
+        "tags": [
+          "nolagg"
+        ]
       }
     }
   }

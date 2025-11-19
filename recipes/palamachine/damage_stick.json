@@ -1,0 +1,35 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:damage_stick"
+    },
+    "tags": [
+      "palamachine"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:amethyst_stick"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:titanium_sword"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:paladium_spike"
+        }
+      ]
+    },
+    "pattern": [
+      "ABA",
+      "C C"
+    ],
+    "result": {
+      "item": "paladium:damage_stick"
+    }
+  }
+}

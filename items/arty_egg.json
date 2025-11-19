@@ -1,0 +1,17 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:arty_egg",
+      "creative_category": "construction"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "arty_egg"
+      },
+      "minecraft:entity_placer": {
+        "entity": "paladium:arty"
+      }
+    }
+  }
+}
