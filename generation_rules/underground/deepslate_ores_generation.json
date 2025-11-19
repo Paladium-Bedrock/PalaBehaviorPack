@@ -9,17 +9,6 @@
       {
         "identifier": "minecraft:ore",
         "options": {
-          "block": "minecraft:amethyst_block",
-          "replaceable_block": "minecraft:deepslate",
-          "cluster_count": 15,
-          "cluster_size": 3,
-          "min_height": -48,
-          "max_height": 0
-        }
-      },
-      {
-        "identifier": "minecraft:ore",
-        "options": {
           "block": "paladium:deepslate_titanium_ore",
           "replaceable_block": "minecraft:deepslate",
           "cluster_count": 15,
