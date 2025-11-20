@@ -9,17 +9,6 @@
       {
         "identifier": "minecraft:ore",
         "options": {
-          "block": "minecraft:amethyst_block",
-          "replaceable_block": "minecraft:stone",
-          "cluster_count": 1,
-          "cluster_size": 3,
-          "min_height": 32,
-          "max_height": 64
-        }
-      },
-      {
-        "identifier": "minecraft:ore",
-        "options": {
           "block": "paladium:titanium_ore",
           "replaceable_block": "minecraft:stone",
           "cluster_count": 2,
