@@ -26,7 +26,7 @@
       "paladium:cobblebreaker": {
         "work_duration": 200,
         "work_pause_duration": 80,
-        "update_arrow_duration": 2,
+        "update_arrow_duration": 1,
         "outputs": [
           {
             "id": "paladium:iron_particle",
@@ -50,12 +50,12 @@
           },
           {
             "id": "paladium:titanium_particle",
-            "weight": 80,
+            "weight": 60,
             "particle_id": "paladium:add_particle_titanium"
           },
           {
             "id": "paladium:paladium_particle",
-            "weight": 50,
+            "weight": 20,
             "particle_id": "paladium:add_particle_paladium"
           }
         ]
