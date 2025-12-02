@@ -42,6 +42,12 @@
       },
       "minecraft:enchantable": {
         "value": 22
+      },
+      "minecraft:tags": {
+        "tags": [
+          "paladium:green_paladium_tier",
+          "minecraft:is_tool"
+        ]
       }
     }
   }

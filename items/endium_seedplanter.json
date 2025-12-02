@@ -21,6 +21,12 @@
       "minecraft:enchantable": {
         "value": 25
       }
-    }
+    },
+    "minecraft:tags": {
+        "tags": [
+          "paladium:endium_tier",
+          "minecraft:is_tool"
+        ]
+      }
   }
 }
