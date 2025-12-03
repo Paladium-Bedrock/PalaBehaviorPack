@@ -1,32 +1,32 @@
 {
-}
-  }
-    }
-      "item": "paladium:upgrade_template"
-    "result": {
-    },
-      ]
-        }
-          "item": "paladium:drawer_acacia"
-        {
-      "B": [
-      ],
-        }
-          "item": "minecraft:stick"
-        {
-      "A": [
-    "key": {
-    ],
-      "AAA"
-      "ABA",
-      "AAA",
-    "pattern": [
-    ],
-      "crafting_table"
-    "tags": [
-    },
-      "identifier": "paladium:upgrade_template_acacia"
-    "description": {
-  "minecraft:recipe_shaped": {
   "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:upgrade_template_acacia"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:stick"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:drawer_acacia"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:upgrade_template"
+    }
+  }
+}
 
