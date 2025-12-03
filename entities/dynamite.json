@@ -17,7 +17,7 @@
       },
       "minecraft:timer": {
         "looping": false,
-        "time": 10,
+        "time": 5,
         "time_down_event": "events/entities/dynamite/dynamite_explode_event.molang"
       },
       "minecraft:projectile": {

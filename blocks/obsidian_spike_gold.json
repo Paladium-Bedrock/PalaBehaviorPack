@@ -12,6 +12,9 @@
       }
     },
     "components": {
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/loot_air.molang"
+      },
       "paladium:replace_block": {
         "replace_with": "paladium:gold_spike"
       },
