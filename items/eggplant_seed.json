@@ -10,7 +10,8 @@
         "texture": "eggplant_seed"
       },
       "minecraft:block_placer": {
-        "block": "paladium:eggplant_crops"
+        "block": "paladium:eggplant_crops",
+        "use_on": ["paladium:fertilized_dirt", "minecraft:farmland"]
       },
       "minecraft:tags": {
         "tags": [
