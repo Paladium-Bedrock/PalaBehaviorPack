@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:upgrade_template"
+      "identifier": "paladium:upgrade_template_oak"
     },
     "tags": [
       "crafting_table"
