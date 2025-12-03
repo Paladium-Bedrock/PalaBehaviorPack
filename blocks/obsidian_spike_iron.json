@@ -2,23 +2,18 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:obsidian_spike_iron"
+      "identifier": "paladium:obsidian_spike_iron",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      }
     },
     "components": {
-      "minecraft:material_instances": {
-        "materials": {
-          "*": {
-            "texture": "obsidian_spike_iron"
-          }
-        }
-      },
-      "minecraft:destructible_by_mining": {
-        "hardness": 50,
-        "tool_type": 3,
-        "tool_tier": 5
-      },
-      "minecraft:destructible_by_explosion": {
-        "value": 60000
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/loot_air.molang"
       },
       "paladium:replace_block": {
         "replace_with": "paladium:iron_spike"
@@ -28,6 +23,171 @@
           "paladium:obsidian"
         ]
       }
+    },
+      "permutations": [
+        {
+          "condition": "q.block_state('minecraft:block_face') == 'up'",
+            "components": {
+              "minecraft:material_instances": {
+              "materials": {
+                "down": {
+                  "texture": "obsidian"
+                },
+                "up": {
+                  "texture": "obsidian_spike_iron"
+                },
+                "north": {
+                  "texture": "obsidian"
+                },
+                "south": {
+                  "texture": "obsidian"
+                },
+                "west": {
+                  "texture": "obsidian"
+                },
+                "east": {
+                  "texture": "obsidian"
+                }
+              }
+              }
+          }
+        },
+        {
+          "condition": "q.block_state('minecraft:block_face') == 'down'",
+          "components": {
+            "minecraft:material_instances": {
+            "materials": {
+              "down": {
+                "texture": "obsidian_spike_iron"
+              },
+              "up": {
+                "texture": "obsidian"
+              },
+              "north": {
+                "texture": "obsidian"
+              },
+              "south": {
+                "texture": "obsidian"
+              },
+              "west": {
+                "texture": "obsidian"
+              },
+              "east": {
+                "texture": "obsidian"
+              }
+            }
+            }
+          }
+        },
+        {
+          "condition": "q.block_state('minecraft:block_face') == 'north'",
+          "components": {
+            "minecraft:material_instances": {
+            "materials": {
+              "down": {
+                "texture": "obsidian"
+              },
+              "up": {
+                "texture": "obsidian"
+              },
+              "north": {
+                "texture": "obsidian_spike_iron"
+              },
+              "south": {
+                "texture": "obsidian"
+              },
+              "west": {
+                "texture": "obsidian"
+              },
+              "east": {
+                "texture": "obsidian"
+              }
+            }
+            }
+          }
+       
+        },
+        {
+          "condition": "q.block_state('minecraft:block_face') == 'west'",
+          "components": {
+            "minecraft:material_instances": {
+              "materials": {
+                "down": {
+                  "texture": "obsidian"
+                },
+                "up": {
+                  "texture": "obsidian"
+                },
+                "north": {
+                  "texture": "obsidian"
+                },
+                "south": {
+                  "texture": "obsidian"
+                },
+                "west": {
+                  "texture": "obsidian_spike_iron"
+                },
+                "east": {
+                  "texture": "obsidian"
+                }
+              }
+            }
+          }
+        },
+        {
+          "condition": "q.block_state('minecraft:block_face') == 'south'",
+          "components": {
+              "minecraft:material_instances": {
+                "materials": {
+                  "down": {
+                    "texture": "obsidian"
+                  },
+                  "up": {
+                    "texture": "obsidian"
+                  },
+                  "north": {
+                    "texture": "obsidian"
+                  },
+                  "south": {
+                    "texture": "obsidian_spike_iron"
+                  },
+                  "west": {
+                    "texture": "obsidian"
+                  },
+                  "east": {
+                    "texture": "obsidian"
+                  }
+                }
+              }
+          }
+        },
+        {
+          "condition": "q.block_state('minecraft:block_face') == 'east'",
+          "components": {
+            "minecraft:material_instances": {
+              "materials": {
+                "down": {
+                  "texture": "obsidian"
+                },
+                "up": {
+                  "texture": "obsidian"
+                },
+                "north": {
+                  "texture": "obsidian"
+                },
+                "south": {
+                  "texture": "obsidian"
+                },
+                "west": {
+                  "texture": "obsidian"
+                },
+                "east": {
+                  "texture": "obsidian_spike_iron"
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   }
-}

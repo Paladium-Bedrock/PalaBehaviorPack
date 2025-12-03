@@ -14,8 +14,9 @@
       },
       "minecraft:destructible_by_mining": {
         "hardness": 0.5,
-        "tool_type": 2,
-        "tool_tier": 1
+        "tool_type": 2,  
+        "tool_tier": 1,
+        "can_break_with_hand": true
       }
     }
   }

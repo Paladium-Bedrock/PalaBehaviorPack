@@ -1,0 +1,10 @@
+{
+  "format_version": "1.0.0",
+  "palajobs:objective_smelt": {
+    "job": "miner",
+    "target": { "item": "paladium:green_paladium_ingot" },
+    "icon": "paladium:green_paladium_ingot",
+    "experience": 200,
+    "level_needed": 12
+  }
+}

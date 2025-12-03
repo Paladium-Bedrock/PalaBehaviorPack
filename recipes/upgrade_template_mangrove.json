@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:upgrade_template"
+      "identifier": "paladium:upgrade_template_mangrove"
     },
     "tags": [
       "crafting_table"
@@ -20,7 +20,7 @@
       ],
       "B": [
         {
-          "item": "paladium:drawer_oak"
+          "item": "paladium:drawer_mangrove"
         }
       ]
     },
@@ -29,3 +29,4 @@
     }
   }
 }
+

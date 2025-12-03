@@ -2,24 +2,119 @@
   "format_version": "1.0.0",
   "minecraft:block": {
     "description": {
-      "identifier": "paladium:obsidian_slime"
+      "identifier": "paladium:obsidian_slime",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      }
     },
     "components": {
-      "minecraft:material_instances": {
-        "materials": {
-          "*": {
-            "texture": "obsidian_slime"
-          }
-        }
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/loot_air.molang"
       },
       "paladium:replace_block": {
-        "replace_with": "minecraft:obsidian"
+        "replace_with": "paladium:green_slimepad"
       },
       "minecraft:tags": {
         "tags": [
           "paladium:obsidian"
         ]
       }
-    }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "down": { "texture": "obsidian" },
+              "up": { "texture": "obsidian_slime" },
+              "north": { "texture": "obsidian" },
+              "south": { "texture": "obsidian" },
+              "west": { "texture": "obsidian" },
+              "east": { "texture": "obsidian" }
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "down": { "texture": "obsidian_slime" },
+              "up": { "texture": "obsidian" },
+              "north": { "texture": "obsidian" },
+              "south": { "texture": "obsidian" },
+              "west": { "texture": "obsidian" },
+              "east": { "texture": "obsidian" }
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "down": { "texture": "obsidian" },
+              "up": { "texture": "obsidian" },
+              "north": { "texture": "obsidian_slime" },
+              "south": { "texture": "obsidian" },
+              "west": { "texture": "obsidian" },
+              "east": { "texture": "obsidian" }
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "down": { "texture": "obsidian" },
+              "up": { "texture": "obsidian" },
+              "north": { "texture": "obsidian" },
+              "south": { "texture": "obsidian" },
+              "west": { "texture": "obsidian_slime" },
+              "east": { "texture": "obsidian" }
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "down": { "texture": "obsidian" },
+              "up": { "texture": "obsidian" },
+              "north": { "texture": "obsidian" },
+              "south": { "texture": "obsidian_slime" },
+              "west": { "texture": "obsidian" },
+              "east": { "texture": "obsidian" }
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "down": { "texture": "obsidian" },
+              "up": { "texture": "obsidian" },
+              "north": { "texture": "obsidian" },
+              "south": { "texture": "obsidian" },
+              "west": { "texture": "obsidian" },
+              "east": { "texture": "obsidian_slime" }
+            }
+          }
+        }
+      }
+    ]
   }
 }

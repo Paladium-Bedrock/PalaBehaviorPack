@@ -7,7 +7,7 @@
     },
     "components": {
       "minecraft:icon": {
-        "texture": "amethyst_spike"
+        "texture": "paladium_spike"
       },
       "minecraft:block_placer": {
         "block": "paladium:paladium_spike"

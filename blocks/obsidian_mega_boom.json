@@ -5,6 +5,9 @@
       "identifier": "paladium:obsidian_mega_boom"
     },
     "components": {
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/loot_air.molang"
+      },
       "minecraft:material_instances": {
         "materials": {
           "up": {

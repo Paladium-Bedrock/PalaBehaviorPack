@@ -6,9 +6,6 @@
       "creative_category": "construction"
     },
     "components": {
-      "minecraft:icon": {
-        "texture": "fertilized_dirt"
-      },
       "minecraft:block_placer": {
         "block": "paladium:fertilized_dirt"
       }

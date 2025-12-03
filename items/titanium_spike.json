@@ -7,7 +7,7 @@
     },
     "components": {
       "minecraft:icon": {
-        "texture": "amethyst_spike"
+        "texture": "titanium_spike"
       },
       "minecraft:block_placer": {
         "block": "paladium:titanium_spike"

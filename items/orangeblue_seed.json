@@ -10,7 +10,8 @@
         "texture": "orangeblue_seed"
       },
       "minecraft:block_placer": {
-        "block": "paladium:orangeblue_crops"
+        "block": "paladium:orangeblue_crops",
+        "use_on": ["paladium:fertilized_dirt", "minecraft:farmland"]
       },
       "minecraft:tags": {
         "tags": [

@@ -6,7 +6,7 @@
       "traits": {
         "minecraft:placement_direction": {
           "enabled_states": [
-            "minecraft:cardinal_direction"
+            "minecraft:block_face"
           ],
           "y_rotation_offset": 180
         }
@@ -42,7 +42,7 @@
         ]
       },
       "paladium:slimepad": {
-        "power": 2
+        "power": 0.8
       },
       "minecraft:material_instances": {
         "materials": {
@@ -58,6 +58,80 @@
         "tool_tier": 1,
         "can_break_with_hand": true
       }
-    }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'up'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'down'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 180
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": -90,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 90
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 90,
+              "y": 0,
+              "z": 0
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:block_face') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": -90
+            }
+          }
+        }
+      }
+    ]
   }
 }

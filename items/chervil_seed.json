@@ -10,7 +10,8 @@
         "texture": "chervil_seed"
       },
       "minecraft:block_placer": {
-        "block": "paladium:chervil_crops"
+        "block": "paladium:chervil_crops",
+        "use_on": ["paladium:fertilized_dirt", "minecraft:farmland"]
       },
       "minecraft:tags": {
         "tags": [

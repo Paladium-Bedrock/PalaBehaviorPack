@@ -1,0 +1,32 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:upgrade_template_dark_oak"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:stick"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:drawer_dark_oak"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:upgrade_template"
+    }
+  }
+}
+
