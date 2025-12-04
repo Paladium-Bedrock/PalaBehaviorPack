@@ -30,7 +30,8 @@
       },
       "minecraft:wearable": {
         "slot": "slot.armor.chest",
-        "protection": 11
+        "protection": 9,
+        "toughness": 5
       },
       "minecraft:repairable": {
         "repair_items": [

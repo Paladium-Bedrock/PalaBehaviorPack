@@ -13,11 +13,11 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 2700
+        "max_durability": 3000
       },
       "minecraft:pickaxe": {
         "tier": 8,
-        "multiplier": 12.0
+        "multiplier": 17.0
       },
       "minecraft:damage": {
         "damage": 8

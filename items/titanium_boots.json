@@ -17,7 +17,8 @@
       },
       "minecraft:wearable": {
         "slot": "slot.armor.feet",
-        "protection": 3
+        "protection": 3,
+        "toughness": 3
       },
       "paladium:recyclable": {
         "min": 1,

@@ -17,10 +17,10 @@
       },
       "minecraft:axe": {
         "tier": 7,
-        "multiplier": 11.0
+        "multiplier": 18.0
       },
       "minecraft:damage": {
-        "damage": 8
+        "damage": 9
       },
       "minecraft:hand_equipped": {
         "enabled": true

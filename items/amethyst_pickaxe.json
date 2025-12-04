@@ -17,7 +17,7 @@
       },
       "minecraft:pickaxe": {
         "tier": 5,
-        "multiplier": 8.0
+        "multiplier": 12
       },
       "paladium:recyclable": {
         "min": 1,

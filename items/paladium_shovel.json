@@ -22,10 +22,10 @@
       },
       "minecraft:shovel": {
         "tier": 7,
-        "multiplier": 11.0
+        "multiplier": 14.0
       },
       "minecraft:damage": {
-        "damage": 6
+        "damage": 7
       },
       "minecraft:hand_equipped": {
         "enabled": true
