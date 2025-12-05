@@ -167,16 +167,16 @@
             "minecraft:material_instances": {
               "materials": {
                 "down": {
-                  "texture": "obsidian"
+                  "texture": "obsidian_spike_iron_side"
                 },
                 "up": {
-                  "texture": "obsidian"
+                  "texture": "obsidian_spike_iron_side"
                 },
                 "north": {
-                  "texture": "obsidian"
+                  "texture": "obsidian_spike_iron_side"
                 },
                 "south": {
-                  "texture": "obsidian"
+                  "texture": "obsidian_spike_iron_side"
                 },
                 "west": {
                   "texture": "obsidian"

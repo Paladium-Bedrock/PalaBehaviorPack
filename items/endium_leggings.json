@@ -30,7 +30,8 @@
       },
       "minecraft:wearable": {
         "slot": "slot.armor.legs",
-        "protection": 9
+        "protection": 7,
+        "toughness": 5
       },
       "minecraft:repairable": {
         "repair_items": [

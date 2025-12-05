@@ -321,7 +321,7 @@
         "condition": "q.block_state('paladium:pattern') == 7 && q.block_state('paladium:grinder_module') == 2",
         "components": {
           "minecraft:geometry": {
-            "identifier": "geometry.grinder_table_pattern_forged_liquid"
+            "identifier": "geometry.grinder_table_pattern"
           },
           "minecraft:material_instances": {
             "materials": {
@@ -433,7 +433,7 @@
         "condition": "q.block_state('paladium:pattern') == 7 && q.block_state('paladium:grinder_module') == 3",
         "components": {
           "minecraft:geometry": {
-            "identifier": "geometry.grinder_table_pattern_forged"
+            "identifier": "geometry.grinder_table_pattern"
           },
           "minecraft:material_instances": {
             "materials": {

@@ -21,7 +21,7 @@
         "item": "paladium:paladium_ingot"
       },
       "minecraft:damage": {
-        "damage": 9
+        "damage": 10
       },
       "minecraft:hand_equipped": {
         "enabled": true

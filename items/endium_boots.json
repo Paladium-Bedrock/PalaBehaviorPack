@@ -22,7 +22,8 @@
       },
       "minecraft:wearable": {
         "slot": "slot.armor.feet",
-        "protection": 5
+        "protection": 4,
+        "toughness": 5
       },
       "minecraft:repairable": {
         "repair_items": [
