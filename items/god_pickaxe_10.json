@@ -12,17 +12,16 @@
       "minecraft:max_stack_size": {
         "value": 1
       },
-      "minecraft:pickaxe": {
-        "tier": 6,
-        "multiplier": 6.5
-      },
       "minecraft:damage": {
         "damage": 3
       },
       "minecraft:hand_equipped": {
         "enabled": true
       },
-      "paladium:pickaxe_of_god": {},
+      "paladium:pickaxe_of_god": {
+        "tier": 6,
+        "multiplier": 6.5
+      },
       "minecraft:tags": {
         "tags": [
           "paladium:god_tier",
