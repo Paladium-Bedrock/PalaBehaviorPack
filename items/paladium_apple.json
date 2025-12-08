@@ -8,6 +8,22 @@
     "components": {
       "minecraft:icon": {
         "texture": "paladium_apple"
+      },
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 12,
+        "effects": [
+          {
+            "name": "regeneration",
+            "duration": 1,
+            "amplifier": 3
+          },
+          {
+            "name": "absorption",
+            "duration": 500,
+            "amplifier": 1
+          }
+        ]
       }
     }
   }
