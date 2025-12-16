@@ -9,6 +9,9 @@
     "components": {
       "minecraft:icon": {
         "texture": "drawer_package"
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
       }
     }
   }
