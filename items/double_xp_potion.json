@@ -8,6 +8,9 @@
     "components": {
       "minecraft:icon": {
         "texture": "double_xp_potion"
+      },
+      "job:bottle_double_xp": {
+        
       }
     }
   }
