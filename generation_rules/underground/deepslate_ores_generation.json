@@ -22,7 +22,7 @@
         "options": {
           "block": "paladium:deepslate_paladium_ore",
           "replaceable_block": "minecraft:deepslate",
-          "cluster_count": 3,
+          "cluster_count": 2,
           "cluster_size": 6,
           "min_height": -48,
           "max_height": -8

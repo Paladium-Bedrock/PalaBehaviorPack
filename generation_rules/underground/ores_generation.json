@@ -22,7 +22,7 @@
         "options": {
           "block": "paladium:paladium_ore",
           "replaceable_block": "minecraft:stone",
-          "cluster_count": 3,
+          "cluster_count": 2,
           "cluster_size": 7,
           "min_height": 0,
           "max_height": 16
