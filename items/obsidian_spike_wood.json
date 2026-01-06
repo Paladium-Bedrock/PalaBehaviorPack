@@ -6,6 +6,9 @@
       "creative_category": "construction"
     },
     "components": {
+      "minecraft:icon": {
+        "texture": "obsidian_spike_wood"
+      },
       "minecraft:block_placer": {
         "block": "paladium:obsidian_spike_wood"
       }
