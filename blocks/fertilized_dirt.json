@@ -17,6 +17,11 @@
         "tool_type": 2,  
         "tool_tier": 1,
         "can_break_with_hand": true
+      },
+      "minecraft:tags": {
+        "tags": [
+          "farmland"
+        ]
       }
     }
   }
