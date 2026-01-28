@@ -8,6 +8,11 @@
     "components": {
       "minecraft:block_placer": {
         "block": "paladium:fertilized_dirt"
+      },   
+      "minecraft:tags": {
+        "tags": [
+          "farmland"
+        ]
       }
     }
   }
