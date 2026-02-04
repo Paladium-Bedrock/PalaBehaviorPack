@@ -1,0 +1,21 @@
+﻿{
+  "format_version": "1.0.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "paladium:square_portal_purple",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:tags": {
+        "tags": [
+          "nolagg"
+        ]
+      }
+    }
+  }
+}
