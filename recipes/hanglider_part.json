@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:hangglider_part"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  #",
+      " #X",
+      "#XX"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "minecraft:leather"
+        }
+      ],
+      "#": [
+        {
+          "item": "paladium:paladium_stick"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:hangglider_part"
+    }
+  }
+}
