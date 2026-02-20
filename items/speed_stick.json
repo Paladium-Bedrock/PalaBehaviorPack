@@ -30,8 +30,8 @@
         "effects": [
           {
             "id": "speed",
-            "power": 3,
-            "duration": 60
+            "power": 4,
+            "duration": 90
           }
         ]
       }
