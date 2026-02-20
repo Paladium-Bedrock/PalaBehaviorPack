@@ -1,0 +1,36 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:jump_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "B B",
+      "ACA",
+      "ACA"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:leather"
+        }
+      ],
+      "B": [
+        {
+          "item": "minecraft:feather"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:iron_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:jump_chestplate"
+    }
+  }
+}

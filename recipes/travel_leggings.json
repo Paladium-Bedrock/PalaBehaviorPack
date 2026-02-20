@@ -1,0 +1,36 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:travel_leggings"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "B B",
+      "C C"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "minecraft:leather"
+        }
+      ],
+      "B": [
+        {
+          "item": "minecraft:feather"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:titanium_ingot"
+        }
+      ]
+    },
+    "result": { 
+      "item": "paladium:travel_leggings"
+    }
+  }
+}
