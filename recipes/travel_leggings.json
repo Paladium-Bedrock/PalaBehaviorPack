@@ -2,30 +2,35 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:paladium_apple"
+      "identifier": "paladium:travel_leggings"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "BBB",
-      "BAB",
-      "BBB"
+      "AAA",
+      "B B",
+      "C C"
     ],
     "key": {
       "A": [
         {
-          "item": "minecraft:golden_apple"
+          "item": "minecraft:leather"
         }
       ],
       "B": [
         {
-          "item": "paladium:paladium_ingot"
+          "item": "minecraft:feather"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:titanium_ingot"
         }
       ]
     },
     "result": { 
-      "item": "paladium:paladium_apple"
+      "item": "paladium:travel_leggings"
     }
   }
 }

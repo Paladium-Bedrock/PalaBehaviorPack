@@ -2,40 +2,35 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:titanium_backpack"
+      "identifier": "paladium:jump_chestplate"
     },
     "tags": [
       "crafting_table"
     ],
     "pattern": [
-      "ABA",
+      "B B",
       "ACA",
-      "DAD"
+      "ACA"
     ],
     "key": {
       "A": [
         {
-          "item": "paladium:titanium_ingot"
+          "item": "minecraft:leather"
         }
       ],
       "B": [
         {
-          "item": "paladium:titanium_chest"
+          "item": "minecraft:feather"
         }
       ],
       "C": [
         {
-          "item": "minecraft:ender_pearl"
-        }
-      ],
-      "D": [
-        {
-          "item": "minecraft:leather"
+          "item": "paladium:iron_ingot"
         }
       ]
     },
     "result": {
-      "item": "paladium:titanium_backpack"
+      "item": "paladium:jump_chestplate"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:cave_block"
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "cave_block",
+            "render_method": "blend"
+          }
+        }
+      },
+      "paladium:cave_block": {},
+      "minecraft:destructible_by_mining": {
+        "hardness": 2
+      }
+    }
+  }
+}
