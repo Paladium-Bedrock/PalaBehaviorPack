@@ -16,12 +16,12 @@
         "effects": [
           {
             "name": "regeneration",
-            "duration": 1,
-            "amplifier": 3
+            "duration": 90,
+            "amplifier": 1
           },
           {
             "name": "absorption",
-            "duration": 500,
+            "duration": 700,
             "amplifier": 1
           }
         ]

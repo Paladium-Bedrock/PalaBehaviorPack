@@ -30,7 +30,7 @@
         "effects": [
           {
             "id": "strength",
-            "power": 3,
+            "power": 1,
             "duration": 60
           }
         ]
