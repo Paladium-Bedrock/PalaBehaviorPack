@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:orb_jump"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " X ",
+      "XYX",
+      " X "
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "Y": [
+        {
+          "item": "minecraft:carrot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:orb_jump"
+    }
+  }
+}
