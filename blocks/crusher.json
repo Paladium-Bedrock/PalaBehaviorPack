@@ -66,10 +66,10 @@
             "input_id": "paladium:orangeblue",
             "output_id": "paladium:endium_fragment",
             "fuel_id": "paladium:paladium_coal",
-            "max_transformed_fuel": 256,
+            "max_transformed_fuel": 100,
             "output_icon_path": "textures/items/endium_fragment",
             "fuel_icon_path": "textures/items/paladium_coal",
-            "max_progress_output": 2
+            "max_progress_output": 64
           }
         ],
         "fuel_transformation_duration": 200,
