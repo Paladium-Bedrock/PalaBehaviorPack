@@ -31,8 +31,9 @@
           "paladium:paladium_furnace",
           "paladium:custom_chest"
         ],
-        "radius": 12,
-        "cooldown_can_use": 60
+        "radius": 3,
+        "cooldown_can_use": 60,
+        "arrow": "\uE14F"
       }
     }
   }
