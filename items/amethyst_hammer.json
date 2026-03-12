@@ -48,6 +48,7 @@
       },
       "minecraft:tags": {
         "tags": [
+          "minecraft:is_pickaxe",
           "paladium:amethyst_tier",
           "minecraft:digger",
           "paladium:is_hammer",

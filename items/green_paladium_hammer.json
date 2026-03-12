@@ -54,6 +54,7 @@
       },
       "minecraft:tags": {
         "tags": [
+          "minecraft:is_pickaxe",
           "paladium:green_paladium_tier",
           "minecraft:digger",
           "paladium:is_hammer",
