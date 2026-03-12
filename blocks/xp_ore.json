@@ -1,0 +1,66 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "paladium:xp_ore",
+      "states": {
+        "paladium:xp_ore": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "components": {
+      "paladium:xp_ore": {
+        "IsDeepslate": false
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/loot_air.molang"
+      },
+      "minecraft:destructible_by_mining": {
+        "hardness": 5,
+        "tool_type": 3,
+        "tool_tier": 4
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('paladium:xp_ore') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "xp_ore_0"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('paladium:xp_ore') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "xp_ore_1"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('paladium:xp_ore') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "materials": {
+              "*": {
+                "texture": "xp_ore_2"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

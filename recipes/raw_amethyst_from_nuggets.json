@@ -1,0 +1,23 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:raw_amethyst_from_nuggets"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": [
+        { "item": "paladium:raw_nugget_amethyst" }
+      ]
+    },
+    "result": {
+      "item": "paladium:raw_amethyst",
+      "count": 1
+    }
+  }
+}

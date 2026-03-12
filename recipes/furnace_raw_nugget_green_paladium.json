@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:furnace_raw_nugget_green_paladium"
+    },
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "experience": 0.01,
+    "input": {
+      "item": "paladium:raw_nugget_green_paladium"
+    },
+    "output": {
+      "item": "paladium:nugget_green_paladium"
+    }
+  }
+}

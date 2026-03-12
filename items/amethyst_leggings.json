@@ -23,7 +23,7 @@
       "paladium:recyclable": {
         "min": 1,
         "max": 7,
-        "item": "minecraft:amethyst_shard"
+        "item": "paladium:amethyst_ingot"
       },
       "minecraft:repairable": {
         "repair_items": [

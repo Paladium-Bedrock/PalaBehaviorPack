@@ -1,0 +1,23 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:raw_paladium_from_nuggets"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": [
+        { "item": "paladium:raw_nugget_paladium" }
+      ]
+    },
+    "result": {
+      "item": "paladium:raw_paladium",
+      "count": 1
+    }
+  }
+}
