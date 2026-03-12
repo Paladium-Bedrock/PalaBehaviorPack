@@ -1,0 +1,23 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:amethyst_ingot_from_nuggets"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": [
+        { "item": "paladium:nugget_amethyst" }
+      ]
+    },
+    "result": {
+      "item": "paladium:amethyst_ingot",
+      "count": 1
+    }
+  }
+}

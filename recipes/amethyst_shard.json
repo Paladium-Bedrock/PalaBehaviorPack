@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "minecraft:amethyst_shard"
+      "identifier": "paladium:amethyst_ingot"
     },
     "tags": [
       "crafting_table"
@@ -20,7 +20,7 @@
       ]
     },
     "result": {
-      "item": "minecraft:amethyst_shard"
+      "item": "paladium:amethyst_ingot"
     }
   }
 }

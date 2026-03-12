@@ -34,7 +34,7 @@
           {
             "id": "paladium:amethyst",
             "input_id": "paladium:eggplant",
-            "output_id": "minecraft:amethyst_shard",
+            "output_id": "paladium:amethyst_ingot",
             "fuel_id": "paladium:gold_coal",
             "max_transformed_fuel": 100,
             "output_icon_path": "textures/items/amethyst_ingot",

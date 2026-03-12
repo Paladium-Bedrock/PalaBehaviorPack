@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:nugget_titanium_ore",
+      "creative_category": "construction"
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "paladium:nugget_titanium_ore"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:ores"
+        ]
+      }
+    }
+  }
+}

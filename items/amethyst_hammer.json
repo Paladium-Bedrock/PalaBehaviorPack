@@ -17,7 +17,7 @@
       },
       "paladium:hammer": {
         "tier": 5,
-        "multiplier": 1.0,
+        "multiplier": 0.5,
         "radius": 1
       },
       "minecraft:damage": {
@@ -36,7 +36,7 @@
           },
           {
             "items": [
-              "minecraft:amethyst_shard"
+              "paladium:amethyst_ingot"
             ],
             "repair_amount": "c.other->q.remaining_durability + (q.max_durability * 0.25)"
           }
@@ -48,6 +48,7 @@
       },
       "minecraft:tags": {
         "tags": [
+          "minecraft:is_pickaxe",
           "paladium:amethyst_tier",
           "minecraft:digger",
           "paladium:is_hammer",

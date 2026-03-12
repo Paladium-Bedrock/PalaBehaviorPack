@@ -1,0 +1,23 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:paladium_ingot_from_nuggets"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": [
+        { "item": "paladium:nugget_paladium" }
+      ]
+    },
+    "result": {
+      "item": "paladium:paladium_ingot",
+      "count": 1
+    }
+  }
+}

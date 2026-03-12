@@ -17,7 +17,7 @@
       },
       "paladium:hammer": {
         "tier": 7,
-        "multiplier": 3.0,
+        "multiplier": 1.0,
         "radius": 1
       },
       "minecraft:damage": {
@@ -48,6 +48,7 @@
       },
       "minecraft:tags": {
         "tags": [
+          "minecraft:is_pickaxe",
           "paladium:paladium_tier",
           "minecraft:digger",
           "paladium:is_hammer",
