@@ -1,0 +1,30 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:gift_minor_epic",
+      "creative_category": "construction"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "gift_minor_epic"
+      },
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "paladium:loots": {
+        "amount": 2,
+        "rarity": "epic",
+        "loots": [
+          {
+            "weight": 1,
+            "loot": {
+              "item": "minecraft:stick",
+              "count": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}
