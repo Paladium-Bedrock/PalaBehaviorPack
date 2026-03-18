@@ -2,12 +2,12 @@
   "format_version": "1.0.0",
   "minecraft:item": {
     "description": {
-      "identifier": "paladium:nugget_amethyst",
+      "identifier": "paladium:raw_amethyst",
       "creative_category": "nature"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "nugget_amethyst"
+        "texture": "raw_amethyst"
       }
     }
   }

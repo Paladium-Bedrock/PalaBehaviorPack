@@ -2,18 +2,18 @@
   "format_version": "1.0.0",
   "minecraft:recipe_furnace": {
     "description": {
-      "identifier": "minecraft:furnace_raw_nugget_paladium"
+      "identifier": "minecraft:furnace_amethyst_ingot"
     },
     "tags": [
       "furnace",
       "blast_furnace"
     ],
-    "experience": 0.01,
+    "experience": 0.15,
     "input": {
-      "item": "paladium:raw_nugget_paladium"
+      "item": "paladium:raw_amethyst"
     },
     "output": {
-      "item": "paladium:nugget_paladium"
+      "item": "paladium:amethyst_ingot"
     }
   }
 }

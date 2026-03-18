@@ -17,7 +17,7 @@
       },
       "paladium:hammer": {
         "tier": 5,
-        "multiplier": 0.5,
+        "multiplier": 1,
         "radius": 1
       },
       "minecraft:damage": {
