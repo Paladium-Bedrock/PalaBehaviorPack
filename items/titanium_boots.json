@@ -42,7 +42,7 @@
         ]
       },
       "minecraft:enchantable": {
-        "slot": "armor_feet",
+        "slot": "armor_feet"
       },
       "minecraft:tags": {
         "tags": [

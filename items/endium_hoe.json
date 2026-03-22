@@ -9,7 +9,7 @@
       "minecraft:icon": {
         "texture": "endium_hoe"
       },
-       "paladium:big_hoe": {
+      "paladium:big_hoe": {
         "radius": 5
       },
       "minecraft:max_stack_size": {

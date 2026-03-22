@@ -10,7 +10,9 @@
         "block": "paladium:deepslate_xp_ore"
       },
       "minecraft:tags": {
-        "tags": ["minecraft:ores"]
+        "tags": [
+          "minecraft:ores"
+        ]
       }
     }
   }

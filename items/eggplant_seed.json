@@ -11,7 +11,10 @@
       },
       "minecraft:block_placer": {
         "block": "paladium:eggplant_crops",
-        "use_on": ["paladium:fertilized_dirt", "minecraft:farmland"]
+        "use_on": [
+          "paladium:fertilized_dirt",
+          "minecraft:farmland"
+        ]
       },
       "minecraft:tags": {
         "tags": [

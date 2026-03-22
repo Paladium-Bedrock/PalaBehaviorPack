@@ -4,7 +4,11 @@
     "description": {
       "identifier": "paladium:deepslate_xp_ore",
       "states": {
-        "paladium:deepslate_xp_ore": [0, 1, 2]
+        "paladium:deepslate_xp_ore": [
+          0,
+          1,
+          2
+        ]
       }
     },
     "components": {

@@ -23,10 +23,10 @@
       }
     },
     "minecraft:tags": {
-        "tags": [
-          "paladium:endium_tier",
-          "minecraft:is_tool"
-        ]
-      }
+      "tags": [
+        "paladium:endium_tier",
+        "minecraft:is_tool"
+      ]
+    }
   }
 }

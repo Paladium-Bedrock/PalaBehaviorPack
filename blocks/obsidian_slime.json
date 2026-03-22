@@ -30,12 +30,24 @@
         "components": {
           "minecraft:material_instances": {
             "materials": {
-              "down": { "texture": "obsidian" },
-              "up": { "texture": "obsidian_slime" },
-              "north": { "texture": "obsidian_slime_side" },
-              "south": { "texture": "obsidian_slime_side" },
-              "west": { "texture": "obsidian_slime_side" },
-              "east": { "texture": "obsidian_slime_side" }
+              "down": {
+                "texture": "obsidian"
+              },
+              "up": {
+                "texture": "obsidian_slime"
+              },
+              "north": {
+                "texture": "obsidian_slime_side"
+              },
+              "south": {
+                "texture": "obsidian_slime_side"
+              },
+              "west": {
+                "texture": "obsidian_slime_side"
+              },
+              "east": {
+                "texture": "obsidian_slime_side"
+              }
             }
           }
         }
@@ -45,12 +57,24 @@
         "components": {
           "minecraft:material_instances": {
             "materials": {
-              "down": { "texture": "obsidian_slime" },
-              "up": { "texture": "obsidian" },
-              "north": { "texture": "obsidian" },
-              "south": { "texture": "obsidian" },
-              "west": { "texture": "obsidian" },
-              "east": { "texture": "obsidian" }
+              "down": {
+                "texture": "obsidian_slime"
+              },
+              "up": {
+                "texture": "obsidian"
+              },
+              "north": {
+                "texture": "obsidian"
+              },
+              "south": {
+                "texture": "obsidian"
+              },
+              "west": {
+                "texture": "obsidian"
+              },
+              "east": {
+                "texture": "obsidian"
+              }
             }
           }
         }
@@ -60,12 +84,24 @@
         "components": {
           "minecraft:material_instances": {
             "materials": {
-              "down": { "texture": "obsidian" },
-              "up": { "texture": "obsidian" },
-              "north": { "texture": "obsidian_slime" },
-              "south": { "texture": "obsidian" },
-              "west": { "texture": "obsidian" },
-              "east": { "texture": "obsidian" }
+              "down": {
+                "texture": "obsidian"
+              },
+              "up": {
+                "texture": "obsidian"
+              },
+              "north": {
+                "texture": "obsidian_slime"
+              },
+              "south": {
+                "texture": "obsidian"
+              },
+              "west": {
+                "texture": "obsidian"
+              },
+              "east": {
+                "texture": "obsidian"
+              }
             }
           }
         }
@@ -75,12 +111,24 @@
         "components": {
           "minecraft:material_instances": {
             "materials": {
-              "down": { "texture": "obsidian" },
-              "up": { "texture": "obsidian" },
-              "north": { "texture": "obsidian" },
-              "south": { "texture": "obsidian" },
-              "west": { "texture": "obsidian_slime" },
-              "east": { "texture": "obsidian" }
+              "down": {
+                "texture": "obsidian"
+              },
+              "up": {
+                "texture": "obsidian"
+              },
+              "north": {
+                "texture": "obsidian"
+              },
+              "south": {
+                "texture": "obsidian"
+              },
+              "west": {
+                "texture": "obsidian_slime"
+              },
+              "east": {
+                "texture": "obsidian"
+              }
             }
           }
         }
@@ -90,12 +138,24 @@
         "components": {
           "minecraft:material_instances": {
             "materials": {
-              "down": { "texture": "obsidian" },
-              "up": { "texture": "obsidian" },
-              "north": { "texture": "obsidian" },
-              "south": { "texture": "obsidian_slime" },
-              "west": { "texture": "obsidian" },
-              "east": { "texture": "obsidian" }
+              "down": {
+                "texture": "obsidian"
+              },
+              "up": {
+                "texture": "obsidian"
+              },
+              "north": {
+                "texture": "obsidian"
+              },
+              "south": {
+                "texture": "obsidian_slime"
+              },
+              "west": {
+                "texture": "obsidian"
+              },
+              "east": {
+                "texture": "obsidian"
+              }
             }
           }
         }
@@ -105,12 +165,24 @@
         "components": {
           "minecraft:material_instances": {
             "materials": {
-              "down": { "texture": "obsidian_slime_side" },
-              "up": { "texture": "obsidian_slime_side" },
-              "north": { "texture": "obsidian_slime_side" },
-              "south": { "texture": "obsidian_slime_side" },
-              "west": { "texture": "obsidian" },
-              "east": { "texture": "obsidian_slime" }
+              "down": {
+                "texture": "obsidian_slime_side"
+              },
+              "up": {
+                "texture": "obsidian_slime_side"
+              },
+              "north": {
+                "texture": "obsidian_slime_side"
+              },
+              "south": {
+                "texture": "obsidian_slime_side"
+              },
+              "west": {
+                "texture": "obsidian"
+              },
+              "east": {
+                "texture": "obsidian_slime"
+              }
             }
           }
         }
