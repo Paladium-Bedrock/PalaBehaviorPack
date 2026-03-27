@@ -13,13 +13,161 @@
         "value": 1
       },
       "paladium:loots": {
-        "amount": 2,
+        "amount": 5,
         "rarity": "rare",
         "loots": [
           {
+            "weight": 35,
+            "loot": {
+              "item": "minecraft:apple",
+              "count": 8
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:orb_strength",
+              "count": 1
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:orb_heal",
+              "count": 1
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:orb_speed",
+              "count": 1
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:orb_knockback",
+              "count": 1
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:orb_jump",
+              "count": 1
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:xp_berry",
+              "count": 1
+            }
+          },
+          {
+            "weight": 20,
+            "loot": {
+              "item": "minecraft:golden_apple",
+              "count": 2
+            }
+          },
+          {
+            "weight": 15,
+            "loot": {
+              "item": "paladium:paladium_apple",
+              "count": 4
+            }
+          },
+          {
+            "weight": 15,
+            "loot": {
+              "item": "paladium:strength_stick",
+              "count": 1
+            }
+          },
+          {
+            "weight": 15,
+            "loot": {
+              "item": "paladium:damage_stick",
+              "count": 1
+            }
+          },
+          {
+            "weight": 15,
+            "loot": {
+              "item": "paladium:speed_stick",
+              "count": 1
+            }
+          },
+          {
+            "weight": 15,
+            "loot": {
+              "item": "paladium:heal_stick",
+              "count": 1
+            }
+          },
+          {
+            "weight": 15,
+            "loot": {
+              "item": "paladium:jump_stick",
+              "count": 1
+            }
+          },
+          {
+            "weight": 10,
+            "loot": {
+              "item": "paladium:paladium_boots",
+              "count": 1
+            }
+          },
+          {
+            "weight": 10,
+            "loot": {
+              "item": "paladium:paladium_leggings",
+              "count": 1
+            }
+          },
+          {
+            "weight": 10,
+            "loot": {
+              "item": "paladium:paladium_chestplate",
+              "count": 1
+            }
+          },
+          {
+            "weight": 10,
+            "loot": {
+              "item": "paladium:paladium_helmet",
+              "count": 1
+            }
+          },
+          {
+            "weight": 10,
+            "loot": {
+              "item": "paladium:paladium_sword",
+              "count": 1
+            }
+          },
+         
+          {
+            "weight": 5,
+            "loot": {
+              "item": "paladium:stick_of_god",
+              "count": 1
+            }
+          },
+          {
+            "weight": 5,
+            "loot": {
+              "item": "paladium:power_potion",
+              "count": 1
+            }
+          },
+          {
             "weight": 1,
             "loot": {
-              "item": "minecraft:stick",
+              "item": "paladium:green_paladium_sword",
               "count": 1
             }
           }

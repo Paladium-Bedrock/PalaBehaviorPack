@@ -8,18 +8,26 @@
       "palamachine"
     ],
     "key": {
-      "A": [{
-        "item": "paladium:paladium_helmet"
-      }],
-      "B": [{
-        "item": "paladium:compressed_paladium"
-      }],
-      "C": [{
-        "item": "paladium:compressed_amethyst"
-      }],
-      "D": [{
-        "item": "paladium:green_paladium_ingot"
-      }]
+      "A": [
+        {
+          "item": "paladium:paladium_helmet"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:compressed_paladium"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:compressed_amethyst"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:green_paladium_ingot"
+        }
+      ]
     },
     "pattern": [
       "BAC",

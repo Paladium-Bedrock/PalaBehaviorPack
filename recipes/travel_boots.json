@@ -13,13 +13,17 @@
     ],
     "key": {
       "B": [
-        { "item": "minecraft:feather" }
+        {
+          "item": "minecraft:feather"
+        }
       ],
       "C": [
-        { "item": "paladium:titanium_ingot" }
+        {
+          "item": "paladium:titanium_ingot"
+        }
       ]
     },
-    "result": { 
+    "result": {
       "item": "paladium:travel_boots"
     }
   }

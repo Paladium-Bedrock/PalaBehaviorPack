@@ -4,7 +4,9 @@
     "description": {
       "identifier": "paladium:titanium_ingot_from_nuggets"
     },
-    "tags": ["crafting_table"],
+    "tags": [
+      "crafting_table"
+    ],
     "pattern": [
       "XXX",
       "XXX",
@@ -12,7 +14,9 @@
     ],
     "key": {
       "X": [
-        { "item": "paladium:nugget_titanium" }
+        {
+          "item": "paladium:nugget_titanium"
+        }
       ]
     },
     "result": {

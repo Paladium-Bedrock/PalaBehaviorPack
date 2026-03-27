@@ -12,6 +12,7 @@
           }
         }
       },
+      "paladium:custom_anvil": {},
       "minecraft:loot": {
         "table": "loot_tables/blocks/loot_amethyst_ore.molang"
       },

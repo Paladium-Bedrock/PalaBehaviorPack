@@ -4,7 +4,9 @@
     "description": {
       "identifier": "paladium:raw_amethyst_from_nuggets"
     },
-    "tags": ["crafting_table"],
+    "tags": [
+      "crafting_table"
+    ],
     "pattern": [
       "XXX",
       "XXX",
@@ -12,7 +14,9 @@
     ],
     "key": {
       "X": [
-        { "item": "paladium:raw_nugget_amethyst" }
+        {
+          "item": "paladium:raw_nugget_amethyst"
+        }
       ]
     },
     "result": {

@@ -10,7 +10,9 @@
         "block": "paladium:deepslate_nugget_amethyst_ore"
       },
       "minecraft:tags": {
-        "tags": ["minecraft:ores"]
+        "tags": [
+          "minecraft:ores"
+        ]
       }
     }
   }
