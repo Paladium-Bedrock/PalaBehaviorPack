@@ -9,17 +9,189 @@
       "minecraft:icon": {
         "texture": "gift_minor_epic"
       },
-      "minecraft:max_stack_size": {
-        "value": 1
-      },
       "paladium:loots": {
-        "amount": 2,
+        "amount": 4,
         "rarity": "epic",
         "loots": [
           {
-            "weight": 1,
+            "weight": 25,
             "loot": {
-              "item": "minecraft:stick",
+              "item": "minecraft:diamond_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:emerald_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:iron_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:gold_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "paladium:nugget_amethyst_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "paladium:nugget_paladium_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "paladium:nugget_titanium_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "paladium:nugget_amethyst",
+              "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "paladium:nugget_paladium",
+              "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "paladium:nugget_titanium",
+              "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:wheat_seeds",
+              "count": 32
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:amethyst_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:paladium_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:titanium_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:xp_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:nugget_green_paladium_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:nugget_green_paladium",
+              "count": 1
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:amethyst_coal",
+              "count": 4
+            }
+          },
+          {
+            "weight": 19,
+            "loot": {
+              "item": "paladium:double_xp_potion",
+              "count": 1
+            }
+          },
+          {
+            "weight": 19,
+            "loot": {
+              "item": "paladium:paladium_pickaxe",
+              "count": 1
+            }
+          },
+          {
+            "weight": 19,
+            "loot": {
+              "item": "paladium:green_paladium_ore",
+              "count": 1
+            }
+          },
+          {
+            "weight": 19,
+            "loot": {
+              "item": "paladium:kiwano",
+              "count": 8
+            }
+          },
+          {
+            "weight": 4,
+            "loot": {
+              "item": "paladium:potion_job_x10",
+              "count": 1
+            }
+          },
+          {
+            "weight": 4,
+            "loot": {
+              "item": "paladium:god_pickaxe_0",
+              "count": 1
+            }
+          },
+          {
+            "weight": 4,
+            "loot": {
+              "item": "paladium:green_paladium_pickaxe",
+              "count": 1
+            }
+          },
+          {
+            "weight": 4,
+            "loot": {
+              "item": "paladium:fertility_totem",
               "count": 1
             }
           }

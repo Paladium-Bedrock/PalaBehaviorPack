@@ -8,7 +8,10 @@
       "minecraft:material_instances": {
         "materials": {
           "*": {
-            "texture": "nugget_amethyst_ore"
+            "texture": "nugget_amethyst_ore",
+            "render_method": "opaque",
+            "ambient_occlusion": true,
+            "face_dimming": true
           }
         }
       },

@@ -9,157 +9,154 @@
       "minecraft:icon": {
         "texture": "gift_farmer_epic"
       },
-      "minecraft:max_stack_size": {
-        "value": 1
-      },
       "paladium:loots": {
-        "amount": 2,
+        "amount": 4,
         "rarity": "epic",
         "loots": [
           {
-            "weight": 1,
+            "weight": 25,
             "loot": {
-              "item": "paladium:kiwano_seed",
-              "count": 1
+              "item": "minecaft:carrot",
+              "count": 32
             }
           },
           {
-            "weight": 1,
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:potato",
+              "count": 32
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:melon_seeds",
+              "count": 32
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:beetroot_seeds",
+              "count": 32
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:pumpkin_seeds",
+              "count": 32
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:wheat_seeds",
+              "count": 32
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:amethyst_coal",
+              "count": 4
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:gold_coal",
+              "count": 5
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:paladium_coal",
+              "count": 2
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:titanium_coal",
+              "count": 3
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:eggplant_seed",
+              "count": 32
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:cherry_seed",
+              "count": 16
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:kiwano_seed",
+              "count": 8
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:eggplant",
+              "count": 32
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "minecraft:chervil",
+              "count": 16
+            }
+          },
+          {
+            "weight": 19,
+            "loot": {
+              "item": "paladium:kiwano",
+              "count": 8
+            }
+          },
+          {
+            "weight": 19,
             "loot": {
               "item": "paladium:orangeblue_seed",
               "count": 1
             }
           },
           {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:eggplant_seed",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:cherry_seed",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:fertility_totem",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:amethyst_coal",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:gold_coal",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:paladium_coal",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:titanium_coal",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:chervil",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
+            "weight": 19,
             "loot": {
               "item": "minecraft:orangeblue",
               "count": 1
             }
           },
           {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:kiwano",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:eggplant",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecaft:carrot",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:potato",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:melon_seeds",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:beetroot_seeds",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:pumpkin_seeds",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:wheat_seeds",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
+            "weight": 19,
             "loot": {
               "item": "paladium:double_xp_potion",
               "count": 1
             }
           },
           {
-            "weight": 1,
+            "weight": 4,
             "loot": {
               "item": "paladium:potion_job_x10",
+              "count": 1
+            }
+          },
+          {
+            "weight": 4,
+            "loot": {
+              "item": "paladium:fertility_totem",
               "count": 1
             }
           }

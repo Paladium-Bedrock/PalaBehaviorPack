@@ -9,15 +9,103 @@
       "minecraft:icon": {
         "texture": "gift_farmer_common"
       },
-      "minecraft:max_stack_size": {
-        "value": 1
-      },
       "paladium:loots": {
         "amount": 2,
         "rarity": "common",
         "loots": [
           {
-            "weight": 1,
+            "weight": 60,
+            "loot": {
+              "item": "minecraft:string",
+              "count": 32
+            }
+          },
+          {
+            "weight": 60,
+            "loot": {
+              "item": "minecraft:lava_bucket",
+              "count": 5
+            }
+          },
+          {
+            "weight": 60,
+            "loot": {
+              "item": "minecraft:leather",
+              "count": 32
+            }
+          },
+          {
+            "weight": 60,
+            "loot": {
+              "item": "minecraft:blaze_rod",
+              "count": 32
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:obsidian_spike_amethyst",
+              "count": 32
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:obsidian_spike_titanium",
+              "count": 16
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:obsidian_spike_paladium",
+              "count": 8
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:obsidian_mega_boom",
+              "count": 8
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:obsidian_boom",
+              "count": 16
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:obsidian_hardened",
+              "count": 32
+            }
+          },
+          {
+            "weight": 30,
+            "loot": {
+              "item": "paladium:dynamite",
+              "count": 3
+            }
+          },
+          {
+            "weight": 9,
+            "loot": {
+              "item": "paladium:big_dynamite",
+              "count": 1
+            }
+          },
+          {
+            "weight": 9,
+            "loot": {
+              "item": "paladium:double_xp_potion",
+              "count": 1
+            }
+          },
+          {
+            "weight": 9,
             "loot": {
               "item": "paladium:arty_egg",
               "count": 1
@@ -26,56 +114,7 @@
           {
             "weight": 1,
             "loot": {
-              "item": "paladium:arty_green_paladium",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_spike_amethyst",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_spike_titanium",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_spike_paladium",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_mega_boom",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_boom",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_hardened",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:double_xp_potion",
+              "item": "paladium:endium_dynamite",
               "count": 1
             }
           },
@@ -89,49 +128,7 @@
           {
             "weight": 1,
             "loot": {
-              "item": "minecraft:blaze_rod",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:string",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:lava_bucket",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:leather",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:big_dynamite",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:dynamite",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:endium_dynamite",
+              "item": "paladium:arty_green_paladium",
               "count": 1
             }
           }

@@ -9,129 +9,112 @@
       "minecraft:icon": {
         "texture": "gift_hunter_epic"
       },
-      "minecraft:max_stack_size": {
-        "value": 1
-      },
       "paladium:loots": {
-        "amount": 2,
+        "amount": 4,
         "rarity": "epic",
         "loots": [
           {
-            "weight": 1,
+            "weight": 25,
             "loot": {
-              "item": "paladium:arty_egg",
-              "count": 1
+              "item": "minecraft:bone",
+              "count": 16
             }
           },
           {
-            "weight": 1,
+            "weight": 25,
             "loot": {
-              "item": "paladium:arty_green_paladium",
-              "count": 1
+              "item": "minecraft:arrow",
+              "count": 16
             }
           },
           {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_spike_amethyst",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_spike_titanium",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_spike_paladium",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_mega_boom",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_boom",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:obsidian_hardened",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:double_xp_potion",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:potion_job_x10",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:blaze_rod",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:string",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "minecraft:lava_bucket",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
+            "weight": 25,
             "loot": {
               "item": "minecraft:leather",
+              "count": 8
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:feather",
+              "count": 16
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:rabbit_hide",
+              "count": 8
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:string",
+              "count": 16
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:boar_tusk",
+              "count": 2
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:bear_claw",
+              "count": 2
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:fox_tail",
+              "count": 2
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:wolf_pelt",
+              "count": 2
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:deer_antler",
+              "count": 2
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:owl_feather",
+              "count": 2
+            }
+          },
+          {
+            "weight": 19,
+            "loot": {
+              "item": "paladium:rare_hunter_trophy",
               "count": 1
             }
           },
           {
-            "weight": 1,
+            "weight": 19,
             "loot": {
-              "item": "paladium:big_dynamite",
+              "item": "paladium:epic_hunter_trophy",
               "count": 1
             }
           },
           {
-            "weight": 1,
+            "weight": 4,
             "loot": {
-              "item": "paladium:dynamite",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
-              "item": "paladium:endium_dynamite",
+              "item": "paladium:legendary_hunter_trophy",
               "count": 1
             }
           }

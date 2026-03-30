@@ -15,6 +15,9 @@
       "paladium:random_ore": {
         "IsDeepslate": false
       },
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/loot_air.molang"
+      },
       "minecraft:destructible_by_mining": {
         "hardness": 5,
         "tool_type": 3,
