@@ -9,9 +9,6 @@
       "minecraft:icon": {
         "texture": "gift_minor_legendary"
       },
-      "minecraft:max_stack_size": {
-        "value": 1
-      },
       "paladium:loots": {
         "amount": 2,
         "rarity": "legendary",

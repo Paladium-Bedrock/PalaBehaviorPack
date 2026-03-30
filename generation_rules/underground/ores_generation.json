@@ -53,6 +53,17 @@
       {
         "identifier": "minecraft:ore",
         "options": {
+          "block": "minecraft:emerald_ore",
+          "replaceable_block": "minecraft:stone",
+          "cluster_count": 7,
+          "cluster_size": 7,
+          "min_height": 0,
+          "max_height": 100
+        }
+      },
+      {
+        "identifier": "minecraft:ore",
+        "options": {
           "block": "paladium:paladium_ore",
           "replaceable_block": "minecraft:stone",
           "cluster_count": 5,

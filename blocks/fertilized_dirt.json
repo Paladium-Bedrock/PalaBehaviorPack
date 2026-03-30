@@ -18,6 +18,7 @@
         "tool_tier": 1,
         "can_break_with_hand": true
       },
+      "paladium:fertilized_dirt": { },
       "minecraft:tags": {
         "tags": [
           "farmland"
