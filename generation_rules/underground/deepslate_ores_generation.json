@@ -53,7 +53,7 @@
       {
         "identifier": "minecraft:ore",
         "options": {
-          "block": "minecraft:deeplsate_emerald_ore",
+          "block": "minecraft:deepslate_emerald_ore",
           "replaceable_block": "minecraft:deepslate",
           "cluster_count": 6,
           "cluster_size": 7,
