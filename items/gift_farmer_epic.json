@@ -17,114 +17,112 @@
             "weight": 25,
             "loot": {
               "item": "minecaft:carrot",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 25,
             "loot": {
               "item": "minecraft:potato",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 25,
             "loot": {
               "item": "minecraft:melon_seeds",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 25,
             "loot": {
               "item": "minecraft:beetroot_seeds",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 25,
             "loot": {
               "item": "minecraft:pumpkin_seeds",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 25,
             "loot": {
               "item": "minecraft:wheat_seeds",
-              "count": 1
+              "count": 32
             }
           },
-          //RARE
           {
             "weight": 52,
             "loot": {
               "item": "paladium:amethyst_coal",
-              "count": 1
+              "count": 4
             }
           },
           {
             "weight": 52,
             "loot": {
               "item": "paladium:gold_coal",
-              "count": 1
+              "count": 5
             }
           },
           {
             "weight": 52,
             "loot": {
               "item": "paladium:paladium_coal",
-              "count": 1
+              "count": 2
             }
           },
           {
             "weight": 52,
             "loot": {
               "item": "paladium:titanium_coal",
-              "count": 1
+              "count": 3
             }
           },
           {
             "weight": 52,
             "loot": {
               "item": "paladium:eggplant_seed",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 52,
             "loot": {
               "item": "paladium:cherry_seed",
-              "count": 1
+              "count": 16
             }
           },
           {
             "weight": 52,
             "loot": {
               "item": "paladium:kiwano_seed",
-              "count": 1
+              "count": 8
             }
           },
           {
             "weight": 52,
             "loot": {
               "item": "paladium:eggplant",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 52,
             "loot": {
               "item": "minecraft:chervil",
-              "count": 1
+              "count": 16
             }
           },
-          //epic
           {
             "weight": 19,
             "loot": {
               "item": "paladium:kiwano",
-              "count": 1
+              "count": 8
             }
           },
           {
@@ -148,7 +146,6 @@
               "count": 1
             }
           },
-          //legendary
           {
             "weight": 4,
             "loot": {

@@ -17,116 +17,100 @@
             "weight": 60,
             "loot": {
               "item": "minecraft:diamond_ore",
-              "count": 1
+              "count": 8
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "minecraft:emerald_ore",
-              "count": 1
+              "count": 8
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "minecraft:iron_ore",
-              "count": 1
+              "count": 16
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "minecraft:gold_ore",
-              "count": 1
+              "count": 16
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "paladium:nugget_amethyst_ore",
-              "count": 1
+              "count": 16
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "paladium:nugget_paladium_ore",
-              "count": 1
+              "count": 4
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "paladium:nugget_titanium_ore",
-              "count": 1
+              "count": 8
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "paladium:nugget_amethyst",
-              "count": 1
+              "count": 48
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "paladium:nugget_paladium",
-              "count": 1
+              "count": 16
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "paladium:nugget_titanium",
-              "count": 1
+              "count": 32
             }
           },
-          //rare
           {
             "weight": 30,
             "loot": {
               "item": "paladium:amethyst_ore",
-              "count": 1
+              "count": 8
             }
           },
           {
             "weight": 30,
             "loot": {
               "item": "paladium:paladium_ore",
-              "count": 1
+              "count": 2
             }
           },
           {
             "weight": 30,
             "loot": {
               "item": "paladium:titanium_ore",
-              "count": 1
+              "count": 4
             }
           },
           {
             "weight": 30,
             "loot": {
               "item": "paladium:xp_ore",
-              "count": 1
+              "count": 4
             }
           },
-          {
-            "weight": 30,
-            "loot": {
-              "item": "paladium:nugget_green_paladium_ore",
-              "count": 1
-            }
-          },
-          {
-            "weight": 30,
-            "loot": {
-              "item": "paladium:nugget_green_paladium",
-              "count": 1
-            }
-          },
-          //epic
           {
             "weight": 9,
             "loot": {
@@ -137,22 +121,21 @@
           {
             "weight": 9,
             "loot": {
-              "item": "paladium:paladium_pickaxe",
+              "item": "paladium:nugget_green_paladium_ore",
               "count": 1
             }
           },
-          {
-            "weight": 9,
-            "loot": {
-              "item": "paladium:green_paladium_ore",
-              "count": 1
-            }
-          },
-          //legendary
           {
             "weight": 1,
             "loot": {
               "item": "paladium:potion_job_x10",
+              "count": 1
+            }
+          },
+          {
+            "weight": 1,
+            "loot": {
+              "item": "paladium:green_paladium_ore",
               "count": 1
             }
           },

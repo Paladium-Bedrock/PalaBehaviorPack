@@ -17,81 +17,79 @@
             "weight": 60,
             "loot": {
               "item": "minecraft:string",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "minecraft:lava_bucket",
-              "count": 1
+              "count": 5
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "minecraft:leather",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 60,
             "loot": {
               "item": "minecraft:blaze_rod",
-              "count": 1
+              "count": 32
             }
           },
-          //rare
           {
             "weight": 30,
             "loot": {
               "item": "paladium:obsidian_spike_amethyst",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 30,
             "loot": {
               "item": "paladium:obsidian_spike_titanium",
-              "count": 1
+              "count": 16
             }
           },
           {
             "weight": 30,
             "loot": {
               "item": "paladium:obsidian_spike_paladium",
-              "count": 1
+              "count": 8
             }
           },
           {
             "weight": 30,
             "loot": {
               "item": "paladium:obsidian_mega_boom",
-              "count": 1
+              "count": 8
             }
           },
           {
             "weight": 30,
             "loot": {
               "item": "paladium:obsidian_boom",
-              "count": 1
+              "count": 16
             }
           },
           {
             "weight": 30,
             "loot": {
               "item": "paladium:obsidian_hardened",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 30,
             "loot": {
               "item": "paladium:dynamite",
-              "count": 1
+              "count": 3
             }
           },
-          //epic
           {
             "weight": 9,
             "loot": {
@@ -113,7 +111,6 @@
               "count": 1
             }
           },
-          //legendary
           {
             "weight": 1,
             "loot": {

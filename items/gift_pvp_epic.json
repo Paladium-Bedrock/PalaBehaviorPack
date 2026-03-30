@@ -17,14 +17,14 @@
             "weight": 25,
             "loot": {
               "item": "minecraft:apple",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 25,
             "loot": {
               "item": "minecraft:golden_apple",
-              "count": 1
+              "count": 16
             }
           },
           {
@@ -34,104 +34,122 @@
               "count": 1
             }
           },
-          //rare
           {
-            "weight": 52,
+            "weight": 25,
             "loot": {
-              "item": "paladium:orb_strength",
+              "item": "paladium:nugget_titanium",
               "count": 1
+            }
+          },
+          {
+            "weight": 25,
+            "loot": {
+              "item": "minecraft:wheat_seeds",
+              "count": 32
             }
           },
           {
             "weight": 52,
             "loot": {
-              "item": "paladium:orb_heal",
-              "count": 1
-            }
-          },
-          {
-            "weight": 52,
-            "loot": {
-              "item": "paladium:orb_speed",
-              "count": 1
-            }
-          },
-          {
-            "weight": 52,
-            "loot": {
-              "item": "paladium:orb_knockback",
+              "item": "paladium:amethyst_ore",
               "count": 1
             }
           },
           {
             "weight": 52,
             "loot": {
-              "item": "paladium:orb_jump",
+              "item": "paladium:paladium_ore",
               "count": 1
             }
           },
           {
             "weight": 52,
             "loot": {
-              "item": "paladium:golden_apple",
+              "item": "paladium:titanium_ore",
               "count": 1
             }
           },
           {
             "weight": 52,
             "loot": {
-              "item": "paladium:power_potion",
-              "count": 1
-            }
-          },
-          //epic
-          {
-            "weight": 19,
-            "loot": {
-              "item": "paladium:speed_stick",
+              "item": "paladium:xp_ore",
               "count": 1
             }
           },
           {
-            "weight": 19,
+            "weight": 52,
             "loot": {
-              "item": "paladium:heal_stick",
+              "item": "paladium:nugget_green_paladium_ore",
               "count": 1
             }
           },
           {
-            "weight": 19,
+            "weight": 52,
             "loot": {
-              "item": "paladium:jump_stick",
+              "item": "paladium:nugget_green_paladium",
               "count": 1
+            }
+          },
+          {
+            "weight": 52,
+            "loot": {
+              "item": "paladium:amethyst_coal",
+              "count": 4
             }
           },
           {
             "weight": 19,
             "loot": {
-              "item": "paladium:strength_stick",
+              "item": "paladium:double_xp_potion",
               "count": 1
             }
           },
           {
             "weight": 19,
             "loot": {
-              "item": "paladium:damage_stick",
+              "item": "paladium:paladium_pickaxe",
               "count": 1
             }
           },
-          //legendary
           {
-            "weight": 4,
+            "weight": 19,
             "loot": {
-              "item": "paladium:green_paladium_ingot",
+              "item": "paladium:green_paladium_ore",
               "count": 1
+            }
+          },
+          {
+            "weight": 19,
+            "loot": {
+              "item": "paladium:kiwano",
+              "count": 8
             }
           },
           {
             "weight": 4,
             "loot": {
-              "item": "paladium:stick_of_god",
+              "item": "paladium:potion_job_x10",
+              "count": 1
+            }
+          },
+          {
+            "weight": 4,
+            "loot": {
+              "item": "paladium:god_pickaxe_0",
+              "count": 1
+            }
+          },
+          {
+            "weight": 4,
+            "loot": {
+              "item": "paladium:green_paladium_pickaxe",
+              "count": 1
+            }
+          },
+          {
+            "weight": 4,
+            "loot": {
+              "item": "paladium:fertility_totem",
               "count": 1
             }
           }

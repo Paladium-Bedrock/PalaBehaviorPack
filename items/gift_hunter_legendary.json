@@ -16,122 +16,105 @@
           {
             "weight": 15,
             "loot": {
-              "item": "minecraft:string",
-              "count": 1
+              "item": "minecraft:bone",
+              "count": 16
             }
           },
           {
             "weight": 15,
             "loot": {
-              "item": "minecraft:lava_bucket",
-              "count": 1
+              "item": "minecraft:arrow",
+              "count": 16
             }
           },
           {
             "weight": 15,
             "loot": {
               "item": "minecraft:leather",
-              "count": 1
+              "count": 8
             }
           },
           {
             "weight": 15,
             "loot": {
-              "item": "minecraft:blaze_rod",
-              "count": 1
-            }
-          },
-          //rare
-          {
-            "weight": 50,
-            "loot": {
-              "item": "paladium:obsidian_spike_amethyst",
-              "count": 1
+              "item": "minecraft:feather",
+              "count": 16
             }
           },
           {
-            "weight": 50,
+            "weight": 15,
             "loot": {
-              "item": "paladium:obsidian_spike_titanium",
-              "count": 1
+              "item": "minecraft:rabbit_hide",
+              "count": 8
             }
           },
           {
-            "weight": 50,
+            "weight": 15,
             "loot": {
-              "item": "paladium:obsidian_spike_paladium",
-              "count": 1
+              "item": "minecraft:string",
+              "count": 16
             }
           },
           {
             "weight": 50,
             "loot": {
-              "item": "paladium:obsidian_mega_boom",
-              "count": 1
+              "item": "paladium:boar_tusk",
+              "count": 2
             }
           },
           {
             "weight": 50,
             "loot": {
-              "item": "paladium:obsidian_boom",
-              "count": 1
+              "item": "paladium:bear_claw",
+              "count": 2
             }
           },
           {
             "weight": 50,
             "loot": {
-              "item": "paladium:obsidian_hardened",
-              "count": 1
+              "item": "paladium:fox_tail",
+              "count": 2
             }
           },
           {
             "weight": 50,
             "loot": {
-              "item": "paladium:dynamite",
-              "count": 1
-            }
-          },
-          //epic
-          {
-            "weight": 25,
-            "loot": {
-              "item": "paladium:big_dynamite",
-              "count": 1
+              "item": "paladium:wolf_pelt",
+              "count": 2
             }
           },
           {
-            "weight": 25,
+            "weight": 50,
             "loot": {
-              "item": "paladium:double_xp_potion",
-              "count": 1
+              "item": "paladium:deer_antler",
+              "count": 2
+            }
+          },
+          {
+            "weight": 50,
+            "loot": {
+              "item": "paladium:owl_feather",
+              "count": 2
             }
           },
           {
             "weight": 25,
             "loot": {
-              "item": "paladium:arty_egg",
+              "item": "paladium:rare_hunter_trophy",
               "count": 1
             }
           },
-          //legendary
           {
-            "weight": 10,
+            "weight": 25,
             "loot": {
-              "item": "paladium:endium_dynamite",
+              "item": "paladium:epic_hunter_trophy",
               "count": 1
             }
           },
           {
             "weight": 10,
             "loot": {
-              "item": "paladium:potion_job_x10",
-              "count": 1
-            }
-          },
-          {
-            "weight": 10,
-            "loot": {
-              "item": "paladium:arty_green_paladium",
+              "item": "paladium:legendary_hunter_trophy",
               "count": 1
             }
           }

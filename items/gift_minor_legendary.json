@@ -83,7 +83,13 @@
               "count": 1
             }
           },
-          //rare
+          {
+            "weight": 15,
+            "loot": {
+              "item": "minecraft:wheat_seeds",
+              "count": 32
+            }
+          },
           {
             "weight": 50,
             "loot": {
@@ -126,7 +132,13 @@
               "count": 1
             }
           },
-          //epic
+          {
+            "weight": 50,
+            "loot": {
+              "item": "paladium:amethyst_coal",
+              "count": 4
+            }
+          },
           {
             "weight": 25,
             "loot": {
@@ -148,7 +160,13 @@
               "count": 1
             }
           },
-          //legendary
+          {
+            "weight": 25,
+            "loot": {
+              "item": "paladium:kiwano",
+              "count": 8
+            }
+          },
           {
             "weight": 10,
             "loot": {
@@ -167,6 +185,13 @@
             "weight": 10,
             "loot": {
               "item": "paladium:green_paladium_pickaxe",
+              "count": 1
+            }
+          },
+          {
+            "weight": 10,
+            "loot": {
+              "item": "paladium:fertility_totem",
               "count": 1
             }
           }

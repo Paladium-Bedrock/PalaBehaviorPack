@@ -17,14 +17,14 @@
             "weight": 15,
             "loot": {
               "item": "minecraft:apple",
-              "count": 1
+              "count": 32
             }
           },
           {
             "weight": 15,
             "loot": {
               "item": "minecraft:golden_apple",
-              "count": 1
+              "count": 16
             }
           },
           {
@@ -34,7 +34,6 @@
               "count": 1
             }
           },
-          //rare
           {
             "weight": 50,
             "loot": {
@@ -73,7 +72,7 @@
           {
             "weight": 50,
             "loot": {
-              "item": "paladium:golden_apple",
+              "item": "paladium:pala_apple",
               "count": 1
             }
           },
@@ -84,7 +83,6 @@
               "count": 1
             }
           },
-          //epic
           {
             "weight": 25,
             "loot": {
@@ -120,7 +118,6 @@
               "count": 1
             }
           },
-          //legendary
           {
             "weight": 10,
             "loot": {
