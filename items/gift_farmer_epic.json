@@ -16,7 +16,7 @@
           {
             "weight": 25,
             "loot": {
-              "item": "minecaft:carrot",
+              "item": "minecraft:carrot",
               "count": 32
             }
           },

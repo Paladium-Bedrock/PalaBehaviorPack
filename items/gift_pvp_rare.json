@@ -72,7 +72,7 @@
           {
             "weight": 55,
             "loot": {
-              "item": "paladium:pala_apple",
+              "item": "paladium:paladium_apple",
               "count": 1
             }
           },
