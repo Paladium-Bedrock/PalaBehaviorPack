@@ -1,0 +1,46 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:paladium_wither_skeleton_skull"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "ABA",
+      "DCE",
+      "AAA"
+    ],
+    "key": {
+      "B": [
+        {
+          "item": "paladium:paladium_compressed"
+        }
+      ],
+      "A": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:amethyst_compressed"
+        }
+      ],
+      "C": [
+        {
+          "item": "minecraft:wither_skeleton_skull"
+        }
+      ],
+      "E": [
+        {
+          "item": "paladium:titanium_compressed"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:paladium_wither_skeleton_skull"
+    }
+  }
+}

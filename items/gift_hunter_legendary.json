@@ -21,6 +21,13 @@
             }
           },
           {
+            "weight": 60,
+            "loot": {
+              "item": "minecraft:lava_bucket",
+              "count": 1
+            }
+          },
+          {
             "weight": 15,
             "loot": {
               "item": "minecraft:arrow",
