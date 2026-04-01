@@ -6,6 +6,9 @@
       "creative_category": "items"
     },
     "components": {
+      "paladium:app": {
+        
+      },
       "minecraft:icon": {
         "texture": "app"
       }
