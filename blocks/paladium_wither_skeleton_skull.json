@@ -20,6 +20,14 @@
         "hardness": 3,
         "tool_type": 3
       },
+      "minecraft:material_instances": {
+        "materials": {
+          "*": {
+            "texture": "paladium_wither_skeleton_skull",
+            "render_method": "alpha_test"
+          }
+        }
+      },
       "paladium:wither_skeleton_skull": {
         "headIdentifier": "paladium:paladium_wither_skeleton_skull",
         "entityIdentifier": "paladium:paladium_wither"
