@@ -1,0 +1,46 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:palaforge"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BAB",
+      "EDE",
+      "BDB"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:findium"
+        }
+      ],
+      "B": [
+        {
+          "item": "minecraft:smooth_stone"
+        }
+      ],
+      "C": [
+        {
+          "item": "minecraft:blast_furnace"
+        }
+      ],
+      "D": [
+        {
+          "item": "minecraft:anvil"
+        }
+      ],
+      "E": [
+        {
+          "item": "paladium:titanium_core"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:palaforge"
+    }
+  }
+}
