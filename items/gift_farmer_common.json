@@ -114,7 +114,7 @@
           {
             "weight": 30,
             "loot": {
-              "item": "minecraft:chervil",
+              "item": "paladium:chervil",
               "count": 16
             }
           },
