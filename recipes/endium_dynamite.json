@@ -1,0 +1,31 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:endium_dynamite"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BBB",
+      "BAB",
+      "BBB"
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:endium_nugget"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:dynamite_big"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:endium_dynamite"
+    }
+  }
+}
