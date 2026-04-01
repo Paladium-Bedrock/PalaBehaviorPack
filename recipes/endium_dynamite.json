@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "paladium:endium_dynamite"
+      "identifier": "paladium:dynamite_endium"
     },
     "tags": [
       "crafting_table"
@@ -25,7 +25,7 @@
       ]
     },
     "result": {
-      "item": "paladium:endium_dynamite"
+      "item": "paladium:dynamite_endium"
     }
   }
 }
