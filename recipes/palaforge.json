@@ -9,7 +9,7 @@
     ],
     "pattern": [
       "BAB",
-      "EDE",
+      "ECE",
       "BDB"
     ],
     "key": {
@@ -35,7 +35,7 @@
       ],
       "E": [
         {
-          "item": "paladium:titanium_core"
+          "item": "paladium:compressed_titanium"
         }
       ]
     },
