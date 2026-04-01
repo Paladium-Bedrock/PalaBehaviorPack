@@ -93,7 +93,7 @@
           {
             "weight": 9,
             "loot": {
-              "item": "paladium:big_dynamite",
+              "item": "paladium:dynamite_big",
               "count": 1
             }
           },
