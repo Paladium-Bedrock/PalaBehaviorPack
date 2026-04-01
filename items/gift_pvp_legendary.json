@@ -79,7 +79,7 @@
           {
             "weight": 50,
             "loot": {
-              "item": "paladium:power_potion",
+              "item": "premium:power_potion",
               "count": 1
             }
           },
