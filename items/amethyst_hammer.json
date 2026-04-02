@@ -19,7 +19,7 @@
         "tier": 5,
         "multiplier": 1,
         "radius": 1,
-        "depth": 2
+        "depth": 1
       },
       "minecraft:damage": {
         "damage": 3
