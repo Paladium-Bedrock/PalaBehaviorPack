@@ -4,7 +4,7 @@
     "description": {
       "identifier": "paladium:deepslate_xp_ore",
       "states": {
-        "paladium:deepslate_xp_ore": [
+        "paladium:xp_ore": [
           0,
           1,
           2
@@ -14,6 +14,9 @@
     "components": {
       "paladium:xp_ore": {
         "IsDeepslate": true
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/loot_air.molang"
       },
       "minecraft:destructible_by_mining": {
         "hardness": 5,
