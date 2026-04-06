@@ -1,0 +1,19 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "paladium:amethyst_block",
+      "creative_category": "construction"
+    },
+    "components": {
+      "minecraft:block_placer": {
+        "block": "paladium:amethyst_block"
+      },
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:ores"
+        ]
+      }
+    }
+  }
+}

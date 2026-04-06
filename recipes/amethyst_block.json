@@ -1,0 +1,26 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:amethyst_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": [
+        {
+          "item": "paladium:amethyst_ingot"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:amethyst_block"
+    }
+  }
+}
