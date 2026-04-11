@@ -135,7 +135,7 @@
           {
             "weight": 19,
             "loot": {
-              "item": "minecraft:orangeblue",
+              "item": "paladium:orangeblue",
               "count": 1
             }
           },
