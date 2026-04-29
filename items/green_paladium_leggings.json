@@ -20,6 +20,11 @@
         "protection": 6,
         "toughness": 5
       },
+      "paladium:recyclable": {
+        "min": 1,
+        "max": 7,
+        "item": "paladium:green_paladium_ingot"
+      },
       "paladium:armor_effect": {
         "effects": [
           {

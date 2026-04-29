@@ -28,6 +28,11 @@
           }
         ]
       },
+      "paladium:recyclable": {
+        "min": 1,
+        "max": 4,
+        "item": "paladium:green_paladium_ingot"
+      },
       "minecraft:repairable": {
         "repair_items": [
           {
