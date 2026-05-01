@@ -7,7 +7,7 @@
     },
     "components": {
       "paladium:seedplanter": {
-        "radius": 13
+        "radius": 5
       },
       "minecraft:icon": {
         "texture": "endium_seedplanter"

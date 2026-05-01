@@ -10,7 +10,7 @@
         "texture": "titanium_seedplanter"
       },
       "paladium:seedplanter": {
-        "radius": 7
+        "radius": 2
       },
       "minecraft:durability": {
         "max_durability": 2100
