@@ -13,7 +13,7 @@
         "value": 1
       },
       "minecraft:durability": {
-        "max_durability": 770
+        "max_durability": 4400
       },
       "paladium:hammer": {
         "tier": 8,
