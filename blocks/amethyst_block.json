@@ -8,7 +8,7 @@
       "minecraft:material_instances": {
         "materials": {
           "*": {
-            "texture": "amethyst_block"
+            "texture": "custom_amethyst_block"
           }
         }
       },
