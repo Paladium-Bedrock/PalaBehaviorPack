@@ -1,0 +1,41 @@
+{
+  "format_version": "1.0.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "paladium:magical_tool"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " D ",
+      "CBC",
+      " A "
+    ],
+    "key": {
+      "A": [
+        {
+          "item": "paladium:paladium_stick"
+        }
+      ],
+      "B": [
+        {
+          "item": "paladium:paladium_pickaxe"
+        }
+      ],
+      "C": [
+        {
+          "item": "paladium:paladium_ingot"
+        }
+      ],
+      "D": [
+        {
+          "item": "paladium:paladium_block"
+        }
+      ]
+    },
+    "result": {
+      "item": "paladium:magical_tool"
+    }
+  }
+}
