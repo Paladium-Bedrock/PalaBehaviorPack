@@ -21,7 +21,8 @@
       "minecraft:destructible_by_mining": {
         "hardness": 5,
         "tool_type": 3,
-        "tool_tier": 4
+        "tool_tier": 4,
+        "can_silk_touch": false
       }
     },
     "permutations": [
