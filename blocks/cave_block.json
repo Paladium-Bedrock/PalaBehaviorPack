@@ -80,7 +80,7 @@
         }
       },
       {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'upd'",
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'down'",
         "components": {
           "minecraft:transformation": {
             "rotation": {
@@ -92,7 +92,7 @@
         }
       },
       {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'down'",
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'up'",
         "components": {
           "minecraft:transformation": {
             "rotation": {
