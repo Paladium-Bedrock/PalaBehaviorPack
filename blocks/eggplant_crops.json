@@ -23,7 +23,8 @@
         "identifier": "geometry.crop.2"
       },
       "minecraft:destructible_by_mining": {
-        "hardness": 0
+        "hardness": 0,
+        "can_silk_touch": false
       },
       "minecraft:random_ticks": {},
       "paladium:crops": {

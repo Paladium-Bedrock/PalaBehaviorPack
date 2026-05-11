@@ -28,7 +28,8 @@
         "seed_drop_chance": 8
       },
       "minecraft:destructible_by_mining": {
-        "hardness": 0
+        "hardness": 0,
+        "can_silk_touch": false
       },
       "minecraft:loot": {
         "table": "loot_tables/blocks/loot_kiwano_crops.molang"
