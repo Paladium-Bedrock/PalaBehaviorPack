@@ -6,6 +6,9 @@
       "creative_category": "construction"
     },
     "components": {
+      "minecraft:block": {
+        "block": "paladium:cave_block"
+      },
       "minecraft:block_placer": {
         "block": "paladium:cave_block"
       }
