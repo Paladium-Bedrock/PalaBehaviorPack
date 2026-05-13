@@ -11,6 +11,10 @@
       },
       "minecraft:max_stack_size": {
         "value": 1
+      },
+      "paladium:backpack": {
+        "max_slot": 27,
+        "title": "paladium:amethyst_backpack"
       }
     }
   }
