@@ -114,13 +114,6 @@
           {
             "weight": 1,
             "loot": {
-              "item": "paladium:dynamite_endium",
-              "count": 1
-            }
-          },
-          {
-            "weight": 1,
-            "loot": {
               "item": "paladium:potion_job_x10",
               "count": 1
             }
