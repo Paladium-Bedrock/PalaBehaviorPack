@@ -2,7 +2,7 @@
   "format_version": "1.0.0",
   "header": {
     "name": "Paladium",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "PalaMod Behavior Pack, which contains all behaviors for Paladium Bedrock server."
   },
   "metadata": {
