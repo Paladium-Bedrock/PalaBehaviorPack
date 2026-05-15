@@ -13,8 +13,8 @@
         "value": 1
       },
       "paladium:backpack": {
-        "max_slot": 27,
-        "title": "paladium:amethyst_backpack"
+        "max_slot": 9,
+        "title": "amethyst_backpack.container"
       }
     }
   }
