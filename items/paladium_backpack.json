@@ -14,7 +14,7 @@
       },
       "paladium:backpack": {
         "max_slot": 54,
-        "title": "paladium:paladium_backpack"
+        "title": "paladium_backpack.container"
       }
     }
   }
